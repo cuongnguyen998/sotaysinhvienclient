@@ -1,0 +1,131 @@
+.header{
+  .logo{
+    flex-grow: 1; 
+    // Thuộc tính flex-grow dành cho thằng con
+    .navbar-brand{
+      img{
+        width: 110px;
+      }
+    }
+  }
+  .categories{
+    flex-grow: 1;
+    @include text($color-black-light,$fs-1,$fw-normal);
+    cursor: pointer;
+  }
+  .input-search{
+    flex-grow: 5;
+    .form-control{
+      background-color: $color-grey-1;
+      border: none;
+      &:focus{
+        box-shadow: none;
+    }
+    &:focus{
+      border: 1px solid $color-grey-3;
+      background-color: $color-white-0;
+      border-right: none;      
+      box-shadow: none;
+      transition: none;
+    }
+    &:focus + .input-group-prepend{
+      .input-group-text{
+        border:none;
+        border: 1px solid $color-grey-3;
+        border-left: none;
+        background-color: $color-white-0;
+        color:$color-red-0;   
+      } 
+      &:hover{
+        .input-group-text{
+          background-color: $color-red-0;
+          color:$color-white-0;
+          }       
+        }
+      }
+    }
+    .input-group-prepend{
+      .input-group-text{
+        border:none;
+        background-color: $color-grey-1;
+        color:$color-red-0;
+      }
+      &:hover .input-group-text{
+        background-color: $color-red-0;
+        color:$color-white-0;
+        border: 1px solid $color-grey-3;
+        border-left: none;
+        cursor: pointer;
+      }
+    }   
+  }
+
+  .header-content{
+    .business, .teach{
+      @include text($color-black-light,$fs-1,$fw-normal);
+    }
+    .nav-item{
+      padding: 0 10px;
+      position: relative;
+      &:not(:last-child):hover{
+          background-color: $color-grey-1;
+          .menu{
+            opacity: 1;
+          }
+        }
+      .menu{
+        position: absolute;
+        top: 110%;
+        right: 0;
+        min-width: 400px;
+        width: 100%;
+        border: 1px solid $color-black-0;
+        padding: 20px;
+        text-align: center;
+        opacity: 0;
+        &::after{
+          position: absolute;
+          content: "";
+          top: -9px;
+          right: 10%;
+          width: 15px;
+          height: 15px;
+          // border-bottom: 10px solid $color-black-0;
+          // border-right: 10px solid transparent;
+          // border-left: 10px solid transparent;
+
+
+          background-color: $color-white-0;
+          transform: rotate(45deg);
+          border-bottom: none;
+          border-right: none;
+          border-left: 1px solid $color-black-0;;
+          border-top: 1px solid $color-black-0;;
+        }
+      }
+    }
+    .header-icon{
+      border-radius: 50%;
+      width: 40px;
+      height:40px;
+
+      //Cách 1
+      line-height: 40px;
+
+      //Cách 2
+      // .nav-link{
+      //   position: relative;
+      //   i{
+      //     position: absolute;
+      //     top: 110%;
+      //     left: 50%;
+      //     transform: translate(-50%,-50%);
+      //   }
+      // }
+
+      //Cách 3
+      // display: flex;
+      // align-items: center;
+    }
+  }
+}
