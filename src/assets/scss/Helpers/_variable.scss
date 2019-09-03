@@ -1,0 +1,51 @@
+//variable font-size
+$fs-0: 15px;
+$fs-1: 13px;
+$fs-2: 20px;
+$fs-3: 30px;
+$fs-4: 44px;
+
+
+//variable color
+$color-black-0: #29303B;
+$color-white-0: #fff;
+$color-black-light: #505763;
+$color-grey-1: rgba(20,23,28,.05);
+$color-grey-2: #a1a7b3;
+$color-grey-3: #cacbcc;
+$color-grey-4: #686F7A;
+$color-yellow: #F4C150;
+$color-red-0: #ec5252;
+$color-red-1: #521822;
+$color-blue: #007791;
+$color-yellow: #F4C150;
+// mixin được sử dụng khi cùng thuộc tính nhưng khác giá trị
+
+
+//variable line-height
+$line-height-0: 1.43;
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+//variable padding
+$pd-0: 5px;
+$pd-1: 10px;
+$pd-2: 15px;
+$pd-3: 20px;
+
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 25px;
+
+//break points
+$breakpoints:(
+  'extra-large': 1200px,
+  'large' : 992px,
+  'medium': 768px,
+  'small': 576px,
+)
