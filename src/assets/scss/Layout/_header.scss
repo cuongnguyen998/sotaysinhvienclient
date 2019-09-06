@@ -1,0 +1,27 @@
+.navbar {
+    .navbar-brand {}
+    .navbar-collapse {
+        .navbar-nav {
+            padding-left: 45px;
+            .nav-item {
+                margin-right: 49px;
+                .nav-link {
+                    @include text($color-1, $fs-1, $fw-1, $fm-1);
+                }
+            }
+        }
+        .form-search {
+            margin-left: 60px;
+            .form-control {
+                margin-left: 8px;
+                width: 290px;
+                border: none;
+                background-color: $color-2;
+            }
+            width: 364px;
+            height: 59px;
+            background-color: $color-2;
+            border-radius: 20px;
+        }
+    }
+}

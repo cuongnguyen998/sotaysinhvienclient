@@ -1,0 +1,14 @@
+.footer {
+    position: relative;
+    background-image: url(../img/TongQuanUeh/Footer_copy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 707px;
+    .footer__quote {
+        position: absolute;
+        bottom: 130px;
+        left: 750px;
+    }
+}
