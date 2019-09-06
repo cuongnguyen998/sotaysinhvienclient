@@ -23,7 +23,7 @@ const routes: Routes = [
         component: PhanMemHoTroComponent
       },
       {
-        path: "co-so",
+        path: "xe-buyt",
         component: XeBuytComponent
       }
     ]

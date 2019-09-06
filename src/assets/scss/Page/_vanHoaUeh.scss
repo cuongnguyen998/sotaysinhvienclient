@@ -1,0 +1,50 @@
+.cover {
+  position: relative;
+  background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 950px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    @include text($color-black, $fs-4, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+.giatri__cotloi {
+  .giatri__title {
+    @include text($color-1, $fs-5, $fw-bold, $fm-4);
+    text-align: center;
+    padding: 50px 0;
+  }
+  .row {
+    justify-content: space-between;
+    .col-md-3 {
+      max-width: 23% !important;
+    }
+    .box__giatri {
+      margin-right: 20px;
+      width: 335px;
+      height: 262px;
+      box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+      border-radius: 20px;
+      background-color: white;
+      .box__number {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        border: 2px solid black;
+      }
+      .box__content {
+      }
+    }
+  }
+}

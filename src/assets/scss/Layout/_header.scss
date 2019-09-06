@@ -1,27 +1,41 @@
 .navbar {
-    .navbar-brand {}
-    .navbar-collapse {
-        .navbar-nav {
-            padding-left: 45px;
-            .nav-item {
-                margin-right: 49px;
-                .nav-link {
-                    @include text($color-1, $fs-1, $fw-1, $fm-1);
-                }
-            }
-        }
-        .form-search {
-            margin-left: 60px;
-            .form-control {
-                margin-left: 8px;
-                width: 290px;
-                border: none;
-                background-color: $color-2;
-            }
-            width: 364px;
-            height: 59px;
-            background-color: $color-2;
-            border-radius: 20px;
-        }
+  .router-link-active {
+    border-bottom: 3px solid $color-1;
+  }
+  .navbar-brand {
+    img {
+      width: 100px;
+      height: 100px;
     }
+  }
+  .navbar-collapse {
+    .navbar-nav {
+      padding-left: 25px;
+      .nav-item {
+        padding-right: 20px;
+        .nav-link {
+          @include text($color-1, $fs-1, $fw-1, $fm-1);
+        }
+      }
+    }
+    .form-search {
+      margin-left: 30px;
+      .form-control {
+        margin-left: 8px;
+        width: 240px;
+        border: none;
+        background-color: $color-2;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      .form-button {
+        cursor: pointer;
+      }
+      width: 300px;
+      height: 59px;
+      background-color: $color-2;
+      border-radius: 20px;
+    }
+  }
 }
