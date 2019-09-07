@@ -1,0 +1,59 @@
+.cover__coso {
+  position: relative;
+  background-image: url(../img/TongQuanUeh/CacCoSo/coso__cover.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 1200px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    @include text($color-black, $fs-4, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+.background__coso {
+  background-image: url(../img/TongQuanUeh/CacCoSo/coso__background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 3500px;
+  .coso__content {
+    .row {
+      margin: 0 !important;
+      padding-bottom: 90px;
+      justify-content: center;
+      .col-md-6 {
+        padding: 0px !important;
+      }
+      .col-md-4 {
+        padding: 0px !important;
+        max-width: 30% !important;
+      }
+      .box__coso {
+        margin-right: 20px;
+        width: 440px;
+        height: 259px;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: $color-white;
+        .box__number {
+        }
+        .box__title {
+          @include text($color-1, $fs-3 - 3, $fw-3, $fm-4);
+
+          text-transform: uppercase;
+        }
+        .box__content {
+          display: flex;
+          align-items: center;
+          @include text($color-3, $fs-7, $fw-1, $fm-4);
+        }
+      }
+    }
+  }
+}
