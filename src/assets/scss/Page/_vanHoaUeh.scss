@@ -1,50 +1,178 @@
 .cover {
-  position: relative;
-  background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 950px;
-  .cover__content {
-    position: absolute;
-    top: 200px;
-    left: 70px;
-    @include text($color-black, $fs-4, $fw-bold, $fm-3);
-    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-  }
+    position: relative;
+    background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 950px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        @include text($color-black, $fs-4, $fw-bold, $fm-3);
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
 }
 
 .giatri__cotloi {
-  .giatri__title {
-    @include text($color-1, $fs-5, $fw-bold, $fm-4);
-    text-align: center;
-    padding: 50px 0;
-  }
-  .row {
-    justify-content: space-between;
-    .col-md-3 {
-      max-width: 23% !important;
-    }
-    .box__giatri {
-      margin-right: 20px;
-      width: 335px;
-      height: 262px;
-      box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-      border-radius: 20px;
-      background-color: white;
-      .box__number {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        line-height: 40px;
+    .giatri__title {
+        @include text($color-1, $fs-5, $fw-bold, $fm-4);
         text-align: center;
-        border: 2px solid black;
-      }
-      .box__content {
-      }
+        padding: 50px 0;
     }
-  }
+    .row {
+        justify-content: space-between;
+        .col-md-3 {
+            max-width: 23% !important;
+        }
+        .box__giatri {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            width: 335px;
+            height: 262px;
+            box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+            border-radius: 20px;
+            background-color: $color-white;
+            .box__number {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                line-height: 40px;
+                text-align: center;
+                background-image: linear-gradient($color-white, $color-white), linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                border: 2px solid transparent;
+                margin: 0 auto;
+                @include text($color-1, $fs-6, $fw-2, $fm-1);
+            }
+            .box__content {
+                text-align: center;
+                @include text($color-1, $fs-6, $fw-2, $fm-1);
+                margin: 0 30px;
+            }
+        }
+    }
+}
+
+.nentang {
+    .nentang__title {
+        @include text($color-1, $fs-5, $fw-bold, $fm-4);
+        text-align: center;
+        padding: 100px 0 50px 0;
+    }
+    .nentang__img {
+        position: relative;
+        background-image: url(../img/TongQuanUeh/VanHoaUeh/Slice_2.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 800px;
+        .box__giatri {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            width: 335px;
+            height: 262px;
+            box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+            border-radius: 20px;
+            background-color: $color-white;
+            .box__number {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                line-height: 40px;
+                text-align: center;
+                background-image: linear-gradient($color-white, $color-white), linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                border: 2px solid transparent;
+                margin: 0 auto;
+                @include text($color-1, $fs-6, $fw-2, $fm-1);
+            }
+            .box__content {
+                text-align: center;
+                @include text($color-1, $fs-6, $fw-2, $fm-1);
+                margin: 0 60px;
+            }
+        }
+        .box--1 {
+            position: absolute;
+            right: 27%;
+            top: 12.5%;
+        }
+        .box--2 {
+            position: absolute;
+            left: 27%;
+            top: 12.5%;
+        }
+        .box--3 {
+            position: absolute;
+            bottom: 12.5%;
+            left: 27%;
+        }
+        .box--4 {
+            position: absolute;
+            bottom: 12.5%;
+            right: 27%;
+        }
+    }
+}
+
+.quytac {
+    background-image: url(../img/TongQuanUeh/VanHoaUeh/Slice_3.png);
+    background-repeat: no-repeat;
+    height: 4700px;
+    .quytac__section {
+        .quytac__title {
+            @include text($color-1, $fs-5, $fw-bold, $fm-4);
+            text-align: center;
+            padding: 100px 0;
+        }
+        .quytac__box {
+            width: 700px;
+            height: 133px;
+            line-height: 133px;
+            margin: 0 auto;
+            @include text($color-white, $fs-3, $fw-bold, $fm-4);
+            text-align: center;
+            border-radius: 50px;
+            background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+        }
+        .quytac__content {
+            padding-top: 120px;
+            .col-md-6 {
+                max-width: 43% !important;
+            }
+            .col-md-6 {
+                width: 542px;
+                height: 787px;
+                box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                border-radius: 20px;
+                background-color: $color-white;
+                .col__icon {
+                    padding: 50px 0;
+                    img {
+                        margin-left: 200px;
+                        width: 96px;
+                        height: 89px;
+                    }
+                }
+                .col__content {
+                    margin: 0 40px;
+                    @include text($color-1, $fs-6, $fw-1, $fm-4);
+                }
+            }
+            .quytac__left {
+                margin-right: 60px;
+            }
+            .quytac__right {
+                margin-left: 60px;
+            }
+        }
+    }
 }
