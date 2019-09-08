@@ -10,18 +10,27 @@ $fs-3: 58px;
 $fs-4: 100px;
 $fs-5: 80px;
 $fs-6: 31px;
+$fs-7: 26px;
 // font-weight:
 $fw-1: 400;
 $fw-2: 600;
+$fw-3: 700;
 $fw-bold: bold;
 // color:
 $color-white: #fff;
 $color-black: black;
 $color-1: #005596;
 $color-2: #e2ebf6;
+$color-3: #592c6e;
+
 $color-gradient-1: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
 // margin:
 // padding:
 // line-height:
 //break points
-$breakpoints: ( "extra-large": 1200px, "large": 992px, "medium": 768px, "small": 576px);
+$breakpoints: (
+  "extra-large": 1200px,
+  "large": 992px,
+  "medium": 768px,
+  "small": 576px
+);
