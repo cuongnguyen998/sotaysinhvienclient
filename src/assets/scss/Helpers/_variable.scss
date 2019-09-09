@@ -1,51 +1,40 @@
-//variable font-size
-$fs-0: 15px;
-$fs-1: 13px;
-$fs-2: 20px;
-$fs-3: 30px;
-$fs-4: 44px;
+// font-family:
+$fm-1: "San Francisco Display - Semibold";
+$fm-2: "San Francisco Text - Semibold";
+$fm-3: "San Francisco Display - Heavy";
+$fm-4: "San Francisco Display";
 
-
-//variable color
-$color-black-0: #29303B;
-$color-white-0: #fff;
-$color-black-light: #505763;
-$color-grey-1: rgba(20,23,28,.05);
-$color-grey-2: #a1a7b3;
-$color-grey-3: #cacbcc;
-$color-grey-4: #686F7A;
-$color-yellow: #F4C150;
-$color-red-0: #ec5252;
-$color-red-1: #521822;
-$color-blue: #007791;
-$color-yellow: #F4C150;
-// mixin được sử dụng khi cùng thuộc tính nhưng khác giá trị
-
-
-//variable line-height
-$line-height-0: 1.43;
-
-//variable font-weight
-$fw-normal: normal;
-$fw-bold-0: 600;
-$fw-bold-1: 700;
+// font-size:
+$fs-1: 22px;
+$fs-2: 16px;
+$fs-3: 58px;
+$fs-4: 100px;
+$fs-5: 80px;
+$fs-6: 31px;
+$fs-7: 26px;
+// font-weight:
+$fw-1: 400;
+$fw-2: 600;
+$fw-3: 700;
 $fw-bold: bold;
+// color:
+$color-white: #fff;
+$color-black: black;
+$color-1: #005596;
+$color-2: #e2ebf6;
+$color-3: #592c6e;
+$color-4: #27659b;
 
-//variable padding
-$pd-0: 5px;
-$pd-1: 10px;
-$pd-2: 15px;
-$pd-3: 20px;
-
-//variable margin
-$mg-0: 2px;
-$mg-1: 10px;
-$mg-2: 25px;
-
+$color-5: #5f2d6d;
+$color-6: #265e94;
+$color-gradient-1: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+// margin:
+// padding:
+// line-height:
 //break points
-$breakpoints:(
-  'extra-large': 1200px,
-  'large' : 992px,
-  'medium': 768px,
-  'small': 576px,
-)
+$breakpoints: (
+  "extra-large": 1200px,
+  "large": 992px,
+  "medium": 768px,
+  "small": 576px
+);
