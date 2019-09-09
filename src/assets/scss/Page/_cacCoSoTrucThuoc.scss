@@ -35,24 +35,62 @@
         max-width: 30% !important;
       }
       .box__coso {
-        margin-right: 20px;
+        position: relative;
+        padding: 0 60px;
         width: 440px;
-        height: 259px;
+        height: 289px;
         box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
         border-radius: 20px;
         background-color: $color-white;
         .box__number {
+          position: absolute;
+          top: -70px;
+          left: 37%;
+          width: 132px;
+          height: 132px;
+          border-radius: 50%;
+          border: 5px solid $color-1;
+
+          .box__circle {
+            transform: translate(5%, 5%);
+            width: 111px;
+            height: 111px;
+            border-radius: 50%;
+            background-color: $color-4;
+            line-height: 111px;
+            text-align: center;
+            @include text($color-white, $fs-3, $fw-bold, null);
+            text-transform: uppercase;
+          }
+        }
+        .box__main {
+          border: 5px solid $color-5 !important;
         }
         .box__title {
+          padding-top: 60px;
           @include text($color-1, $fs-3 - 3, $fw-3, $fm-4);
-
+          text-align: center;
           text-transform: uppercase;
         }
         .box__content {
+          .box__icon {
+            margin-right: 20px;
+          }
           display: flex;
           align-items: center;
-          @include text($color-3, $fs-7, $fw-1, $fm-4);
+
+          @include text($color-3, $fs-7, $fw-1 + 100, $fm-4);
         }
+        .box__content__customize {
+          color: $color-white !important;
+        }
+      }
+      .box__coso__customize {
+        width: 446px !important;
+        height: 348px !important;
+      }
+      .box__coso__colorcustomize {
+        background-color: $color-6 !important;
       }
     }
   }
