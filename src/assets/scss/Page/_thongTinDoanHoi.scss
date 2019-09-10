@@ -1,0 +1,26 @@
+.cover__doanhoi {
+  position: relative;
+  background-image: url(../img/SanChoiTaiUeh/ThongTinDoanHoi/cover__doanhoi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1200px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    @include text($color-black, $fs-4, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+.background__doanhoi {
+  background-image: url(../img/SanChoiTaiUeh/ThongTinDoanHoi/background__doanhoi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 3500px;
+  .doanhoi__content {
+  }
+}
