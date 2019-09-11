@@ -1,0 +1,379 @@
+.lms-body{
+    width: 100%;
+}
+.lms-header{
+    background-image: url(../img/HocTapUeh/lms.png);
+    background-position: center center;
+    width: 100%;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lms-header-title{
+    position: absolute;
+    top: 120px;
+    left:20px;
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+}
+.lms-header-content{
+    color: #06225b;
+    font-size: 10px;
+    font-weight: 700;
+    display: block;
+    text-align: justify;
+    width: 130px;
+    position: absolute;
+    top: 220px;
+    left: 15px;
+}
+.btn-truy-cap{
+    border-radius: 20px;
+    color: #fefefe;
+    position: absolute;
+    top: 300px;
+    height: 20px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    left: 17px;
+    text-transform: uppercase;
+    padding: 0px;
+    background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+}
+.lms-content-body{
+    background-image: url(../img/HocTapUeh/tsvMainBg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}
+.truy-cap-lms{
+    height: fit-content;
+    width: 100%;
+    .truy-cap-title{
+        color: #06225b;
+        font-size: 16px;
+        font-weight: 800;
+        display: block;
+        width: 100px;
+        position: absolute;
+        top: 370px;
+        left: 15px;
+        text-transform: uppercase;
+    }
+}
+
+.truy-cap-box{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    width: 123px;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    height: fit-content;
+    padding: 10px;
+    img{
+        width: 25px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: left;
+        color: #06225b;
+    }
+    .truy-cap-rectangle{
+        border-radius: 3px;
+        background-color: #06225b;
+        width: 100px;
+        height: 5px;
+    }
+}
+
+.truy-cap-box-2{
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+    width: 123px;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    height: fit-content;
+    padding: 10px;
+    img{
+        width: 25px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: justify;
+        color: #06225b;
+    }
+    .truy-cap-rectangle{
+        border-radius: 3px;
+        background-color: rgb(155, 57, 109);
+        width: 100px;
+        height: 5px;
+    }
+}
+.chuc-nang-lms{
+    margin-top: 50px;
+    width: 100%;
+    padding: 5px;
+    .chuc-nang-title{
+        text-align: center;
+        color: #06225b;
+        font-size: 22px;
+        font-weight: 800;
+        display: block;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+    .main-img{
+        width: 35%;
+        position: absolute;
+        left: 33%;
+        top: 735px;
+    }
+}
+.chuc-nang-left{
+    max-width: 115px;
+    height: fit-content;
+    margin-left: 5px
+}
+.chuc-nang-right{
+    max-width: 110px;
+    height: fit-content;
+    position: absolute;
+    left: 265px;
+    top: 680px;
+}
+.chuc-nang-box{
+    width: 110px;
+    height: fit-content;
+    margin-top: 20px;
+    img{
+        width: 25%;
+        height: 100%;
+    }
+}
+.chuc-nang-title-in-box{
+    color: #fe6829;
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 9px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 6px;
+}
+.content-lms-chuc-nang{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: justify;
+    color: #005596;
+    padding: 5px;
+}
+.chuc-nang-row{
+    display: inline-flex;
+    width: 115px;
+    padding: 5px;
+}
+
+.huong-dan-su-dung-lms{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    position: relative;
+    .box-row-hdsd{
+        display: inline-flex;
+        .box-hdsd{
+            max-width: 30% !important;
+            width: 230px;
+            height: fit-content;
+            margin: 105px 16px 0px 16px;
+            border-radius: 10px;
+            border-top: 4px solid rgba(40, 135, 191, 0.99);
+            border-bottom:4px solid rgba(36, 38, 89, 0.99);
+            background-image: 
+            linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)),
+            linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
+            background-size:4px 100%;
+            background-position:0 0, 100% 0;
+            background-repeat:no-repeat;
+            img{
+                margin-left: 45%;
+                margin-top: 10px;
+                max-height: 20px;
+            }
+        }
+        .hdsd-box-content{
+            font-size: 11px;
+            font-weight: 500;
+            text-align: center;
+            padding: 10px;
+            overflow-wrap: break-word;
+            color: #005596;
+        }
+    }
+}
+.final-box{
+    padding: 10px;
+    margin-top: 20px;
+    width: 325px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    margin-left: 35px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+@media only screen and (min-width:1000px){
+    .lms-header{
+        height: 730px;
+    }
+    .lms-header-title{
+        font-size: 75px;
+        font-weight: 700;
+        top: 200px;
+        left: 50px;
+
+    }
+
+    .lms-header-content{
+        font-size: 30px;
+        width: 500px;
+        top: 545px;
+        left: 50px;
+    }
+    .btn-truy-cap{
+        top: 750px;
+        left: 75px;
+        height: 75px;
+        width: 348px;
+        font-size: 40px;
+    }
+    .truy-cap-lms{
+        height: fit-content;
+        width: 100%;
+        .truy-cap-title{
+            font-size: 65px;
+            width: 350px;
+            top: 900px;
+            left: 70px;
+        }
+    }
+    
+    .truy-cap-box{
+        left: 500px;
+        width: 300px;
+        margin-top: 50px;
+        img{
+            width: 20%;
+            height: 100%;
+        }
+        p{
+            font-size: 26px;
+        }
+        .truy-cap-rectangle{
+            width: 100%;
+        }
+    }
+    
+    .truy-cap-box-2{
+        left: 880px;
+        width: 425px;
+        margin-top: 50px;
+        img{
+            width: 15%;
+            height: 54.72px;
+        }
+        p{
+            font-size: 26px;
+        }
+        .truy-cap-rectangle{
+            width: 100%;
+        }
+    }
+    .chuc-nang-lms{
+        margin-top: 50px;
+        width: 100%;
+        padding: 5px;
+        .chuc-nang-title{
+            font-size: 44px;
+        }
+        .main-img{
+            width: 25%;
+            left: 38%;
+            top: 90em;
+        }
+    }
+    .chuc-nang-left{
+        max-width: 300px;
+        margin-left: 100px;
+    }
+    .chuc-nang-right{
+        max-width: 320px;
+        left: 900px;
+        top: 84em;
+    }
+    .chuc-nang-box{
+        width: 320px;
+        margin-top: 50px;
+        img{
+            width: 25%;
+            height: 100%;
+        }
+    }
+    .chuc-nang-title-in-box{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .content-lms-chuc-nang{
+        font-size: 25px;
+    }
+    .chuc-nang-row{
+        width: 380px;
+    }
+    
+    .huong-dan-su-dung-lms{
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+        position: relative;
+        .box-row-hdsd{
+            display: inline-flex;
+            margin-top: 100px;
+            margin-left: 200px;
+            .box-hdsd{
+                max-width: 30% !important;
+                width: 700px;
+                img{
+                    max-height: 50px;
+                }
+            }
+            .hdsd-box-content{
+                font-size: 23px;
+            }
+        }
+    }
+    .final-box{
+        width: 60%;
+        height: 60px;
+        margin-left: 20%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
