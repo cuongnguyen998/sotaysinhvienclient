@@ -17,6 +17,18 @@
   }
 }
 
+@include respond-to("small") {
+  .cover {
+    background-size: contain;
+    height: 220px;
+    .cover__content {
+      top: 40px;
+      left: 40px;
+      font-size: 30px !important;
+    }
+  }
+}
+
 .giatri__cotloi {
   .giatri__title {
     @include text($color-1, $fs-5, $fw-bold, $fm-4);
@@ -26,7 +38,7 @@
   .row {
     justify-content: space-between;
     .col-md-3 {
-      max-width: 23% !important;
+      max-width: 23%;
     }
     .box__giatri {
       display: flex;
@@ -55,6 +67,34 @@
         text-align: center;
         @include text($color-1, $fs-6, $fw-2, $fm-1);
         margin: 0 30px;
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  .giatri__cotloi {
+    .giatri__title {
+      font-size: 30px;
+      padding: 25px 0;
+    }
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+      .col-sm-12 {
+        max-width: 100% !important;
+      }
+      .box__giatri {
+        margin: 0 10px 20px 0;
+        width: 150px;
+        height: 130px;
+        .box__number {
+          font-size: 15px;
+        }
+        .box__content {
+          font-size: 15px;
+          margin: 0 15px;
+        }
       }
     }
   }

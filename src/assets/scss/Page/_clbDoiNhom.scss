@@ -1,0 +1,37 @@
+.cover__clb {
+  position: relative;
+  background-image: url(../img/SanChoiTaiUeh/ClbDoiNhom/cover_clb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1200px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    @include text($color-black, $fs-4, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+@include respond-to("small") {
+  .cover__clb {
+    background-size: contain;
+    height: 260px;
+    .cover__content {
+      top: 10px;
+      left: 15px;
+      font-size: 30px !important;
+    }
+  }
+}
+
+.background__clb {
+  background-image: url(../img/SanChoiTaiUeh/ClbDoiNhom/background_clb_doi_nhom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1900px;
+  .clb__content {
+  }
+}
