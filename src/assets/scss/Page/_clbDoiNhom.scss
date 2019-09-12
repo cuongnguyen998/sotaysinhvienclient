@@ -3,7 +3,7 @@
   background-image: url(../img/SanChoiTaiUeh/ClbDoiNhom/cover_clb.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1200px;
+  height: 1000px;
   .cover__content {
     position: absolute;
     top: 200px;
@@ -31,7 +31,111 @@
   background-image: url(../img/SanChoiTaiUeh/ClbDoiNhom/background_clb_doi_nhom.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1900px;
+  height: 3600px;
   .clb__content {
+    .space {
+      padding: 60px 0;
+    }
+    .space-top {
+      margin-top: 60px !important;
+    }
+    .row__title {
+      @include text($color-8, $fs-3, $fw-3, $fm-3);
+      text-align: center;
+      padding: 40px 0;
+    }
+    .row {
+      justify-content: space-between;
+      margin: 0 30px;
+      .box__clb {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 146px;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: $color-white;
+        padding: 0 30px;
+        margin-bottom: 30px;
+        .box__icon {
+          display: flex;
+          align-items: center;
+          margin-right: 30px;
+          img {
+          }
+        }
+        .box__content {
+          @include text($color-9, $fs-7 - 3, $fw-3, $fm-4);
+        }
+      }
+      .box__customize {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        width: 70%;
+        height: 400px;
+        .box__icon {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .box__number {
+          position: absolute;
+          top: -40px;
+          right: 10%;
+          border-radius: 50%;
+          width: 76px;
+          height: 76px;
+          background-image: linear-gradient(
+            to right,
+            #242659 0%,
+            #2887bf 99%,
+            #2887bf 100%
+          );
+          @include text($color-white, $fs-6, $fw-3, $fm-4);
+          text-align: center;
+          line-height: 76px;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  .background__clb {
+    height: 6000px;
+    .clb__content {
+      .space {
+        padding: 30px 0;
+      }
+      .space-top {
+        margin-top: 30px !important;
+      }
+      .row__title {
+        font-size: $fs-3 - 10;
+        padding: 50px 0;
+      }
+      .row {
+        margin: 0 15px;
+        .box__clb {
+          height: 146px;
+          padding: 0 15px;
+          margin-bottom: 20px;
+          .box__icon {
+            margin-right: 10px;
+          }
+          .box__content {
+            font-size: $fs-7 - 10;
+          }
+        }
+        .box__customize {
+          height: 250px;
+          .box__number {
+            font-size: $fs-6 - 10;
+          }
+        }
+      }
+    }
   }
 }
