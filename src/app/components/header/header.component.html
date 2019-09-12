@@ -14,7 +14,7 @@
           routerLinkActive="router-link-active">{{item.title}}</a>
         <div class="dropdown-content">
           <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path"
-            routerLinkActive="router-link-active" class="dropdown-item" href="#">{{subItem.title}}</a>
+            routerLinkActive="router-link-active" class="dropdown-item">{{subItem.title}}</a>
         </div>
       </li>
     </ul>
