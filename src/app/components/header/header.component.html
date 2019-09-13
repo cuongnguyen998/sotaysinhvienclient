@@ -10,11 +10,13 @@
   <div class="collapse navbar-collapse" id="mynavbar">
     <ul class="navbar-nav">
       <li *ngFor="let item of ListNavbar" class="nav-item dropdown">
-        <a class="nav-link dropbtn" data-toggle="dropdown" [routerLink]="item.path"
-          routerLinkActive="router-link-active">{{item.title}}</a>
-        <div class="dropdown-content">
+        <a class="nav-link dropdown-toggle" routerLinkActive="router-link-active" data-toggle="dropdown" role="button"
+          aria-haspopup="true" aria-expanded="false" [routerLink]="item.path">{{item.title}}</a>
+
+
+        <div *ngIf="item.childrenPath.length > 0" class="dropdown-menu">
           <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path"
-            routerLinkActive="router-link-active" class="dropdown-item">{{subItem.title}}</a>
+            routerLinkActive="router-link-active" class="dropdown-item" (click)="collapseNavbar()">{{subItem.title}}</a>
         </div>
       </li>
     </ul>
