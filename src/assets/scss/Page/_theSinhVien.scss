@@ -1,11 +1,11 @@
-.bg-tsv{
+.bg-tsv {
     position: relative;
     background-image: url(../img/HocTapUeh/bg23tsv.png);
     background-size: cover;
     height: 235px;
     background-position: center center;
     background-repeat: no-repeat;
-    .tsv-title{
+    .tsv-title {
         text-align: center;
         font-size: 40px;
         font-weight: 900;
@@ -14,7 +14,7 @@
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;
     }
-    .tsv-content{
+    .tsv-content {
         color: #38266e;
         font-size: 16px;
         font-weight: 500;
@@ -22,13 +22,14 @@
         text-align: center;
     }
 }
-.tsv-main-body{
+
+.tsv-main-body {
     background-image: url(../img/HocTapUeh/tsvMainBg.png);
     background-repeat: no-repeat;
     height: 1000px;
     background-size: cover;
     background-position: center center;
-    .tsv-main-title{
+    .tsv-main-title {
         color: #1f558e;
         font-size: 25px;
         font-weight: 700;
@@ -47,7 +48,7 @@
     .tsv-dashed-box-inbound{
         visibility: hidden;
     }
-    .tsv-main-content{
+    .tsv-main-content {
         padding-top: 120px;
         .col-md-3{
             max-width: 20% !important;
@@ -70,10 +71,10 @@
                 position: absolute;
                 margin-top: -15px;
             }
-            .circle-pink{
+            .circle-pink {
                 background-color: #e84473;
             }
-            .tsv-content-para{
+            .tsv-content-para {
                 color: #38266e;
                 font-size: 10px;
                 font-weight: 500;
@@ -81,7 +82,7 @@
                 text-align: center;
                 margin-top: 10px;
             }
-            .pink{
+            .pink {
                 color: #e6414d;
             }
         }
@@ -93,7 +94,7 @@
             width: 50%;
             margin-top: 15px;
         }
-        .mat-the-title{
+        .mat-the-title {
             color: #116a8e;
             font-size: 20px;
             font-weight: 700;
@@ -112,13 +113,12 @@
             top: -8em;
             box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
             border-radius: 20px;
-            background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
-            p{
+            background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+            p {
                 color: #ffffff;
                 font-size: 12px;
                 font-weight: 600;
                 padding: 15px;
-
             }
         }
     }

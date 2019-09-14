@@ -1,12 +1,13 @@
-.ktg-header{
+.ktg-header {
     width: 100%;
-    height: 245px;;
+    height: 245px;
     background-image: url(../img/HocTapUeh/khungThoiGian.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ktg-header-title{
+
+.ktg-header-title {
     background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
     background-clip: text;
     color: #ffffff;
@@ -15,11 +16,11 @@
     font-weight: 900;
     position: relative;
     width: 300px;
-
     left: 15px;
     text-transform: uppercase;
 }
-.ktg-header-content{
+
+.ktg-header-content {
     display: block;
     width: 200px;
     margin-left: 15px;
@@ -28,19 +29,19 @@
     color: #276ba1;
 }
 
-.ktg-main{
+.ktg-main {
     width: 100%;
     height: 1022px;
     background-image: url(../img/HocTapUeh/2-6mainBG.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    img{
+    img {
         height: 90%;
         margin-top: 10px;
         margin-left: 150px;
     }
-    .nam-hoc-title{
+    .nam-hoc-title {
         color: #242a5e;
         overflow-wrap: break-word;
         font-size: 12px;
@@ -49,137 +50,134 @@
         left: 240px;
         width: 135px;
     }
-    .time-range{
+    .time-range {
         left: 47px;
         font-size: 11px;
         width: 135px;
     }
-    .l-205{
+    .l-205 {
         left: 205px;
     }
-    .hk-01{
+    .hk-01 {
         top: -900px;
     }
-    .hk-02{
+    .hk-02 {
         top: -710px;
     }
-    .hk-03{
+    .hk-03 {
         top: -260px;
     }
-    .f-09-09-19{
+    .f-09-09-19 {
         top: -930px;
     }
-    .f-09-12-19{
+    .f-09-12-19 {
         top: -912px;
     }
-    .f-20-11-19{
+    .f-20-11-19 {
         top: -896px;
         left: 115px;
     }
-    .f-23-12-19{
+    .f-23-12-19 {
         top: -877px;
     }
-    .f-02-01-20{
-        top:-761px;
+    .f-02-01-20 {
+        top: -761px;
     }
-    .f-18-01-20{
+    .f-18-01-20 {
         top: -744px;
     }
-    .f-03-02-20{
+    .f-03-02-20 {
         top: -728px;
     }
-    .f-18-05-20{
+    .f-18-05-20 {
         top: -710px;
     }
-    .f-01-06-20{
+    .f-01-06-20 {
         top: -692px;
     }
-    .f-01-01-20{
+    .f-01-01-20 {
         top: -595px;
         left: 115px;
     }
-    .f-02-04-20{
+    .f-02-04-20 {
         top: -577px;
-        left: 115px
+        left: 115px;
     }
-    .f-30-04-20{
+    .f-30-04-20 {
         top: -560px;
     }
-    .f-02-09-20{
+    .f-02-09-20 {
         top: -542px;
         left: 115px;
     }
-    .f-15-06-20{
+    .f-15-06-20 {
         top: -422px;
     }
-    .f-20-07-20{    
+    .f-20-07-20 {
         top: -407px;
     }
-    .f-27-07-20{
+    .f-27-07-20 {
         top: -390px;
     }
-    .txt-09-09-19{
+    .txt-09-09-19 {
         top: -1292px;
     }
-    .txt-09-12-19{
+    .txt-09-12-19 {
         top: -1277px;
     }
-    .txt-20-11-19{
+    .txt-20-11-19 {
         top: -1270px;
     }
-    .txt-23-12-19{
+    .txt-23-12-19 {
         top: -1265px;
     }
-    .txt-02-01-20{
+    .txt-02-01-20 {
         top: -1160px;
     }
-    .txt-18-01-20{
+    .txt-18-01-20 {
         top: -1153px;
     }
-    .txt-03-02-20{
+    .txt-03-02-20 {
         top: -1148px;
     }
-    .txt-18-05-20{
+    .txt-18-05-20 {
         top: -1146px;
     }
-    .txt-01-06-20{
+    .txt-01-06-20 {
         top: -1146px;
     }
-    .txt-01-01-20{
+    .txt-01-01-20 {
         top: -1046px;
     }
-    .txt-02-04-20{
+    .txt-02-04-20 {
         top: -1035px;
     }
-    .txt-30-04-20{
+    .txt-30-04-20 {
         top: -1032px;
         width: 150px;
     }
-    .txt-02-09-20{
+    .txt-02-09-20 {
         top: -1030px;
-        
     }
-    .txt-15-06-20{
+    .txt-15-06-20 {
         top: -920px;
-        
     }
-    .txt-20-07-20{
+    .txt-20-07-20 {
         top: -912px;
-        
     }
-    .txt-27-07-20{
+    .txt-27-07-20 {
         top: -908px;
     }
-    .f-shcm{
+    .f-shcm {
         top: -785px;
     }
-    .txt-shcm{
+    .txt-shcm {
         top: -820px;
     }
-    .txt-ngay-nghi{
+    .txt-ngay-nghi {
         top: -821px;
     }
-    .cap-nhat-thong-tin-rectangle{
+    .cap-nhat-thong-tin-rectangle {
         width: 290px;
         height: -webkit-fit-content;
         height: -moz-fit-content;
@@ -194,185 +192,181 @@
         text-align: center;
         border-top: 4px solid rgba(40, 135, 191, 0.99);
         border-bottom: 4px solid rgba(36, 38, 89, 0.99);
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99))), -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99)));
-        background-image: linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)), linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
+        background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99))), -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99)));
+        background-image: linear-gradient( rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)), linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
         background-size: 4px 100%;
         background-position: 0 0, 100% 0;
         background-repeat: no-repeat;
     }
 }
 
-@media only screen and (min-width:1000px){
-    .ktg-header{
+@media only screen and (min-width: 1000px) {
+    .ktg-header {
         height: 785px;
     }
-    .ktg-header-title{
+    .ktg-header-title {
         font-size: 60px;
         width: 600px;
         left: 85px;
         top: 68px;
     }
-    .ktg-header-content{
+    .ktg-header-content {
         width: 400px;
         margin-left: 88px;
         font-size: 36px;
         margin-top: 85px;
     }
-    
-    .ktg-main{
+    .ktg-main {
         width: 100%;
         height: 3331px;
         background-image: url(../img/HocTapUeh/2-6mainBG.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        img{
+        img {
             height: 90%;
             margin-top: 35px;
             margin-left: 510px;
         }
-        .nam-hoc-title{
+        .nam-hoc-title {
             font-size: 30px;
             left: 240px;
             width: 305px;
         }
-        .time-range{
+        .time-range {
             left: 280px;
             font-size: 25px;
             width: 300px;
         }
-        .l-205{
+        .l-205 {
             left: 700px;
         }
-        .hk-01{
+        .hk-01 {
             top: -2920px;
             left: 825px;
             font-size: 34px;
         }
-        .hk-02{
+        .hk-02 {
             top: -2350px;
             left: 825px;
             font-size: 34px;
         }
-        .hk-03{
+        .hk-03 {
             top: -905px;
             left: 825px;
             font-size: 34px;
         }
-        .f-09-09-19{
+        .f-09-09-19 {
             top: -3075px;
         }
-        .f-09-12-19{
+        .f-09-12-19 {
             top: -3010px;
         }
-        .f-20-11-19{
+        .f-20-11-19 {
             top: -2940px;
             left: 437px;
         }
-        .f-23-12-19{
+        .f-23-12-19 {
             top: -2867px;
         }
-        .f-02-01-20{
-            top:-2470px;
+        .f-02-01-20 {
+            top: -2470px;
         }
-        .f-18-01-20{
+        .f-18-01-20 {
             top: -2400px;
         }
-        .f-03-02-20{
+        .f-03-02-20 {
             top: -2330px;
         }
-        .f-18-05-20{
+        .f-18-05-20 {
             top: -2260px;
         }
-        .f-01-06-20{
+        .f-01-06-20 {
             top: -2185px;
         }
-        .f-01-01-20{
+        .f-01-01-20 {
             top: -1847px;
-            left: 437px
+            left: 437px;
         }
-        .f-02-04-20{
+        .f-02-04-20 {
             top: -1780px;
             left: 437px;
         }
-        .f-30-04-20{
+        .f-30-04-20 {
             top: -1710px;
         }
-        .f-02-09-20{
+        .f-02-09-20 {
             top: -1635px;
             left: 437px;
         }
-        .f-15-06-20{
+        .f-15-06-20 {
             top: -1233px;
         }
-        .f-20-07-20{    
+        .f-20-07-20 {
             top: -1160px;
         }
-        .f-27-07-20{
+        .f-27-07-20 {
             top: -1093px;
         }
-        .txt-09-09-19{
+        .txt-09-09-19 {
             top: -3977px;
         }
-        .txt-09-12-19{
+        .txt-09-12-19 {
             top: -3935px;
         }
-        .txt-20-11-19{
+        .txt-20-11-19 {
             top: -3917px;
         }
-        .txt-23-12-19{
+        .txt-23-12-19 {
             top: -3885px;
         }
-        .txt-02-01-20{
+        .txt-02-01-20 {
             top: -3510px;
         }
-        .txt-18-01-20{
+        .txt-18-01-20 {
             top: -3480px;
         }
-        .txt-03-02-20{
+        .txt-03-02-20 {
             top: -3435px;
         }
-        .txt-18-05-20{
+        .txt-18-05-20 {
             top: -3420px;
         }
-        .txt-01-06-20{
+        .txt-01-06-20 {
             top: -3380px;
         }
-        .txt-01-01-20{
+        .txt-01-01-20 {
             top: -3050px;
         }
-        .txt-02-04-20{
+        .txt-02-04-20 {
             top: -2987px;
         }
-        .txt-30-04-20{
+        .txt-30-04-20 {
             top: -2956px;
             width: 300px;
         }
-        .txt-02-09-20{
+        .txt-02-09-20 {
             top: -2945px;
-            
         }
-        .txt-15-06-20{
+        .txt-15-06-20 {
             top: -2553px;
-            
         }
-        .txt-20-07-20{
+        .txt-20-07-20 {
             top: -2510px;
-            
         }
-        .txt-27-07-20{
+        .txt-27-07-20 {
             top: -2477px;
         }
-        .f-shcm{
+        .f-shcm {
             top: -2375px;
         }
-        .txt-shcm{
+        .txt-shcm {
             top: -2455px;
         }
-        .txt-ngay-nghi{
+        .txt-ngay-nghi {
             top: -2457px;
         }
-        .cap-nhat-thong-tin-rectangle{
+        .cap-nhat-thong-tin-rectangle {
             width: 700px;
             height: -webkit-fit-content;
             height: -moz-fit-content;
@@ -388,8 +382,8 @@
             text-align: center;
             border-top: 10px solid rgba(40, 135, 191, 0.99);
             border-bottom: 10px solid rgba(36, 38, 89, 0.99);
-            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99))), -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99)));
-            background-image: linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)), linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
+            background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99))), -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99)));
+            background-image: linear-gradient( rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)), linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
             background-size: 10px 100%;
             background-position: 0 0, 100% 0;
             background-repeat: no-repeat;

@@ -3,7 +3,6 @@ $fm-1: "San Francisco Display - Semibold";
 $fm-2: "San Francisco Text - Semibold";
 $fm-3: "San Francisco Display - Heavy";
 $fm-4: "San Francisco Display";
-
 // font-size:
 $fs-1: 22px;
 $fs-2: 16px;
@@ -34,9 +33,4 @@ $color-gradient-1: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
 // padding:
 // line-height:
 //break points
-$breakpoints: (
-  "extra-large": 1200px,
-  "large": 992px,
-  "medium": 768px,
-  "small": 576px
-);
+$breakpoints: ( "extra-large": 1200px, "large": 992px, "medium": 768px, "small": 576px);
