@@ -1,0 +1,114 @@
+.tgh-header{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/HocTapUeh/thoiKhoaBieuHeader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .tgh-header-title{
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        color: #ffffff;
+        -webkit-text-fill-color: transparent;
+        font-size: 28px;
+        font-weight: 900;
+        position: relative;
+        width: 300px;
+        left: 15px;
+        text-transform: uppercase;
+    }
+    .tgh-header-quote{
+        display: block;
+        width: 200px;
+        margin-left: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #276ba1;
+    }
+}
+.tgh-body{
+    width: 100%;
+    height: 360px;
+    background-image: url(../img/HocTapUeh/2-6mainBG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    table{
+        border-collapse: collapse;
+        margin: 15px;
+    }
+    th, td{
+        border: 2px solid #80346d ;
+        text-align: center;
+    }
+    .tgh-chieu{
+        font-weight: 600; 
+        background-color: #264c82; 
+        color: white;
+    }
+    .tgh-sang{
+        font-weight: 600; 
+        background-color: #80346d; 
+        color: white;
+    }
+    .tgh-order{
+        width: 100px;
+    }
+    .gio-hoc{
+        width: 125px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .tgh-header{
+        height: 800px;
+        .tgh-header-title{
+            font-size: 70px;
+            font-weight: 900;
+            position: relative;
+            width: 700px;
+            left: 70px;
+            top: 50px;
+        }
+        .tgh-header-quote{
+            width: 500px;
+            margin-left: 70px;
+            margin-top: 60px;
+            font-size: 35px;
+            font-weight: 600;
+            
+        }
+    }
+    .tgh-body{
+        height: fit-content;
+        table{
+            margin-left: 70px;
+            width: 90%;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        th, td{
+            border: 2px solid #80346d ;
+            text-align: center;
+        }
+        .tgh-chieu{
+            font-weight: 600; 
+            background-color: #264c82; 
+            color: white;
+        }
+        .tgh-sang{
+            font-weight: 600; 
+            background-color: #80346d; 
+            color: white;
+        }
+        .tgh-order{
+            width: 300px;
+        }
+        .tgh-offTime{
+            width: 200px;
+        }
+        .gio-hoc{
+            width: 400px;
+        }
+    }
+}
