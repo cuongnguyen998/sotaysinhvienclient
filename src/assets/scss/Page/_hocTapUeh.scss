@@ -1,11 +1,11 @@
-.bg-portal{
+.bg-portal {
     position: relative;
     background-image: url(../img/HocTapUeh/bgPortal.png);
     background-size: cover;
     height: 255px;
     background-position: center center;
     background-repeat: no-repeat;
-    .bg-portal-content{
+    .bg-portal-content {
         position: absolute;
         top: 15px;
         left: 15px;
@@ -26,7 +26,7 @@
         font-weight: bolder;
         color: #06225b;
     }
-    .content-2{
+    .content-2 {
         position: absolute;
         top: 160px;
         left: 17px;
@@ -37,7 +37,7 @@
         font-style: italic;
         color: #06225b;
     }
-    .btn-custom{
+    .btn-custom {
         position: absolute;
         top: 228px;
         left: 22px;
@@ -51,13 +51,14 @@
         font-weight: bolder;
     }
 }
-.main-body{
+
+.main-body {
     background-image: url(../img/HocTapUeh/bodyImg.png);
     background-repeat: no-repeat;
     height: fit-content;
     background-size: cover;
     background-position: center center;
-    .congcu-title{
+    .congcu-title {
         text-align: center;
         top: 390px;
         padding: 10px;
@@ -66,7 +67,7 @@
         font-weight: 700;
         line-height: 30px;
     }
-    .congcu-content{
+    .congcu-content {
         padding-top: 120px;
         .col-md-3{
             max-width: 35% !important;
@@ -94,7 +95,7 @@
             font-weight: 700;
             color: #005596;
         }
-        .rectangle{
+        .rectangle {
             width: 72px;
             height: 3px;
             background-color: #005596;
@@ -118,7 +119,7 @@
             height: fit-content;
             margin-top: -285px;
         }
-        .mt-195{
+        .mt-195 {
             margin-top: -255px;
         }
         .h-385{
@@ -166,12 +167,12 @@
             height: fit-content
         }
     }
-    .huong-dan-dang-nhap{
+    .huong-dan-dang-nhap {
         margin: 30px;
         height: fit-content;
         border-radius: 20px;
-        background-image: linear-gradient(to top, #242659 0%, #2887bf 99%, #2887bf 100%);
-        .huong-dan-title{
+        background-image: linear-gradient( to top, #242659 0%, #2887bf 99%, #2887bf 100%);
+        .huong-dan-title {
             color: #ffffff;
             font-size: 20px;
             font-weight: 700;
