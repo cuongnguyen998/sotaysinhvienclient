@@ -32,7 +32,7 @@
   background-image: url(../img/SanChoiTaiUeh/HoatDongDoanHoi/background_hoatdongdoanhoi.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 5300px;
+  height: 6700px;
   .doanhoi__content {
     .row__icon {
       display: flex;
@@ -80,7 +80,7 @@
 
 @include respond-to("small") {
   .background__doanhoi {
-    // height: 5300px;
+    height: 6200px;
     .doanhoi__content {
       .row__icon {
         padding-top: 10px;
