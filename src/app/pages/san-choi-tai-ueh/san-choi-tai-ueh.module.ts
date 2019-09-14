@@ -6,9 +6,9 @@ import { HoatDongDoanComponent } from "./hoat-dong-doan/hoat-dong-doan.component
 import { HoatDongVanTheMyComponent } from "./hoat-dong-van-the-my/hoat-dong-van-the-my.component";
 import { ThongTinDoanHoiComponent } from "./thong-tin-doan-hoi/thong-tin-doan-hoi.component";
 import { SanChoiTaiUehRoutingModule } from "./san-choi-tai-ueh-routing.modules";
-import { CarouselComponent } from "src/app/components/carousel/carousel.component";
 
 import { OwlModule } from "ngx-owl-carousel";
+import { ShareModule } from "src/app/components/share.module";
 
 @NgModule({
   declarations: [
@@ -16,9 +16,9 @@ import { OwlModule } from "ngx-owl-carousel";
     SanChoiTaiUehComponent,
     ClbDoiNhomComponent,
     HoatDongDoanComponent,
-    HoatDongVanTheMyComponent,
-    CarouselComponent
+    HoatDongVanTheMyComponent
   ],
-  imports: [CommonModule, SanChoiTaiUehRoutingModule, OwlModule]
+  imports: [CommonModule, SanChoiTaiUehRoutingModule, OwlModule, ShareModule],
+  exports: [ShareModule]
 })
 export class SanChoiTaiUehModule {}
