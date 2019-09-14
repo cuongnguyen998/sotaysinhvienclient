@@ -145,9 +145,9 @@
         padding: 5px;
     }
     .main-img {
-        width: 35%;
+        width: 30%;
         position: absolute;
-        left: 33%;
+        left: 32%;
         top: 735px;
     }
 }
@@ -261,6 +261,10 @@
         font-weight: 700;
         top: 200px;
         left: 50px;
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
     }
     .lms-header-content {
         font-size: 24px;
