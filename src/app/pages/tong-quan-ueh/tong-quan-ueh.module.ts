@@ -6,9 +6,10 @@ import { TongQuanUehRoutingModule } from "./tong-quan-ueh-routing.modules";
 import { TongQuanUehComponent } from "./tong-quan-ueh.component";
 
 import { OwlModule } from "ngx-owl-carousel";
+import { ShareModule } from "src/app/components/share.module";
 
 @NgModule({
   declarations: [TongQuanUehComponent, VanHoaUehComponent, CoSoComponent],
-  imports: [CommonModule, TongQuanUehRoutingModule, OwlModule]
+  imports: [CommonModule, TongQuanUehRoutingModule, OwlModule, ShareModule]
 })
 export class TongQuanUehModule {}

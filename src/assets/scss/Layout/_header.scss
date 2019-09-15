@@ -21,9 +21,10 @@
     .form-search {
       margin-left: 30px;
       flex-flow: nowrap;
+
       .form-control {
         margin-left: 8px;
-        // width: 100%;
+        width: 80%;
         border: none;
         background-color: $color-2;
         &:focus {
@@ -31,6 +32,7 @@
         }
       }
       .form-button {
+        width: 20%;
         cursor: pointer;
       }
       width: 300px;
@@ -57,6 +59,14 @@
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
+// .dropdown:hover > .dropdown-menu {
+//   display: block;
+// }
+
+// .dropdown > .dropdown-toggle:active {
+//   pointer-events: none;
+// }
 
 .dropdown-toggle::after {
   display: none;

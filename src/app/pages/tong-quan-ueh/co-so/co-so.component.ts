@@ -8,21 +8,22 @@ import { Component, OnInit } from "@angular/core";
 export class CoSoComponent implements OnInit {
   constructor() {}
 
-  title = "owl-carousel";
-
-  mySlideImages = [
-    "../assets/images/image1.jpg",
-    "../assets/images/image2.jpeg",
-    "../assets/images/image3.jpg"
+  images = [
+    {
+      text: "",
+      image:
+        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__center.png"
+    },
+    {
+      text: "",
+      image:
+        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__left.png"
+    },
+    {
+      text: "",
+      image:
+        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__right.png"
+    }
   ];
-  myCarouselImages = [
-    "../assets/images/image1.jpg",
-    "../assets/images/image2.jpeg",
-    "../assets/images/image3.jpg"
-  ];
-
-  mySlideOptions = { items: 1, dots: true, nav: true };
-  myCarouselOptions = { items: 3, dots: true, nav: true };
-
   ngOnInit() {}
 }
