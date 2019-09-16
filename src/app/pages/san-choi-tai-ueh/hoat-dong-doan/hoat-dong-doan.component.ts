@@ -10,7 +10,7 @@ export class HoatDongDoanComponent implements OnInit {
     {
       text: "",
       image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__center.png"
+        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__left.png"
     },
     {
       text: "",
@@ -20,7 +20,7 @@ export class HoatDongDoanComponent implements OnInit {
     {
       text: "",
       image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__center.png"
+        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__right.png"
     }
   ];
 
