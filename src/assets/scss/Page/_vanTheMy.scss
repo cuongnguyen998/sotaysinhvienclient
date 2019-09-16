@@ -1,0 +1,152 @@
+.cover__vanthemy {
+  position: relative;
+  background-image: url(../img/SanChoiTaiUeh/VanTheMy/cover_chinhquy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1000px;
+  .cover__content {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    @include text($color-black, $fs-4 - 40, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+@include respond-to("small") {
+  .cover__vanthemy {
+    height: 260px;
+    .cover__content {
+      top: 10px;
+      left: 15px;
+      font-size: 21px !important;
+    }
+  }
+}
+
+.background__vanthemy {
+  background-image: url(../img/SanChoiTaiUeh/VanTheMy/background_chinhquy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 5000px;
+  .vanthemy__content {
+    .vanthemy__title {
+      @include text($color-8, $fs-3 - 10, $fw-3, $fm-3);
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .row__title {
+      @include text(#26578d, $fs-3 - 10, $fw-1 + 100, $fm-4);
+      text-align: center;
+      border: 6px solid #264c82;
+      margin: 50px 200px;
+    }
+    .container {
+      .vanthemy__box {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        padding: 40px;
+        background-color: $color-white;
+        margin-bottom: 40px;
+        .box__icon {
+          padding-right: 30px;
+          display: flex;
+          align-items: center;
+          img {
+            width: 113px;
+            height: 113px;
+          }
+        }
+        .box__content {
+          @include text($color-7, $fs-6, $fw-1, $fm-4);
+        }
+      }
+    }
+    .row {
+      justify-content: space-between;
+      margin: 0 150px;
+      margin-bottom: 60px;
+      .box__left {
+        margin-left: 50%;
+      }
+      .box__right {
+        margin-left: -50%;
+      }
+      .vanthemy__box {
+        width: 100%;
+        height: 146px;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: $color-white;
+        padding: 0 30px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        .box__content {
+          text-align: center;
+          @include text(#265c91, $fs-7 - 3, $fw-bold, $fm-4);
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  .background__vanthemy {
+    height: 3700px;
+    .vanthemy__content {
+      .vanthemy__title {
+        width: 100%;
+        margin: 0;
+        font-size: $fs-3 - 30;
+      }
+      .row__title {
+        font-size: $fs-3 - 40;
+        margin: 50px 0px;
+      }
+      .container {
+        .vanthemy__box {
+          padding: 20px;
+          margin-bottom: 20px;
+          .box__icon {
+            padding-right: 30px;
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+          .box__content {
+            font-size: $fs-6 - 18;
+          }
+        }
+      }
+      .row {
+        margin: 0px;
+        margin-bottom: 30px;
+        .box__left {
+          margin-left: 0%;
+        }
+        .box__right {
+          margin-left: 0%;
+        }
+        .vanthemy__box {
+          width: 100%;
+
+          padding: 0 30px;
+          margin-bottom: 30px;
+
+          .box__content {
+            font-size: $fs-6 - 18;
+          }
+        }
+      }
+    }
+  }
+}
