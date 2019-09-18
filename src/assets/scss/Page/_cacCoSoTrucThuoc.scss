@@ -17,13 +17,29 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to("large") {
   .cover__coso {
-    background-size: contain;
     height: 260px;
     .cover__content {
       top: 10px;
       left: 15px;
+      font-size: 41px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__coso {
+    height: 260px;
+    .cover__content {
+      font-size: 31px !important;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__coso {
+    .cover__content {
       font-size: 21px !important;
     }
   }
