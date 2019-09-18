@@ -16,13 +16,32 @@
   }
 }
 
+@include respond-to("large") {
+  .cover__vanthemy {
+    background-size: cover;
+    height: 510px;
+    .cover__content {
+      top: 90px;
+      left: 25px;
+      font-size: 33px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__vanthemy {
+    height: 410px;
+  }
+}
+
 @include respond-to("small") {
   .cover__vanthemy {
+    background-size: contain;
     height: 260px;
     .cover__content {
-      top: 10px;
-      left: 15px;
-      font-size: 21px !important;
+      top: 47px;
+      left: 17px;
+      font-size: 15px !important;
     }
   }
 }
@@ -109,7 +128,7 @@
       }
       .row__title {
         font-size: $fs-3 - 40;
-        margin: 50px 0px;
+        margin: 50px 15px;
       }
       .container {
         .vanthemy__box {
@@ -123,7 +142,7 @@
             }
           }
           .box__content {
-            font-size: $fs-6 - 18;
+            font-size: $fs-6 - 14;
           }
         }
       }
@@ -138,12 +157,10 @@
         }
         .vanthemy__box {
           width: 100%;
-
           padding: 0 30px;
           margin-bottom: 30px;
-
           .box__content {
-            font-size: $fs-6 - 18;
+            font-size: $fs-6 - 14;
           }
         }
       }

@@ -1,14 +1,14 @@
 .cover__thongtinlienhe {
   position: relative;
-  background-image: url(../img/SanChoiTaiUeh/VanTheMy/cover_chinhquy.png);
-  background-size: contain;
+  background-image: url(../img/ThongTinLienHe/thongtin_cover.png);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 1000px;
   .cover__content {
     position: absolute;
-    top: 100px;
-    left: 70px;
-    @include text($color-black, $fs-4 - 40, $fw-bold, $fm-3);
+    top: 200px;
+    left: 200px;
+    @include text($color-black, $fs-4 - 10, $fw-bold, $fm-3);
     background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16,13 +16,218 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to("large") {
   .cover__thongtinlienhe {
     height: 260px;
     .cover__content {
       top: 10px;
       left: 15px;
+      font-size: 41px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__thongtinlienhe {
+    height: 260px;
+    .cover__content {
+      font-size: 31px !important;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__thongtinlienhe {
+    .cover__content {
       font-size: 21px !important;
+    }
+  }
+}
+
+.background__thongtinlienhe {
+  background-image: url(../img/ThongTinLienHe/thongtin_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 11000px;
+  .thongtinlienhe__content {
+    .thongtinlienhe__title {
+      padding: 60px 0;
+      .row {
+        .title__box {
+          height: 100px;
+          width: 560px;
+          border-radius: 20px;
+          background-color: #653d78;
+          text-align: center;
+          line-height: 100px;
+          text-transform: uppercase;
+          @include text($color-white, 36px, $fw-3, $fm-4);
+        }
+        .title-box-custom {
+          margin-left: 5%;
+        }
+        .title-box-custom-2 {
+          margin-left: 15%;
+          width: 590px;
+        }
+      }
+    }
+    .container {
+      .thongtinlienhe__box {
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        padding: 40px;
+        background-color: $color-white;
+        margin-bottom: 60px;
+        .box__title {
+          @include text(#265d93, $fs-3 - 2, $fw-3, $fm-4);
+        }
+        .box__content {
+          display: flex;
+          justify-content: space-between;
+
+          .box__left {
+            width: 100%;
+            .list__lienhe {
+              ul {
+                li {
+                  display: flex;
+                  margin-bottom: 20px;
+                  .item__icon {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 20px;
+                  }
+                  .item__content {
+                    @include text(#265d93, 25px, $fw-1, $fm-1);
+                  }
+                }
+              }
+            }
+          }
+          .box__right {
+            width: 100%;
+            .lienhe__detail {
+              ul {
+                li {
+                  @include text(#265d93, 25px, $fw-1, $fm-1);
+                }
+              }
+            }
+          }
+        }
+      }
+      .box-semi {
+        background-color: #265d93;
+        .box__title {
+          color: $color-white;
+        }
+        .box__content {
+          .box__left {
+            .list__lienhe {
+              ul {
+                li {
+                  .item__content {
+                    color: $color-white;
+                  }
+                }
+              }
+            }
+          }
+          .box__right {
+            .lienhe__detail {
+              ul {
+                li {
+                  color: $color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .background__thongtinlienhe {
+    background-size: cover;
+    height: 13000px;
+    .thongtinlienhe__content {
+      .thongtinlienhe__title {
+        display: none;
+        visibility: hidden;
+      }
+      .container {
+        .thongtinlienhe__box {
+          padding: 40px;
+          margin-bottom: 60px;
+          .box__title {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          .box__content {
+            display: block;
+
+            .box__left {
+              .list__lienhe {
+                ul {
+                  li {
+                    display: flex;
+                    margin-bottom: 20px;
+                    .item__icon {
+                      display: flex;
+                      padding-right: 20px;
+                    }
+                    .item__content {
+                      word-break: break-all;
+                      font-size: 18px;
+                    }
+                  }
+                }
+              }
+            }
+            .box__right {
+              .lienhe__detail {
+                ul {
+                  li {
+                    font-size: 18px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .box-semi {
+          background-color: #265d93;
+          .box__title {
+            color: $color-white;
+          }
+          .box__content {
+            .box__left {
+              .list__lienhe {
+                ul {
+                  li {
+                    .item__content {
+                      color: $color-white;
+                    }
+                  }
+                }
+              }
+            }
+            .box__right {
+              .lienhe__detail {
+                ul {
+                  li {
+                    color: $color-white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

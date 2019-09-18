@@ -1,5 +1,9 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import {
+  CommonModule,
+  LocationStrategy,
+  PathLocationStrategy
+} from "@angular/common";
 import { SanChoiTaiUehComponent } from "./san-choi-tai-ueh.component";
 import { ClbDoiNhomComponent } from "./clb-doi-nhom/clb-doi-nhom.component";
 import { HoatDongDoanComponent } from "./hoat-dong-doan/hoat-dong-doan.component";
@@ -19,6 +23,7 @@ import { ShareModule } from "src/app/components/share.module";
     HoatDongVanTheMyComponent
   ],
   imports: [CommonModule, SanChoiTaiUehRoutingModule, OwlModule, ShareModule],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
   exports: [ShareModule]
 })
 export class SanChoiTaiUehModule {}
