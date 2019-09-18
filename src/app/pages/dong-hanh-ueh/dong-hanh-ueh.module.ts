@@ -1,5 +1,9 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import {
+  CommonModule,
+  LocationStrategy,
+  PathLocationStrategy
+} from "@angular/common";
 import { CoVanHocTapComponent } from "./co-van-hoc-tap/co-van-hoc-tap.component";
 import { KyTucXaComponent } from "./ky-tuc-xa/ky-tuc-xa.component";
 import { MienGiamHocPhiComponent } from "./mien-giam-hoc-phi/mien-giam-hoc-phi.component";
@@ -21,6 +25,7 @@ import { DongHanhUehRoutingModule } from "./dong-hanh-ueh-routing.modules";
     ViecLamComponent,
     KhoiNghiepComponent
   ],
-  imports: [CommonModule, DongHanhUehRoutingModule]
+  imports: [CommonModule, DongHanhUehRoutingModule],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }]
 })
 export class DongHanhUehModule {}

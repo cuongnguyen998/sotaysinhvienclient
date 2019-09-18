@@ -16,14 +16,30 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to("large") {
   .cover__clb {
-    background-size: contain;
-    height: 260px;
+    height: 560px;
     .cover__content {
       top: 10px;
       left: 15px;
-      font-size: 30px !important;
+      font-size: 41px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__clb {
+    height: 400px;
+    .cover__content {
+      font-size: 31px !important;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__clb {
+    .cover__content {
+      font-size: 21px !important;
     }
   }
 }
@@ -104,9 +120,9 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to("large") {
   .background__clb {
-    height: 6200px;
+    height: 6500px;
     .clb__content {
       .space {
         padding: 30px 0;

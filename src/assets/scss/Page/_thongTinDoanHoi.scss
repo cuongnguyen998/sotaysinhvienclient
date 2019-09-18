@@ -16,14 +16,30 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to("large") {
   .cover__thongtindoanhoi {
-    background-size: contain;
-    height: 260px;
+    height: 640px;
     .cover__content {
       top: 10px;
       left: 15px;
-      font-size: 30px !important;
+      font-size: 41px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__thongtindoanhoi {
+    height: 531px;
+    .cover__content {
+      font-size: 31px !important;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__thongtindoanhoi {
+    .cover__content {
+      font-size: 21px !important;
     }
   }
 }

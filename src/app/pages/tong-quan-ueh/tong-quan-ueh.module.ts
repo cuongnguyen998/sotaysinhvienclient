@@ -1,5 +1,9 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import {
+  CommonModule,
+  LocationStrategy,
+  PathLocationStrategy
+} from "@angular/common";
 import { VanHoaUehComponent } from "./van-hoa-ueh/van-hoa-ueh.component";
 import { CoSoComponent } from "./co-so/co-so.component";
 import { TongQuanUehRoutingModule } from "./tong-quan-ueh-routing.modules";
@@ -10,6 +14,7 @@ import { ShareModule } from "src/app/components/share.module";
 
 @NgModule({
   declarations: [TongQuanUehComponent, VanHoaUehComponent, CoSoComponent],
-  imports: [CommonModule, TongQuanUehRoutingModule, OwlModule, ShareModule]
+  imports: [CommonModule, TongQuanUehRoutingModule, OwlModule, ShareModule],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }]
 })
 export class TongQuanUehModule {}
