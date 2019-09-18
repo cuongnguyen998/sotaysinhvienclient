@@ -127,6 +127,10 @@
     p {
       font-weight: 500;
     }
+    .thoi-gian{
+      position: relative;
+      top: 5px;
+    }
   }
   .nguon-hoc-lieu-rectangle {
     width: 300px;
@@ -229,6 +233,9 @@
       top: -400px;
       p {
         font-weight: 500;
+      }
+      .thoi-gian{
+        top:10px;
       }
     }
     .nguon-hoc-lieu-rectangle {
