@@ -1,28 +1,28 @@
 .cover__thongtinlienhe {
-  position: relative;
-  background-image: url(../img/SanChoiTaiUeh/VanTheMy/cover_chinhquy.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1000px;
-  .cover__content {
-    position: absolute;
-    top: 100px;
-    left: 70px;
-    @include text($color-black, $fs-4 - 40, $fw-bold, $fm-3);
-    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-  }
+    position: relative;
+    background-image: url(../img/ThongTinLienHe/thongtin_cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        @include text($color-black, $fs-4 - 10, $fw-bold, $fm-3);
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
 }
 
 @include respond-to("small") {
-  .cover__thongtinlienhe {
-    height: 260px;
-    .cover__content {
-      top: 10px;
-      left: 15px;
-      font-size: 21px !important;
+    .cover__thongtinlienhe {
+        height: 260px;
+        .cover__content {
+            top: 10px;
+            left: 15px;
+            font-size: 21px !important;
+        }
     }
-  }
 }

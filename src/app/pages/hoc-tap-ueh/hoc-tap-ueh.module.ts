@@ -1,5 +1,9 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import {
+  CommonModule,
+  LocationStrategy,
+  PathLocationStrategy
+} from "@angular/common";
 import { HocTapUehComponent } from "./hoc-tap-ueh.component";
 import { PortalComponent } from "./portal/portal.component";
 import { EmailComponent } from "./email/email.component";
@@ -53,6 +57,7 @@ import { HocTapUehRoutingModule } from "./hoc-tap-ueh-routing.modules";
     ChuongTrinhCntnComponent,
     ChuongTrinhDtt2Component
   ],
-  imports: [CommonModule, HocTapUehRoutingModule]
+  imports: [CommonModule, HocTapUehRoutingModule],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }]
 })
 export class HocTapUehModule {}
