@@ -1,10 +1,10 @@
 .cover {
     position: relative;
     background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1080px;
     .cover__content {
         position: absolute;
         top: 200px;
@@ -19,7 +19,6 @@
 
 @include respond-to("large") {
     .cover {
-        background-size: cover;
         height: 270px;
         .cover__content {
             font-size: 50px !important;
