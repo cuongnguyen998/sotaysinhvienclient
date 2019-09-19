@@ -1,7 +1,12 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
+import { HomeComponent } from "./pages/home/home.component";
 
 const routes: Routes = [
+  {
+    path: "",
+    component: HomeComponent
+  },
   {
     path: "tong-quan-ueh",
     loadChildren: "./pages/tong-quan-ueh/tong-quan-ueh.module#TongQuanUehModule"

@@ -1,0 +1,77 @@
+.cover__home {
+    position: relative;
+    background-image: url(../img/TrangChu/cover_home.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1080px;
+    .cover__content {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        text-align: center;
+        @include text($color-black, $fs-4, $fw-bold, null);
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
+}
+
+@include respond-to("large") {
+    .cover__home {
+        height: 492px;
+        .cover__content {
+            top: 10%;
+            left: 20%;
+            font-size: 60px !important;
+        }
+    }
+}
+
+@include respond-to("medium") {
+    .cover__home {
+        background-size: cover;
+        height: 500px;
+        .cover__content {
+            font-size: 50px !important;
+        }
+    }
+}
+
+@include respond-to("small") {
+    .cover__home {
+        margin-bottom: 40px;
+        height: 350px;
+        .cover__content {
+            font-size: 40px !important;
+        }
+    }
+}
+
+.home__content {
+    background-image: url(../img/TrangChu/background_home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2200px;
+    padding: 50px 0;
+    .home__box {
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 50px;
+        background-color: #ffffff;
+        padding: 0 5%;
+        .box__title {
+            span {
+                @include text($color-8, $fs-3, $fw-3, $fm-4);
+                border-bottom: 6px solid $color-8;
+            }
+        }
+        .box__content {
+            .box--item {}
+            .box--color1 {}
+            .box--color2 {}
+            .box--color3 {}
+            .box--subitem {}
+        }
+    }
+}
