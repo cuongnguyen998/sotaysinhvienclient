@@ -162,7 +162,6 @@
       width: 1000px;
       font-size: 38px;
       top: 25px;
-
     }
     .drl-body-subtitle {
       font-size: 22px;
@@ -193,10 +192,10 @@
       margin-bottom: 75px;
     }
     .drl-main-img {
-        margin-top: 75px;
-        margin-left: 190px;
-        margin-bottom: 50px;
-        width: 85%;
+      margin-top: 75px;
+      margin-left: 190px;
+      margin-bottom: 50px;
+      width: 85%;
     }
     .drl-rec {
       width: fit-content;
@@ -215,7 +214,7 @@
     .drl-inline {
       padding: 25px;
       .drl-box {
-          margin-right: 19px;
+        margin-right: 19px;
         .drl-img-box {
           width: 60%;
           height: 40%;
@@ -231,6 +230,101 @@
           width: 160px;
           height: 10px;
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .drl-header {
+    height: 1120px;
+    .drl-header-content {
+      font-size: 110px;
+      left: 150px;
+      top: 100px;
+      width: 820px;
+    }
+  }
+  .drl-body {
+    height: 4670px;
+    .drl-body-title {
+        width: 1500px;
+        font-size: 61px;
+        top: 25px;
+        left: -185px;
+    }
+    .drl-body-subtitle {
+      font-size: 35px;
+      margin-top: 100px;
+    }
+    .drl-row {
+        margin-top: 90px;
+        position: relative;
+        left: -235px
+    }
+    .drl-round-box {
+        width: 590px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .drl-sticky-rec {
+      width: 40%;
+      height: 29%;
+    }
+    .drl-row-content {
+        font-size: 39px;
+        margin-left: 25px;
+        width: 1000px;
+    }
+    .drl-shape {
+        width: 500px;
+        margin-top: 200px;
+        font-size: 80px;
+        margin-left: 25%;
+        margin-bottom: 150px;
+    }
+    .drl-main-img {
+        margin-top: 75px;
+        margin-left: 125px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .drl-rec {
+      width: fit-content;
+      margin-top: 75px;
+      padding: 20px;
+      margin-left: -170px;
+      border-top: 10px solid rgba(40, 135, 191, 0.99);
+      border-bottom: 10px solid rgba(36, 38, 89, 0.99);
+      background-image: linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99)),
+        linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
+      background-size: 10px 100%;
+      .drl-rec-content {
+        font-size: 45px;
+        margin-bottom: 50px;
+      }
+    }
+    .drl-inline {
+      padding: 25px;
+      .drl-box {
+        margin-right: 65px;
+        .drl-img-box {
+          width: 60%;
+          height: 40%;
+          margin-left: 35px;
+        }
+        p {
+            color: #264c80;
+            font-size: 30px;
+            font-weight: 700;
+            width: 215px;
+            text-align: center;
+        }
+        .drl-rec-blue {
+            width: 215px;
+            height: 10px;
+            margin-top: 10px;
         }
       }
     }
