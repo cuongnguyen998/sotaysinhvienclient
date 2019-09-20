@@ -2,27 +2,36 @@
     <a class="navbar-brand" href="/">
         <img src="../../../assets/img/TongQuanUeh/logo.jpg" width="100" height="100" alt="" />
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav">
             <li *ngFor="let item of ListNavbar" class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" routerLinkActive="router-link-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" [routerLink]="item.path">{{item.title}}</a>
+                <a class="nav-link dropdown-toggle"
+                    [ngStyle]="{'pointer-events': item.childrenPath.length > 0 ? 'none' : null}"
+                    routerLinkActive="router-link-active" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false" [routerLink]="item.path">{{item.title}}</a>
 
 
-                <div *ngIf="item.childrenPath.length > 0" [ngClass]=" (item.childrenPath.length > 6) ? 'dropdown-menu dropdown-custom' : 'dropdown-menu'">
+                <div *ngIf="item.childrenPath.length > 0"
+                    [ngClass]=" (item.childrenPath.length > 6) ? 'dropdown-menu dropdown-custom' : 'dropdown-menu'">
 
                     <div *ngIf="item.childrenPath.length > 6; else elseBlock">
                         <div class="row">
-                            <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path" routerLinkActive="router-link-active" class="col-md-4 col-lg-4 dropdown-item" (click)="collapseNavbar()">{{subItem.title}}</a>
+                            <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path"
+                                routerLinkActive="router-link-active" class="col-md-4 col-lg-4 dropdown-item"
+                                (click)="collapseNavbar()">{{subItem.title}}</a>
 
                         </div>
 
                     </div>
                     <ng-template #elseBlock>
-                        <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path" routerLinkActive="router-link-active" class="dropdown-item" (click)="collapseNavbar()">{{subItem.title}}</a>
+                        <a *ngFor="let subItem of item.childrenPath" [routerLink]="item.path+subItem.path"
+                            routerLinkActive="router-link-active" class="dropdown-item"
+                            (click)="collapseNavbar()">{{subItem.title}}</a>
                     </ng-template>
                 </div>
             </li>

@@ -9,16 +9,335 @@
 
         </div>
         <div class="row box__content">
-            <div class="col-md-4 box--item">
-                Văn hóa UEH
+            <div class="col-md-3">
+                <div class="box--item box--color1" [routerLink]="['/tong-quan-ueh/van-hoa']">
+                    Văn hóa UEH
+                </div>
             </div>
 
-            <div class="col-md-4 box--item">
-                Các cơ sở trực thuộc
+            <div class=" col-md-3">
+                <div class=" box--item box--color2" [routerLink]="['/tong-quan-ueh/co-so']">
+                    Các cơ sở trực thuộc
+                </div>
             </div>
 
-            <div class="col-md-4 box--item">
+            <div class="col-md-3" style="opacity:0">
 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="home__box">
+        <div class="box__title">
+            <span>HỌC TẬP TẠI UEH</span>
+
+        </div>
+        <div class="row box__content">
+            <div class="col-md-3">
+                <div class="box--item box--color1">
+                    Tài khoản của sinh viên
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/portal']">
+                    Portal sinh viên
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/email']">
+                    Email sinh viên
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/the-sinh-vien']">
+                    Thẻ sinh viên
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/elearning']">
+                    Hệ thống học trực tuyến LMS
+                </div>
+
+                <div class="box--item box--color1">
+                    Học phần - Học phí
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/dang-ky-hoc-phan']">
+                    Đăng ký học phần, hủy học phần
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/mo-lop-hoc-phan']">
+                    Mở lớp học phần theo nhu cầu
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/hoc-phi']">
+                    Học phí - Cách thức nộp học phí
+                </div>
+
+                <div class="box--item box--color1">
+                    Kết quả học tập - Rèn luyện
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/danh-gia-ren-luyen']">
+                    Đánh giá rèn luyện sinh viên
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/chuyen-diem']">
+                    Chuyển điểm
+                </div>
+
+
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color2">
+                    Lịch học
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/khung-thoi-gian']">
+                    Khung thời gian đào tạo hàng năm
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/thoi-gian-hoc']">
+                    Thời gian học trong ngày
+                </div>
+
+
+                <div class=" box--item box--color2">
+                    Thi kết thúc học phần
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/vang-thi']">
+                    Vắng thi - Đăng ký thi ghép
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/phuc-khao']">
+                    Quy định liên quan về thi - Phúc khảo
+                </div>
+
+                <div class=" box--item box--color2">
+                    Tốt nghiệp
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/hoc-phan-khoa-luan']">
+                    Học phần Khóa luận tốt nghiệp
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/chuan-dau-ra']">
+                    Chuẩn đầu ra các ngành/chuyên ngành
+                </div>
+
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/dieu-kien-tot-nghiep']">
+                    Điều kiện xét và công nhận tốt nghiệp
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/xep-hang-tot-nghiep']">
+                    Xếp hạng tốt nghiệp
+                </div>
+
+            </div>
+
+            <div class=" col-md-3">
+                <div class="box--item box--color3">
+                    Chương trình học
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/chat-luong-cao']">
+                    Chương trình Chất lượng cao
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/cu-nhan-tai-nang']">
+                    Chương trình Cử nhân tài năng
+                </div>
+
+                <div class="box--item box--subitem" [routerLink]="['/hoc-tap-ueh/dao-tao-thu-hai']">
+                    Chương trình đào tạo thứ 2
+                </div>
+
+
+                <div class="box--item box--color3" [routerLink]="['/hoc-tap-ueh/thu-vien']">
+                    Thư viện UEH
+                </div>
+                <div class="box--item box--color3" [routerLink]="['/hoc-tap-ueh/nghi-hoc']">
+                    Nghỉ học tạm thời - Nhập học lại - Thôi học
+                </div>
+                <div class="box--item box--color3" [routerLink]="['/hoc-tap-ueh/nghien-cuu']">
+                    Nghiên cứu khoa học
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hinhAnh">
+        <img src="../../../assets/img/TrangChu/2634643.png" alt="">
+    </div>
+
+    <div class="home__box">
+        <div class="box__title">
+            <span>ĐỒNG HÀNH CÙNG SINH VIÊN UEH</span>
+
+        </div>
+        <div class="row box__content">
+            <div class="col-md-3">
+                <div class="box--item box--color1" [routerLink]="['/dong-hanh-ueh/co-van-hoc-tap']">
+                    Cố vấn học tập
+                </div>
+                <div class="box--item box--color1" [routerLink]="['/dong-hanh-ueh/hoc-bong-sinh-vien']">
+                    Học bổng
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color2" [routerLink]="['/dong-hanh-ueh/ky-tuc-xa']">
+                    Ký túc xá UEH
+                </div>
+                <div class=" box--item box--color2" [routerLink]="['/dong-hanh-ueh/tin-dung-hoc-tap']">
+                    Tín dụng học tập
+                </div>
+                <div class=" box--item box--color2" [routerLink]="['/dong-hanh-ueh/khoi-nghiep']">
+                    Khởi nghiệp
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color3" [routerLink]="['/dong-hanh-ueh/mien-giam-hoc-phi']">
+                    Miễn, giảm học phí
+                </div>
+                <div class=" box--item box--color3" [routerLink]="['/dong-hanh-ueh/viec-lam']">
+                    Việc làm
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home__box">
+        <div class="box__title">
+            <span>SÂN CHƠI TẠI UEH</span>
+
+        </div>
+        <div class="row box__content">
+            <div class="col-md-3">
+                <div class="box--item box--color1" [routerLink]="['/san-choi-tai-ueh/thong-tin-doan-hoi']">
+                    Thông tin về Đoàn – Hội
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color2" [routerLink]="['/san-choi-tai-ueh/hoat-dong-doan']">
+                    Hoạt động Đoàn – Hội nổi bật
+                </div>
+                <div class=" box--item box--color2" [routerLink]="['/san-choi-tai-ueh/hoat-dong-van-the-my']">
+                    Hoạt động Văn Thể Mỹ
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color3" [routerLink]="['/san-choi-tai-ueh/clb-doi-nhom']">
+                    Các Câu lạc bộ/Đội/Nhóm
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home__box">
+        <div class="box__title">
+            <span [routerLink]="['/thong-tin-lien-he']" style="cursor: pointer">THÔNG TIN LIÊN HỆ CÁC ĐƠN VỊ</span>
+
+        </div>
+    </div>
+
+    <div class="home__box">
+        <div class="box__title">
+            <span>GÓC TIỆN ÍCH BỔ SUNG</span>
+
+        </div>
+        <div class="row box__content">
+            <div class="col-md-3">
+                <div class="box--item box--color1" [routerLink]="['/goc-tien-ich/bieu-mau']">
+                    Các mẫu biểu, logo
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color2" [routerLink]="['/goc-tien-ich/phan-mem-ho-tro']">
+                    Các phần mềm hỗ trợ
+                </div>
+            </div>
+
+            <div class=" col-md-3">
+                <div class=" box--item box--color3" [routerLink]="['/goc-tien-ich/co-so']">
+                    Xe buýt
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home__introduce">
+        <div class="row">
+            <div class="col-md-4 introduce__left">
+                <div class="left__logo">
+                    <img src="../../../assets/img/TrangChu/Sub_Logo_UEH_2014.png" alt="">
+                </div>
+                <div class="left__content">
+                    <div class="list__introduce">
+                        <ul>
+                            <li>
+                                <div class="item__icon">
+                                    <img src="../../../assets/img/TrangChu/icon_home_4.png" alt="">
+                                </div>
+                                <div class="item__content">
+                                    info@ueh.edu.vn
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item__icon">
+                                    <img src="../../../assets/img/TrangChu/icon_home_1.png" alt="">
+                                </div>
+                                <div class="item__content">
+                                    59C Nguyễn Đình Chiểu, quận 3, TP. Hồ Chí Minh
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item__icon">
+                                    <img src="../../../assets/img/TrangChu/icon_home_2.png" alt="">
+                                </div>
+                                <div class="item__content">
+                                    84.28.38295299 - Fax: 84.28.38250359
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item__icon">
+                                    <img src="../../../assets/img/TrangChu/icon_home_face.png" alt="">
+                                </div>
+                                <div class="item__content">
+                                    <img src="../../../assets/img/TrangChu/icon_home_youtubve.png" alt="">
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 introduce__right">
+                <div class="right__content">
+                    <ul>
+                        <li>
+                            <strong>Chịu trách nhiệm xuất bản:</strong> PGS.TS. Nguyễn Hữu Huy Nhựt
+                        </li>
+                        <li>
+                            <strong>Biên tập:</strong> ThS. Nguyễn Văn Đương - ThS. Nguyễn Ngọc Mỹ Trinh - ThS. Bùi Mộng Ngọc - ThS. Nguyễn Hà Thạch - ThS. Vũ Thiên Trinh
+                        </li>
+                        <li>
+
+                            <strong>Sửa bản thảo:</strong> ThS. Bùi Mộng Ngọc - ThS. Vũ Thiên Trinh
+                        </li>
+                        <li>
+                            <strong>Thiết kế:</strong> ThS. Vũ Thiên Trinh - Vũ Phạm Thùy Trinh - Phạm Huỳnh Đức - Nguyễn Ngọc Đăng Khoa - Nguyễn Quốc Cường - Lê Thành Đạt
+
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
