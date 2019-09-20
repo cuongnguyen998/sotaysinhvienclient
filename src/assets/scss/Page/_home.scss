@@ -72,6 +72,7 @@
         .row {
             display: flex;
             justify-content: space-around;
+            margin: 0px;
             .introduce__left {
                 .left__logo {
                     img {
@@ -178,7 +179,7 @@
         .home__introduce {
             padding: 60px 0;
             .row {
-                padding: 0 50px;
+                margin: 0 50px;
             }
         }
         .home__box {
