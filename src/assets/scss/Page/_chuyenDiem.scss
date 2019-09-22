@@ -21,12 +21,229 @@
 }
 .cd-body{
     width: 100%;
-    height: 2300px;
+    height: 755px;
     background-image: url(../img/HocTapUeh/emailBody.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     .cd-body-title{
+        width: 300px;
+        color: #653d78;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 8%;
+        position: relative;
+        top: 25px;
+    }
+    .cd-body-box{
+        width: 100%;
+        height: fit-content;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-top: 40px;
         
+    }
+    
+    .cd-body-circle{
+        width: 25px;
+        height: 25px;
+        background-color: #653d78;
+        border-radius: 90px;
+    }
+    .cd-row{
+        display: -webkit-box;
+        margin: 10px;
+        p{
+            margin-left: 10px;
+            width: 90%;
+            font-size: 13px;
+            font-weight: 600;
+            text-align: justify;
+            color: #005596;
+        }
+    }
+    .mainImg{
+        width: 36%;
+    }
+    .cd-box-content{
+        color: #005596;
+        display: inline-flex;
+        width: 100%;
+        margin-top: 50px;
+        .right-content{
+            margin-left: 10px;
+            width: 100%;
+        }
+        .cd-rec{
+            width: 55px;
+            height: 3px;
+            background-color: #653d78;
+        }
+        .cd-box-title{
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .cd-content{
+            font-size: 11px;
+            text-align: justify;
+        }
+    }
+    .cd-mt-6{
+        margin-top: -6px;
+    }
+    .h-37{
+        width: 37%;
+    }
+    .cd-mt-5{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .cd-header{
+        width: 100%;
+        height: 625px;
+        .cd-header-title{
+            font-size: 95px;
+            left: 100px;
+            top: 70px;
+            width: 400px;
+        }
+    }
+    .cd-body{
+        width: 100%;
+        height: fit-content;
+        .cd-body-title{
+            width: 970px;
+            font-size: 35px;
+            line-height: 45px;
+            top: 50px;
+        }
+        .cd-body-box{
+            width: 100%;
+            margin-top: 100px;
+            
+        }
+        
+        .cd-body-circle{
+            width: 50px;
+            height: 50px;
+            background-color: #653d78;
+            border-radius: 90px;
+        }
+        .cd-row{
+            display: -webkit-box;
+            margin: 10px;
+            p{
+                margin-left: 25px;
+                font-size: 26px;
+            }
+        }
+        .mainImg{
+            width: 36%;
+        }
+        .cd-box-content{
+            width: 100%;
+            margin-top: 100px;
+            .right-content{
+                margin-left: 10px;
+                width: 100%;
+            }
+            .cd-rec{
+                width: 120px;
+                height: 5px;
+                margin-bottom: 10px;
+            }
+            .cd-box-title{
+                font-size: 30px;
+            }
+            .cd-content{
+                font-size: 30px;
+            }
+        }
+        .cd-mt-6{
+            margin-top: -6px;
+        }
+        .h-37{
+            width: 37%;
+        }
+        .cd-mt-5{
+            margin-top: 5px;
+        }
+    }
+}
+@media only screen and (min-width:1920px){
+    .cd-header{
+        height: 890px;
+        .cd-header-title{
+            font-size: 145px;
+            font-weight: 900;
+            left: 100px;
+            top: 50px;
+            width: 600px;
+        }
+    }
+    .cd-body{
+        height: fit-content;
+        background-image: url(../img/HocTapUeh/thuVienMainBG.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .cd-body-title{
+            width: 100%;
+            font-size: 50px;
+            line-height: 60px;
+            top:70px;
+        }
+        .cd-body-box{
+            margin-top: 120px;
+            width: 120%;
+            
+        }
+        .cd-body-circle{
+            width: 50px;
+            height: 50px;
+        }
+        .cd-row{
+            p{
+                margin-left: 30px;
+                width: 90%;
+                font-size: 35px;
+            }
+        }
+        .mainImg{
+            width: 36%;
+        }
+        .cd-box-content{
+            margin-top: 100px;
+            .right-content{
+                margin-left: 30px;
+            }
+            .cd-rec{
+                width: 150px;
+                height: 7px;
+            }
+            .cd-box-title{
+                font-size: 40px;
+            }
+            .cd-content{
+                font-size: 35px;
+                width: 900px;
+                
+            }
+        }
+        .cd-mt-6{
+            margin-top: -6px;
+        }
+        .h-37{
+            width: 37%;
+        }
+        .cd-mt-5{
+            margin-top: 5px;
+        }
     }
 }
