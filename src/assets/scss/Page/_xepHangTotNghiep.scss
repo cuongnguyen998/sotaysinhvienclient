@@ -1,0 +1,133 @@
+.xhtn-header-title{
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    color: white;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 200px;
+}
+.xhtn-header-content{
+    color: #582c6e;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 500;
+    position: relative;
+    width: 140px;
+    left: 15px;
+    top: 15px;
+}
+.xhtn-body{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../img/HocTapUeh/emailBody.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .xhtn-body-title{
+        position: relative;
+        color: #653d78;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        top: 20px;
+    }
+    .xhtn-dashed-box{
+        width: 68%;
+        height: 365px;
+        border: 5px dashed #636363;
+        margin-top: 20px;
+        margin-left: 16%;
+        z-index: -1;
+        margin-top: 50px;
+    }
+    .xhtn-inline{
+        display: inline-flex;
+        width: 100%;
+        position: relative;
+        top: -250px;
+    }
+    .xhtn-round-box{
+        width: 30% !important;
+        height: 250px;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+        top: -65px;
+        img{
+            position: relative;
+            top: -30px;
+            left: 30%;
+            width: 40%;
+        }
+        p{
+            color: #38266e;
+            font-size: 12px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    .table-img{
+        width: 100%;
+        position: relative;
+        top: -210px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .xhtn-header-title{
+        font-size: 85px;
+        left: 70px;
+        top: 50px;
+        width: 600px;
+    }
+    .xhtn-header-content{
+        font-size: 26px;
+        width: 500px;
+        left: 70px;
+        top: 70px;
+    }
+    .xhtn-body{
+        .xhtn-body-title{
+            font-size: 30px;
+            top: 25px;
+        }
+        .xhtn-dashed-box{
+            width: 67%;
+            height: 700px;
+            margin-left: 17%;
+        }
+        .xhtn-round-box{
+            width: 35% !important;
+            height: 450px;
+            top: -345px;
+            img{
+                top: -40px;
+                left: 42%;
+                width: 20%;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:1920px){
+    .xhtn-header-title{
+        font-size: 110px;
+        left: 70px;
+        top: 50px;
+        width: 700px;
+    }
+    .xhtn-header-content{
+        font-size: 35px;
+        width: 700px;
+    }
+}
