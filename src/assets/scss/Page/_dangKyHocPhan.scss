@@ -32,7 +32,7 @@
     left: -8%;
   }
 }
-.body-title {
+.dkhp-body-title {
   color: #582d6d;
   font-size: 24px;
   font-weight: bold;
@@ -204,7 +204,7 @@
       left: 10px;
     }
   }
-  .body-title {
+  .dkhp-body-title {
     font-size: 50px;
   }
   .chuan-bi {
@@ -213,13 +213,14 @@
   }
   .dkhp-box {
     width: 500px;
+    position: relative;
     .dkhp-box-content {
       font-size: 20px;
     }
   }
   .top-position {
     left: 50%;
-    top: -970px;
+    top: -790px;
   }
   .mid-position {
     top: -175%;

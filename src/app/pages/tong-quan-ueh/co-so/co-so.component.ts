@@ -11,18 +11,23 @@ export class CoSoComponent implements OnInit {
   images = [
     {
       text: "",
-      image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__center.png"
+      image: "../../../../assets/img/TongQuanUeh/CacCoSo/CN7A2521.png"
     },
     {
       text: "",
-      image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__left.png"
+      image: "../../../../assets/img/TongQuanUeh/CacCoSo/DHKT-Panorama.png"
     },
     {
       text: "",
-      image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/slide__right.png"
+      image: "../../../../assets/img/TongQuanUeh/CacCoSo/DSCF2762.png"
+    },
+    {
+      text: "",
+      image: "../../../../assets/img/TongQuanUeh/CacCoSo/PC-1.jpg"
+    },
+    {
+      text: "",
+      image: "../../../../assets/img/TongQuanUeh/CacCoSo/UEH---CSA.jpg"
     }
   ];
   ngOnInit() {}
