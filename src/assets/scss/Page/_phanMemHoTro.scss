@@ -1,0 +1,112 @@
+.cover__phanmem {
+  position: relative;
+  background-image: url(../img/TienIchBoSung/PhanMemHoTro/cover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 60%;
+  height: 1060px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    @include text($color-black, $fs-4 - 40, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+@include respond-to("large") {
+  .cover__phanmem {
+    height: 260px;
+    .cover__content {
+      top: 10px;
+      left: 15px;
+      font-size: 34px !important;
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__phanmem {
+    height: 260px;
+    .cover__content {
+      font-size: 28px !important;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__phanmem {
+    .cover__content {
+      font-size: 17px !important;
+    }
+  }
+}
+
+.background__phanmem {
+  background-image: url(../img/TienIchBoSung/PhanMemHoTro/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3000px;
+  .phanmem__content {
+    .section {
+      .phanmem__box {
+        @include text(#26578d, $fs-3 - 10, $fw-1 + 100, $fm-4);
+        text-align: center;
+        border: 6px solid #264c82;
+        margin: 50px 200px;
+      }
+      .section__title {
+        @include text($color-8, 75px, $fw-3, $fm-4);
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+      }
+      .section__subtitle {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        .content {
+          display: inline-block;
+          border-radius: 35px;
+          padding: 20px 35px;
+          background-color: #265d93;
+          @include text($color-white, 54px, $fw-1, $fm-1);
+        }
+      }
+      .section__content {
+        .row {
+          margin: 0px;
+          justify-content: center;
+          margin-bottom: 60px;
+          .item {
+            box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+            border-radius: 20px;
+            background-color: $color-white;
+            display: flex;
+            padding: 20px;
+            .item__icon {
+              img {
+                width: 70px;
+                height: 70px;
+                display: block;
+              }
+            }
+            .item__content {
+              padding: 0px;
+              margin: 0px;
+              .box__download {
+                border-radius: 15px;
+                text-align: center;
+                color: $color-white;
+                background-color: #265d93;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
