@@ -19,12 +19,11 @@ export class ClbDoiNhomComponent implements OnInit {
     },
     {
       text: "",
-      image: "../../../../assets/img/SanChoiTaiUeh/ClbDoiNhom/IMG_9659.png"
+      image: "../../../../assets/img/SanChoiTaiUeh/ClbDoiNhom/Resize1.png"
     },
     {
       text: "",
-      image:
-        "../../../../assets/img/SanChoiTaiUeh/ClbDoiNhom/IMG_9681---Copy.png"
+      image: "../../../../assets/img/SanChoiTaiUeh/ClbDoiNhom/ssid.png"
     },
     {
       text: "",
