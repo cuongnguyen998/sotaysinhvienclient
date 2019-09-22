@@ -49,8 +49,12 @@
   background-image: url(../img/TienIchBoSung/PhanMemHoTro/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3000px;
+  height: 5500px;
   .phanmem__content {
+    .text-blue {
+      color: #26578d;
+      font-weight: 500;
+    }
     .section {
       .phanmem__box {
         @include text(#26578d, $fs-3 - 10, $fw-1 + 100, $fm-4);
@@ -86,7 +90,7 @@
             border-radius: 20px;
             background-color: $color-white;
             display: flex;
-            padding: 20px;
+            padding: 27px;
             .item__icon {
               img {
                 width: 70px;
@@ -98,11 +102,92 @@
               padding: 0px;
               margin: 0px;
               .box__download {
+                cursor: pointer;
                 border-radius: 15px;
                 text-align: center;
                 color: $color-white;
                 background-color: #265d93;
+                display: inline-block;
+                padding: 0 20px;
               }
+              .box__icon {
+                margin-right: 30px;
+              }
+            }
+          }
+          .custom__box {
+            @include text(#26578d, 25px, $fw-1, $fm-2);
+            text-align: center;
+            border: 6px solid #264c82;
+          }
+          .custom__boxHoTro {
+            padding: 30px;
+            margin-top: -20px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .background__phanmem {
+    height: 11000px;
+    .phanmem__content {
+      .section {
+        .phanmem__box {
+          font-size: $fs-3 - 30;
+          margin: 0px;
+          margin-bottom: 30px;
+        }
+        .section__title {
+          font-size: 50px;
+          padding-top: 30px;
+          padding-bottom: 15px;
+        }
+        .section__subtitle {
+          margin-bottom: 30px;
+          .content {
+            padding: 20px 35px;
+            background-color: #265d93;
+            font-size: 30px;
+          }
+        }
+        .section__content {
+          .row {
+            margin-bottom: 0;
+            .item {
+              padding: 27px;
+              margin-bottom: 30px;
+              .item__icon {
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .item__content {
+                .box__download {
+                  cursor: pointer;
+                  border-radius: 15px;
+                  text-align: center;
+                  color: $color-white;
+                  background-color: #265d93;
+                  display: inline-block;
+                  padding: 0 20px;
+                }
+                .box__icon {
+                  margin-right: 30px;
+                }
+              }
+            }
+            .custom__box {
+              margin-bottom: 30px;
+            }
+            .custom__boxHoTro {
+              padding: 30px;
+              margin-top: -20px;
+              text-align: left;
             }
           }
         }
