@@ -21,7 +21,7 @@
 .dkhp-body {
   background-image: url(../img/HocTapUeh/dkhp-main-bg.png);
   width: 100%;
-  height: 2000px;
+  height: fit-content;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -58,18 +58,16 @@
   }
 }
 .top-position {
-  left: 41%;
-  top: -270px;
+  left: 40%;
+    top: -250px;
 }
 .mid-position {
-  top: -13%;
+  top: -230px;
   left: 58%;
   width: 143px;
 }
 .bot-position {
-  top: -21%;
-  left: 2%;
-  margin-right: 5px;
+  top: -395px;
   width: 195px;
 }
 .box-img {
@@ -77,12 +75,12 @@
   margin-top: 5px;
 }
 .dang-ky {
-  top: -19%;
+  top: -380px;
   left: 25%;
 }
 .kiem-tra {
   top: -375px;
-  left: 15%;
+  left: 10%;
 }
 .dkhp-number {
   margin-left: 10px;
@@ -158,7 +156,7 @@
   text-align: justify;
 }
 .one {
-  top: -20%;
+  top: -400px;
   left: 23%;
 }
 .two {
@@ -167,19 +165,19 @@
 }
 .check {
   top: -360px;
-  left: 45px;
-  width: 320px;
+  left: 10%;
+  width: 300px;
 }
 .final {
   top: -328px;
-  font-size: 12px;
-  left: 20px;
-  width: 340px;
+  font-size: 14px;
+  left: 10%;
+  width: 300px;
 }
 .final-title {
   top: -340px;
-  width: 300px;
-  left: 70px;
+    width: 300px;
+    left: 10%;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -221,38 +219,37 @@
   .top-position {
     left: 50%;
     top: -790px;
+    width: 585px;
   }
   .mid-position {
-    top: -175%;
-    left: 8%;
-    width: 450px;
+    top: -590px;
+    left: 3%;
   }
   .bot-position {
-    top: -270%;
-    left: 42em;
-    margin-right: 5px;
-    width: 500px;
+    top: -875px;
+    left: 35em;
+    width: 580px;
   }
   .box-img {
     width: 100%;
     margin-top: 5px;
   }
   .dang-ky {
-    top: -250%;
-    left: 35%;
+    top: -830px;
+    left: 35%
   }
   .kiem-tra {
-    top: -900px;
-    left: 30%;
+    top: -820px;
+    left: 25%;
   }
   .dkhp-number {
     margin-left: 70px;
   }
   .t-320 {
-    top: -60em;
+    top: -50em;
   }
   .t-342 {
-    top: -58em;
+    top: -50em;
   }
   .dkhp-rectangle {
     width: 175px;
@@ -269,9 +266,8 @@
     }
   }
   .bit-rec {
-    width: 700px;
-    top: -790px;
-    left: 25%;
+    top: -750px;
+    width: 80%;
     p {
       font-size: 25px;
     }
@@ -285,6 +281,7 @@
   .dkhp-one-content {
     font-size: 33px;
     width: 700px;
+    left: 30%;
   }
   .out-content {
     color: #005596;
@@ -295,16 +292,14 @@
     text-align: justify;
   }
   .one {
-    top: -257%;
-    left: 30%;
+    top: -835px;
   }
   .two {
-    top: -970px;
-    left: 30%;
+    top: -840px;
   }
   .check {
-    top: -215%;
-    left: 310px;
+    top: -790px;
+    left: 20%;
     width: 800px;
   }
   .final {
@@ -314,8 +309,20 @@
     width: 900px;
   }
   .final-title {
-    top: -740px;
-    width: 1500px;
-    left: 125px;
+    top: -710px;
+    width: 100%;
+    left: 10%;
+    text-align: center;
+  }
+}
+@media only screen and (min-width:1920px){
+  .dkhp-header {
+    height: 970px;
+  }
+  .dkhp-title {
+    font-size: 95px;
+    width: 1000px;
+    left: 80px;
+    top: 135px;
   }
 }

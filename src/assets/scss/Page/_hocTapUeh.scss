@@ -70,7 +70,7 @@
     .congcu-content {
         padding-top: 120px;
         .col-md-3{
-            max-width: 35% !important;
+            max-width: 38% !important;
             box-shadow:  0 13px 29px rgba(0, 0, 0, 0.35);
             border-radius: 20px;
             background-color: $color-white;
@@ -197,12 +197,7 @@
 
 @media only screen and (min-width:1000px){
     .bg-portal{
-        position: relative;
-        background-image: url(../img/HocTapUeh/bgPortal.png);
-        background-size: cover;
         height: 800px;
-        background-position: center center;
-        background-repeat: no-repeat;
         .bg-portal-content{
             top: 200px;
             left: 70px;
@@ -231,18 +226,13 @@
         }
     }
     .main-body{
-        background-image: url(../img/HocTapUeh/bodyImg.png);
-        background-repeat: no-repeat;
-        height: fit-content;
-        background-size: cover;
-        background-position: center center;
         .congcu-title{
             text-align: center;
             padding: 55px 0;
-            font-size: 70px;
+            font-size: 50px;
             color: #265083;
             font-weight: 700;
-            line-height: 39.28px;
+            line-height: 85px;
         }
         .congcu-content{
             padding-top: 120px;
@@ -253,7 +243,7 @@
                 background-color: #fff;
                 margin-left: 45px;
                 height: fit-content;
-                padding: 5px;
+                padding: 5px 10px 10px 5px;
                 margin-top: -105px;
                 .icon{
                     padding: 10px;
@@ -278,7 +268,7 @@
                 margin-top: -10px;
             }
             .congcu-text-body{
-                width: 320px;
+                width: 255px;
                 color: #005596;
                 font-size: 21px;
                 font-weight: 500;
@@ -288,62 +278,60 @@
                 text-align: justify;
             }
             .h-375{
-                height: 440px;
+                height: fit-content;
             }
             .h-275{
-                height: 275px;
+                height: fit-content;
             }
             .mt-195{
                 margin-top: -255px;
             }
             .h-385{
-                height: 415px;
+                height: fit-content;
             }
             .h-xem-diem{
-                height: 530px;
+                height: fit-content;
                 margin-top: 60px
             }
             .mt-45{
                 margin-top: -110px;
-                height: 165px;
+                height: fit-content;
             }
             .mt-vang-thi{
                 margin-top: -375px;
-                height: 195px;        
+                height: fit-content;        
             }
             .mt-tkb{
                 margin-top: -475px;
-                height: 725px;
+                height: fit-content;
             }
             .h-dkcn{
-                height: 190px;
+                height: fit-content;
                 margin-top: 60px;
             }
             .mt-chungchi{
                 margin-top: -370px;
-                height: 250px;
+                height: fit-content;
             }
             .mt-tksv{
                 margin-top: 50px;
             }
             .mt-dktn{
                 margin-top: 50px;
-                height: 190px;
+                height: fit-content;
             }
             .mt-yktl{
-                height: 170px;
+                height: fit-content;
                 margin-top: -300px;
             }
             .mt-dkmtc{
                 margin-top: 5px;
-                height: 165px;
+                height: fit-content;
             }
         }
         .huong-dan-dang-nhap{
             margin: 30px;
             height: fit-content;
-            border-radius: 20px;
-            background-image: linear-gradient(to top, #242659 0%, #2887bf 99%, #2887bf 100%);
             .huong-dan-title{
                 color: #ffffff;
                 font-size: 50px;
@@ -353,7 +341,7 @@
                 text-align: center;
             }
             .col-md-6{
-                max-width: 42% !important;
+                max-width: 40% !important;
                 
                 height: fit-content;
                 border-radius: 20px;
@@ -366,11 +354,41 @@
                 }
             }
             .last-item{
-                margin: 50px 100px 50px 380px;
+                margin: 50px 100px 50px 30%;
                
             }
     
         }
     
+    }
+}
+@media only screen and (min-width:1920px){
+    .bg-portal{
+        height: 1175px;
+        .bg-portal-content{
+            top: 10%;
+            left: 70px;
+            font-size: 130px;
+        }
+        .content-1{
+            left: 70px;
+            top: 486px;
+            font-size: 40px;
+            width: 700px;
+        }
+        .content-2{
+            top: 55%;
+            left: 70px;
+            width: 600px;
+            font-size: 29px;
+        }
+        .btn-custom{
+            top: 75%;
+            left: 10%;
+            width: 316px;
+            height: 76px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
     }
 }
