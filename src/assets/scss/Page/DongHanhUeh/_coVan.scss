@@ -21,7 +21,7 @@
 
 @include respond-to("large") {
     .cover__covan {
-        height: 260px;
+        height: 560px;
         .cover__content {
             top: 10px;
             left: 15px;
@@ -34,7 +34,7 @@
 
 @include respond-to("medium") {
     .cover__covan {
-        height: 260px;
+        height: 360px;
         .cover__content {
             span {
                 font-size: 31px !important;
@@ -117,7 +117,7 @@
     padding: 20px 40px;
 }
 
-@include respond-to("medium") {
+@include respond-to("large") {
     .background__covan {
         height: 2500px;
         .covan__content {
@@ -157,7 +157,7 @@
     }
 }
 
-@include respond-to("medium") {
+@include respond-to("large") {
     .cover__covan {
         .covan__custom {
             text-align: center;
