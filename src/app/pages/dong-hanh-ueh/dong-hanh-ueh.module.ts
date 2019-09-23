@@ -9,6 +9,7 @@ import { ViecLamComponent } from "./viec-lam/viec-lam.component";
 import { KhoiNghiepComponent } from "./khoi-nghiep/khoi-nghiep.component";
 import { DongHanhUehComponent } from "./dong-hanh-ueh.component";
 import { DongHanhUehRoutingModule } from "./dong-hanh-ueh-routing.modules";
+import { ShareModule } from "src/app/components/share.module";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,6 @@ import { DongHanhUehRoutingModule } from "./dong-hanh-ueh-routing.modules";
     ViecLamComponent,
     KhoiNghiepComponent
   ],
-  imports: [CommonModule, DongHanhUehRoutingModule]
+  imports: [CommonModule, DongHanhUehRoutingModule, ShareModule]
 })
 export class DongHanhUehModule {}
