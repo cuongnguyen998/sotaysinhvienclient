@@ -22,7 +22,8 @@
 
 @include respond-to("large") {
     .cover__vieclam {
-        height: 260px;
+        height: 560px;
+        background-size: contain;
         .cover__content {
             top: 10px;
             left: 15px;
@@ -35,8 +36,7 @@
 
 @include respond-to("medium") {
     .cover__vieclam {
-        background-size: contain;
-        height: 260px;
+        height: 360px;
         .cover__content {
             span {
                 font-size: 41px !important;
@@ -106,7 +106,7 @@
 
 @include respond-to("large") {
     .background__vieclam {
-        height: 5500px;
+        height: 6500px;
     }
 }
 
