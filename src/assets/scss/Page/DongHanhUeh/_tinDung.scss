@@ -1,0 +1,68 @@
+.cover__tindung {
+    position: relative;
+    background-image: url(../img/DongHanhUeh/TinDungHocTap/cover_clb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 1060px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 80px;
+        span {
+            @include text($color-black, $fs-4 - 10, $fw-bold, $fm-3);
+            background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+        @include text(#276da4, 25px, $fw-1 + 100, $fm-3);
+    }
+}
+
+.background__tindung {
+    background-image: url(../img/DongHanhUeh/TinDungHocTap/background_tindung.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4000px;
+    padding: 60px 0;
+    .tindung__content {
+        .row {
+            margin: 0px;
+            justify-content: center;
+            margin-bottom: 60px;
+            .tindung__box {
+                border-radius: 35px;
+                background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+                @include text(#fff, 37px, $fw-3, $fm-4);
+                text-align: center;
+                z-index: 2;
+                padding: 30px 20px;
+            }
+            .col-lg-1 {
+                padding: 0px;
+                .arrow {
+                    background-image: url(../img/DongHanhUeh/TinDungHocTap/arrow.png);
+                    height: 60px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    transform: scale(1.2);
+                    z-index: 1;
+                    position: relative;
+                    margin-top: 24px;
+                }
+            }
+            .col-lg-6 {
+                padding-left: 0px;
+                .tindung__mota {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    padding: 30px;
+                    background-color: $color-white;
+                    padding: 40px 60px;
+                    @include text(#276ca3, 25px, $fw-1, $fm-2);
+                }
+            }
+        }
+    }
+}

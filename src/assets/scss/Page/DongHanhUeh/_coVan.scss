@@ -120,6 +120,7 @@
 @include respond-to("large") {
     .background__covan {
         height: 2500px;
+        background-size: contain;
         .covan__content {
             .covan__img {
                 padding: 60px 0;
