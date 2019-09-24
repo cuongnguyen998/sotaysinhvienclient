@@ -19,8 +19,10 @@
 
 @include respond-to("large") {
   .cover {
-    height: 270px;
+    height: 500px;
     .cover__content {
+      top: 100px;
+      left: 70px;
       font-size: 50px !important;
     }
   }
@@ -83,34 +85,6 @@
         text-align: center;
         @include text($color-1, $fs-6, $fw-2, $fm-1);
         margin: 0 30px;
-      }
-    }
-  }
-}
-
-@include respond-to("small") {
-  .giatri__cotloi {
-    .giatri__title {
-      font-size: 30px;
-      padding: 25px 0;
-    }
-    .row {
-      margin-left: 0px;
-      margin-right: 0px;
-      .col-sm-12 {
-        max-width: 100% !important;
-      }
-      .box__giatri {
-        margin: 0 10px 20px 0;
-        width: 150px;
-        height: 130px;
-        .box__number {
-          font-size: 15px;
-        }
-        .box__content {
-          font-size: 15px;
-          margin: 0 15px;
-        }
       }
     }
   }
@@ -235,6 +209,79 @@
       }
       .quytac__right {
         margin-left: 60px;
+      }
+    }
+  }
+}
+
+@include respond-to("large") {
+  .giatri__cotloi {
+    .giatri__title {
+      @include text($color-1, $fs-5, $fw-bold, $fm-4);
+      text-align: center;
+      padding: 50px 0;
+    }
+    .row {
+      justify-content: space-between;
+      flex-grow: none;
+      margin: 0px;
+      .box__giatri {
+        .box__content {
+          font-size: 19px;
+          margin: 0 29px;
+        }
+      }
+    }
+  }
+
+  .nentang {
+    .nentang__img {
+      position: relative;
+      background-size: contain;
+      .box--1 {
+        right: 2%;
+      }
+      .box--2 {
+        left: 2%;
+      }
+      .box--3 {
+        left: 1%;
+        .box--4 {
+          right: 2%;
+        }
+      }
+    }
+    .nentang__title {
+      @include text($color-1, $fs-5, $fw-bold, $fm-4);
+      text-align: center;
+      padding: 100px 0 50px 0;
+    }
+  }
+}
+
+@include respond-to("small") {
+  .giatri__cotloi {
+    .giatri__title {
+      font-size: 30px;
+      padding: 25px 0;
+    }
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+      .col-sm-12 {
+        max-width: 100% !important;
+      }
+      .box__giatri {
+        margin: 0 10px 20px 0;
+        width: 150px;
+        height: 130px;
+        .box__number {
+          font-size: 15px;
+        }
+        .box__content {
+          font-size: 15px;
+          margin: 0 15px;
+        }
       }
     }
   }
