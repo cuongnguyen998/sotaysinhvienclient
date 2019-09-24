@@ -4,10 +4,12 @@
 @import "./Helpers/extend";
 @import "./Helpers/animation";
 @import "./Component/button";
+
 // COMPONENT
 @import "./Layout/header";
 @import "./Layout/footer";
 @import "./Layout/owl";
+
 // HOCTAP
 @import "./Page/hocTapUeh";
 @import "./Page/emailSinhVien";
@@ -34,21 +36,27 @@
 @import "./Page/chatLuongCao";
 @import "./Page/cuNhanTaiNang";
 @import "./Page/chuongTrinhThuHai";
+
 // TONGQUANUEH
 @import "./Page/TongQuanUeh/vanHoaUeh";
 @import "./Page/TongQuanUeh/cacCoSoTrucThuoc";
+
 // DONGHANHUEH
 @import "./Page/DongHanhUeh/coVan";
 @import "./Page/DongHanhUeh/khoiNghiep";
 @import "./Page/DongHanhUeh/viecLam";
 @import "./Page/DongHanhUeh/tinDung";
+@import "./Page/DongHanhUeh/hocBong";
+
 // SANCHOIUEH
 @import "./Page/SanChoiUeh/clbDoiNhom";
 @import "./Page/SanChoiUeh/vanTheMy";
 @import "./Page/SanChoiUeh/cacHoatDongDoanHoi";
 @import "./Page/SanChoiUeh/thongTinDoanHoi";
+
 // THONGTINLIENHE
 @import "./Page/ThongTinLienHe/thongTinLienHe";
+
 //TIENICHBOSUNG
 @import "./Page/TienIchUeh/phanMemHoTro";
 @import "./Page/TienIchUeh/bieuMau";
