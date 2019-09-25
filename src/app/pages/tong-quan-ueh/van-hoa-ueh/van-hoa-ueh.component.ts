@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-van-hoa-ueh',
-  templateUrl: './van-hoa-ueh.component.html',
-  styleUrls: ['./van-hoa-ueh.component.scss']
+  selector: "app-van-hoa-ueh",
+  templateUrl: "./van-hoa-ueh.component.html",
+  styleUrls: ["./van-hoa-ueh.component.scss"]
 })
 export class VanHoaUehComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
+  onNavigate(link) {
+    window.open(link, "_blank");
   }
-
 }
