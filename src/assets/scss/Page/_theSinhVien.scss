@@ -253,3 +253,91 @@
         }
     }
 }
+
+@media only screen and (min-width:1920px){
+    .bg-tsv{
+        height: 1100px;
+        .tsv-title{
+            font-size: 125px;
+        }
+        .tsv-content{
+            font-size: 57px;
+            line-height: 75px;
+        }
+    }
+    .tsv-main-body{
+        height: 1600px;
+        .tsv-main-title{
+            color: #1f558e;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 39.28px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .tsv-dashed-box{
+            width: 1232px;
+            left: 13.75%;
+        }
+        .tsv-dashed-box-inbound{
+            visibility: visible;
+            width: 415px;
+            left: 35.25%;
+        }
+        .tsv-main-content{
+            padding-top: 120px;
+            .col-md-3{
+                max-width: 17% !important;
+                box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                border-radius: 20px;
+                background-color: #ffffff;
+                height: 300px;
+                left: 4%;
+                margin: 40px;
+                top: 1em;
+                overflow-wrap: break-word;
+                .circle{
+                    left: 45%;
+                }
+                .circle-pink{
+                    background-color: #e84473;
+                }
+                .tsv-content-para{
+                    color: #38266e;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 37.5px;
+                    text-align: center;
+                    padding: 5px;
+                    margin: 15px;
+                }
+                .pink{
+                    color: #e6414d;
+                }
+            }
+        }
+        .tsv-mat-the{
+            margin-top: 20px;
+            top: -3em;
+            img{
+                width: 50%;
+                margin-top: 90px;
+            }
+            .mat-the-title{
+                left: 55%;
+            }
+            .mat-the-box{
+                left: 52%;
+                top: 25em;
+                p{
+                    color: #ffffff;
+                    font-size: 33px;
+                    font-weight: 600;
+                    padding: 15px;
+    
+                }
+            }
+        }
+    }
+}
