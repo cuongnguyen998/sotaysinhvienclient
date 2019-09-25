@@ -252,8 +252,11 @@
         }
       }
       .background__quytac {
+        .vanhoa__subtitle2 {
+          padding: 20px 60px;
+        }
         .vanhoa__col {
-          padding: 40px;
+          padding: 20px;
           //margin-bottom: 60px;
           height: 700px;
           .col__title {
@@ -264,7 +267,7 @@
           }
         }
         .vanhoa__col__custom {
-          height: 1200px;
+          height: 1300px;
         }
         .ungXu {
           margin-bottom: 60px;
