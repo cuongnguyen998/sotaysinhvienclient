@@ -19,7 +19,7 @@
 }
 .phuc-khao-body {
   width: 100%;
-  height: 2300px;
+  height: fit-content;
   background-image: url(../img/HocTapUeh/dkhp-main-bg.png);
   background-position: center center;
   background-size: cover;
@@ -85,7 +85,7 @@
   top: -220px;
 }
 .pk-rec {
-  width: 300px;
+  width: 87%;
   height: fit-content;
   font-size: 12px;
   position: relative;
@@ -166,7 +166,7 @@
   top: -185px;
 }
 .pk-bot-box {
-  width: 335px;
+  width: 100%;
   height: fit-content;
   box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
   border-radius: 20px;
@@ -187,6 +187,21 @@
   .mt-45 {
     margin-top: 45px;
   }
+}
+.pk-blue-bot-box{
+  width: 80%;
+  height: fit-content;
+  position: relative;
+  top: -145px;
+  margin-left: 10%;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -340,5 +355,15 @@
     .mt-45 {
       margin-top: 10px;
     }
+  }
+  .pk-blue-bot-box{
+    top: -65px;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width:1920px){
+  .phuc-khao-header{
+    height: 900px;
   }
 }
