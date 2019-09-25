@@ -50,9 +50,10 @@
 
 @include respond-to("small") {
   .cover__tindung {
+    height: 260px;
     .cover__content {
       span {
-        font-size: 41px !important;
+        font-size: 31px !important;
       }
     }
   }
@@ -200,6 +201,37 @@
         .border__tindung {
           display: none;
           visibility: hidden;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  .background__tindung {
+    height: 3500px;
+    padding: 20px 0;
+    .tindung__content {
+      .tindung__title {
+        width: 100%;
+        font-size: $fs-3 - 20;
+      }
+      .row {
+        .tindung__box {
+          padding: 30px 20px;
+          font-size: 26px;
+        }
+        .col-lg-6 {
+          .tindung__mota {
+            //padding: 40px 60px;
+
+            font-size: 18px;
+          }
+        }
+        .col__box {
+          .col__content {
+            font-size: 18px;
+          }
         }
       }
     }
