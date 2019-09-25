@@ -1,7 +1,7 @@
 .ktg-header {
   width: 100%;
   height: 245px;
-  background-image: url(../img/HocTapUeh/khungThoiGian.png);
+  background-image: url(../img/HocTapUeh/sinhVienNu.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +229,7 @@
   }
   .ktg-main {
     width: 100%;
-    height: 3331px;
+    height: 3300px;
     background-image: url(../img/HocTapUeh/2-6mainBG.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -411,4 +411,36 @@
       background-repeat: no-repeat;
     }
   }
+}
+@media only screen and (min-width:1920px){
+  .ktg-header {
+    height: 1170px;
+  }
+  .ktg-main img {
+    margin-left: 45%;
+  }
+  .ktg-main {
+    .hk-01 {
+      left: 60%;
+    } 
+    .l-205 {
+      left: 55%;
+    }
+    .hk-02 {
+      left: 60%;
+    }
+    .hk-03 {
+      left: 60%;
+    }
+    .time-range {
+      left: 32%;
+    }
+    .f-20-11-19 {
+      left: 40%;
+    }
+    .cap-nhat-thong-tin-rectangle {
+      left: 33%;
+    }
+  }
+
 }

@@ -234,3 +234,41 @@
         }
     }
 }
+
+@media only screen and (min-width:1920px){
+    .hoc-phi-header {
+        height: 950px;
+        
+    }
+    .hoc-phi-header-content {
+        width: 500px;
+        left: 100px;
+        top: 100px;
+        font-size: 70px;
+    }
+    .top-left-15 {
+        left: 30%;
+        top: 25px;
+    }
+    .hoc-phi-row {
+        margin-top: 75px;
+        margin-left: 15%;
+    }
+    .hoc-phi-body-content {
+        margin-top: 2%;
+    }
+    .t-45 {
+        top: 1px;
+        left: 20px;
+    }
+    .t-48 {
+        top: 145px;
+        left: -415px;
+    }
+    .top-left-13 {
+        left: 25%;
+    }
+    .hoc-phi-bottom-box {
+        margin-left: 25%;
+    }
+}

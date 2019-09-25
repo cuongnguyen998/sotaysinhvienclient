@@ -44,7 +44,7 @@
   .thu-vien-img {
     width: 60%;
     margin-top: 100px;
-    margin-left: 90px;
+    margin-left: 22%;
   }
   .gioi-thieu-box {
     width: 100px;
@@ -102,7 +102,7 @@
     height: 30px;
     position: relative;
     top: -170px;
-    left: -25px;
+    left: -10%;
     font-size: 15px;
     text-align: center;
     border-radius: 20px;
@@ -133,12 +133,12 @@
     }
   }
   .nguon-hoc-lieu-rectangle {
-    width: 300px;
+    width: 85%;
     height: fit-content;
     font-size: 12px;
     position: relative;
     top: -180px;
-    left: 50px;
+    left: 10%;
     color: #005596;
     padding: 10px;
     border-top: 4px solid rgba(40, 135, 191, 0.99);
@@ -154,6 +154,22 @@
     .nguon-hoc-lieu-in-box {
       margin-left: 15px;
     }
+  }
+  .thu-vien-blue-box{
+    width: 70%;
+    height: fit-content;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    left: 15%;
+    text-align: center;
+    background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
   }
 }
 
@@ -175,15 +191,16 @@
     }
     .gioi-thieu-title {
       font-size: 65px;
+      left: 5%;
     }
     .thu-vien-img {
       margin-top: 90px;
-      margin-left: 290px;
+      margin-left: 24%;
     }
     .gioi-thieu-box {
       width: 250px;
-      top: -780px;
-      left: 230px;
+      top: -665px;
+      left: 17%;
       line-height: 30px;
     }
     .gioi-thieu-box-row {
@@ -201,17 +218,17 @@
       text-align: justify;
     }
     .gioi-thieu-box-dien-tich {
-      top: -950px;
-      left: 900px;
+      top: -830px;
+      left: 70%;
     }
     .gioi-thieu-box-cho-ngoi {
-      top: -400px;
-      left: 250px;
+      top: -381px;
+      left: 20%;
     }
     .gioi-thieu-box-so-phong {
       width: 300px;
       top: -490px;
-      right: -1000px;
+      right: -85%;
       line-height: 30px;
     }
     .gioi-thieu-box-dich-vu {
@@ -224,7 +241,7 @@
       width: 665px;
       height: 75px;
       top: -405px;
-      left: -300px;
+      left: 25%;
       font-size: 40px;
       padding: 5px;
     }
@@ -239,15 +256,24 @@
       }
     }
     .nguon-hoc-lieu-rectangle {
-      width: 800px;
       font-size: 23px;
-      top: -380px;
-      left: 300px;
       padding: 40px;
+      top: -350px;
       text-align: justify;
       .nguon-hoc-lieu-in-box {
         margin-left: 70px;
       }
     }
+    .thu-vien-blue-box{
+      font-size: 23px;
+      top: -290px;
+      left: 17%;
+    }
+  }
+  
+}
+@media only screen and (min-width:1920px){
+  .thu-vien-header{
+    height: 1100px;
   }
 }
