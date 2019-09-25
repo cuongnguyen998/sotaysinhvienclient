@@ -1,21 +1,21 @@
 @font-face {
-  font-family: San Francisco Display - Semibold;
-  src: url("../fonts/SANFRANCISCODISPLAY-SEMIBOLD.OTF") format("opentype");
+    font-family: "San Francisco Display - Semibold";
+    src: url("../fonts/SANFRANCISCODISPLAY-SEMIBOLD.OTF") format("opentype");
 }
 
 @font-face {
-  font-family: San Francisco Text - Semibold;
-  src: url("../fonts/SANFRANCISCOTEXT-SEMIBOLD.OTF") format("opentype");
+    font-family: "San Francisco Text - Semibold";
+    src: url("../fonts/SANFRANCISCOTEXT-SEMIBOLD.OTF") format("opentype");
 }
 
 @font-face {
-  font-family: San Francisco Display - Heavy;
-  src: url("../fonts/SANFRANCISCODISPLAY-HEAVY.OTF") format("opentype");
+    font-family: "San Francisco Display - Heavy";
+    src: url("../fonts/SANFRANCISCODISPLAY-HEAVY.OTF") format("opentype");
 }
 
 @font-face {
-  font-family: San Francisco Display;
-  src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.OTF") format("opentype");
+    font-family: "San Francisco Display";
+    src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.OTF") format("opentype");
 }
 
 // font-family:
@@ -48,14 +48,14 @@ $color-6: #265e94;
 $color-7: #26578d;
 $color-8: #653d78;
 $color-9: #057dbc;
-$color-gradient-1: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+$color-gradient-1: linear-gradient(to right,
+#01215a 0%,
+#ff4a7d 100%);
 // margin:
 // padding:
 // line-height:
 //break points
-$breakpoints: (
-  "extra-large": 1400px,
-  "large": 992px,
-  "medium": 768px,
-  "small": 576px
-);
+$breakpoints: ( "extra-large": 1400px,
+"large": 992px,
+"medium": 768px,
+"small": 576px);

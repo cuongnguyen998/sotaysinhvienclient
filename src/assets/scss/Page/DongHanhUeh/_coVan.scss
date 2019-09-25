@@ -1,178 +1,176 @@
 .cover__covan {
-  position: relative;
-  background-image: url(../img/DongHanhUeh/CoVanHocTap/cover_covan.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  height: 1060px;
-  .cover__content {
-    position: absolute;
-    top: 200px;
-    left: 80px;
-    span {
-      @include text($color-black, $fs-4 - 10, $fw-bold, $fm-3);
-      background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-transform: uppercase;
+    position: relative;
+    background-image: url(../img/DongHanhUeh/CoVanHocTap/cover_covan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 1060px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 80px;
+        span {
+            @include text($color-black, $fs-4 - 10, $fw-bold, $fm-3);
+            background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
     }
-  }
 }
 
 @include respond-to("large") {
-  .cover__covan {
-    height: 560px;
-    .cover__content {
-      top: 60px;
-      left: 60px;
-      span {
-        font-size: 41px !important;
-      }
+    .cover__covan {
+        height: 560px;
+        .cover__content {
+            top: 60px;
+            left: 60px;
+            span {
+                font-size: 41px !important;
+            }
+        }
     }
-  }
 }
 
 @include respond-to("medium") {
-  .cover__covan {
-    height: 360px;
-    .cover__content {
-      span {
-        font-size: 41px !important;
-      }
+    .cover__covan {
+        height: 360px;
+        .cover__content {
+            span {
+                font-size: 41px !important;
+            }
+        }
     }
-  }
 }
 
 @include respond-to("small") {
-  .cover__covan {
-    background-size: contain;
-    height: 300px;
-    .cover__content {
-      span {
-        font-size: 31px !important;
-      }
-    }
-  }
-}
-
-.background__covan {
-  .covan__content {
-    .covan__img {
-      display: flex;
-      justify-content: center;
-    }
-  }
-}
-
-.background__covan {
-  background-image: url(../img/DongHanhUeh/CoVanHocTap/background_covan.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 2000px;
-  .covan__content {
-    .covan__img {
-      padding: 60px 0;
-    }
-    .covan__row {
-      justify-content: center;
-      margin: 0px;
-      margin-bottom: 60px;
-      .covan__box {
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        .box__content {
-          display: flex;
-          margin-bottom: 30px;
-
-          .left {
-            margin-right: 20px;
-            img {
-              display: block;
-              width: 100px;
-              height: 60px;
+    .cover__covan {
+        background-size: contain;
+        height: 300px;
+        .cover__content {
+            span {
+                font-size: 31px !important;
             }
-          }
-          .right {
-            @include text(#26578d, 26px, $fw-1, $fm-2);
-            display: inline-block;
-            height: 200px;
-          }
         }
-        .border__covan {
-          width: 100%;
-          height: 10px;
-          background-image: linear-gradient($color-white, $color-white),
-            linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
-          background-origin: border-box;
-          background-clip: content-box, border-box;
-          border: 2px solid transparent;
-          -webkit-text-fill-color: transparent;
-        }
-      }
     }
-  }
+}
+
+.background__covan {
+    .covan__content {
+        .covan__img {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.background__covan {
+    background-image: url(../img/DongHanhUeh/CoVanHocTap/background_covan.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2500px;
+    .covan__content {
+        .covan__img {
+            padding: 60px 0;
+        }
+        .covan__row {
+            justify-content: center;
+            margin: 0px;
+            margin-bottom: 60px;
+            .covan__box {
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                .box__content {
+                    display: flex;
+                    margin-bottom: 30px;
+                    .left {
+                        margin-right: 20px;
+                        img {
+                            display: block;
+                            width: 100px;
+                            height: 60px;
+                        }
+                    }
+                    .right {
+                        @include text(#26578d, 26px, $fw-1, $fm-2);
+                        display: inline-block;
+                        height: 200px;
+                    }
+                }
+                .border__covan {
+                    width: 100%;
+                    height: 10px;
+                    background-image: linear-gradient($color-white, $color-white), linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+                    border: 2px solid transparent;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
 }
 
 .covan__custom {
-  width: 100%;
-  height: 100%;
-  border-radius: 35px;
-  background-color: #26578d;
-  @include text(#fff, 29px, $fw-1, $fm-3);
-  padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    background-color: #26578d;
+    @include text(#fff, 29px, $fw-1, $fm-3);
+    padding: 20px 40px;
 }
 
 @include respond-to("large") {
-  .background__covan {
-    height: 2500px;
-    background-size: contain;
-    .covan__content {
-      .covan__img {
-        padding: 60px 0;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-      .covan__row {
-        margin-bottom: 60px;
-        .covan__box {
-          width: 100%;
-          margin: 0 auto;
-          margin-bottom: 30px;
-          .box__content {
-            margin-bottom: 30px;
-            .left {
-              margin-right: 20px;
-              img {
-                width: 60px;
-                height: 60px;
-              }
+    .background__covan {
+        height: 2500px;
+        background-size: contain;
+        .covan__content {
+            .covan__img {
+                padding: 60px 0;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
-            .right {
-              font-size: 18px;
-              height: 170px;
+            .covan__row {
+                margin-bottom: 60px;
+                .covan__box {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                    .box__content {
+                        margin-bottom: 30px;
+                        .left {
+                            margin-right: 20px;
+                            img {
+                                width: 60px;
+                                height: 60px;
+                            }
+                        }
+                        .right {
+                            font-size: 18px;
+                            height: 170px;
+                        }
+                    }
+                    .border__covan {
+                        width: 100%;
+                        height: 10px;
+                    }
+                }
             }
-          }
-          .border__covan {
-            width: 100%;
-            height: 10px;
-          }
         }
-      }
     }
-  }
 }
 
 @include respond-to("large") {
-  .cover__covan {
-    .covan__custom {
-      text-align: center;
-      width: 75%;
-      /* height: 100%; */
-      font-size: 12px;
-      padding: 5px 0px;
+    .cover__covan {
+        .covan__custom {
+            text-align: center;
+            width: 75%;
+            /* height: 100%; */
+            font-size: 12px;
+            padding: 5px 0px;
+        }
     }
-  }
 }
