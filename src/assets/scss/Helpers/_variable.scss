@@ -1,20 +1,20 @@
 @font-face {
-    font-family: San Francisco Display - Semibold;
+    font-family: "San Francisco Display - Semibold";
     src: url("../fonts/SANFRANCISCODISPLAY-SEMIBOLD.OTF") format("opentype");
 }
 
 @font-face {
-    font-family: San Francisco Text - Semibold;
+    font-family: "San Francisco Text - Semibold";
     src: url("../fonts/SANFRANCISCOTEXT-SEMIBOLD.OTF") format("opentype");
 }
 
 @font-face {
-    font-family: San Francisco Display - Heavy;
+    font-family: "San Francisco Display - Heavy";
     src: url("../fonts/SANFRANCISCODISPLAY-HEAVY.OTF") format("opentype");
 }
 
 @font-face {
-    font-family: San Francisco Display;
+    font-family: "San Francisco Display";
     src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.OTF") format("opentype");
 }
 
@@ -55,7 +55,7 @@ $color-gradient-1: linear-gradient(to right,
 // padding:
 // line-height:
 //break points
-$breakpoints: ( "extra-large": 1200px,
+$breakpoints: ( "extra-large": 1400px,
 "large": 992px,
 "medium": 768px,
 "small": 576px);

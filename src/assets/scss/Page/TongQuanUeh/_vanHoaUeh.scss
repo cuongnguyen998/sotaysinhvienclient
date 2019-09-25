@@ -1,241 +1,389 @@
-.cover {
-  position: relative;
-  background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
-  background-size: cover;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  height: 1080px;
-  .cover__content {
-    position: absolute;
-    top: 200px;
-    left: 70px;
-    @include text($color-black, $fs-4, $fw-bold, $fm-3);
-    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-  }
+.cover__vanhoa {
+    position: relative;
+    background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 1200px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        @include text($color-black, $fs-4, $fw-bold, $fm-3);
+        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
 }
 
 @include respond-to("large") {
-  .cover {
-    height: 270px;
-    .cover__content {
-      font-size: 50px !important;
+    .cover__vanhoa {
+        height: 600px;
+        background-size: contain;
+        background-position: 0 0;
+        .cover__content {
+            top: 40px;
+            left: 60px;
+            font-size: 61px !important;
+        }
     }
-  }
 }
 
 @include respond-to("medium") {
-  .cover {
-    background-size: contain;
-    .cover__content {
-      top: 40px;
-      left: 40px;
-      font-size: 40px !important;
+    .cover__vanhoa {
+        height: 460px;
+        .cover__content {
+            font-size: 41px !important;
+        }
     }
-  }
 }
 
 @include respond-to("small") {
-  .cover {
-    .cover__content {
-      font-size: 30px !important;
+    .cover__vanhoa {
+        .cover__content {
+            font-size: 31px !important;
+        }
     }
-  }
 }
 
-.giatri__cotloi {
-  .giatri__title {
-    @include text($color-1, $fs-5, $fw-bold, $fm-4);
-    text-align: center;
-    padding: 50px 0;
-  }
-  .row {
-    justify-content: space-between;
-    .col-md-3 {
-      max-width: 23%;
+.background__vanhoa {
+    height: 7200px;
+    padding: 60px 0;
+    .vanhoa__content {
+        .vanhoa__title {
+            @include text(#136292, 85px, $fw-3, $fm-4);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .row {
+            margin: 0px;
+            justify-content: center;
+        }
+        .giaTriCotLoi {
+            justify-content: center;
+            .col-lg-3 {
+                padding-left: 0px;
+                padding-right: 0px;
+                display: flex;
+                justify-content: center;
+                .vanhoa__box {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    width: 60%;
+                    padding: 40px;
+                    .box__title {
+                        margin: 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        img {}
+                    }
+                    .box__content {
+                        @include text(#136292, 31px, $fw-1, $fm-1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .nentang {
+            background-image: url(../img/TongQuanUeh/VanHoaUeh/4-layers.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+            .col-lg-3 {
+                padding-left: 0px;
+                padding-right: 0px;
+                display: flex;
+                justify-content: center;
+                .vanhoa__box {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    width: 60%;
+                    padding: 40px;
+                    margin-top: 40px;
+                    margin-bottom: 30px;
+                    .box__title {
+                        margin: 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        img {}
+                    }
+                    .box__content {
+                        @include text(#136292, 31px, $fw-1, $fm-1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .background__quytac {
+            background-image: url(../img/TongQuanUeh/VanHoaUeh/background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 5200px;
+            .row {
+                margin-bottom: 60px;
+            }
+            .vanhoa__subtitle {
+                display: inline-block;
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 50px;
+                background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+                @include text(#fff, 63px, $fw-3, $fm-4);
+                margin-bottom: 60px;
+                padding: 20px;
+            }
+            .vanhoa__subtitle2 {
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 50px;
+                background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+                @include text(#fff, 34px, $fw-3, $fm-4);
+                margin-bottom: 60px;
+                padding: 20px 120px;
+            }
+            .vanhoa__col {
+                box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                border-radius: 20px;
+                padding: 80px;
+                background-color: #ffffff;
+                margin-bottom: 60px;
+                .col__icon {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                    img {}
+                }
+                .col__title {
+                    border-radius: 20px;
+                    border: 5px solid #26236e;
+                    @include text(#26236e, 31px, $fw-3, $fm-4);
+                    margin-bottom: 30px;
+                    text-align: center;
+                    padding: 20px;
+                    height: 160px;
+                }
+                .col__content {
+                    @include text(#136292, 31px, $fw-1 + 100, $fm-4);
+                }
+            }
+            .vanhoa__col__custom {
+                height: 1200px;
+            }
+            .ungXu {
+                justify-content: center;
+                margin-bottom: 60px;
+                .vanhoa__box {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    padding: 20px 40px;
+                    height: 650px;
+                    .box__title {
+                        @include text(black, 31px, $fw-3 + 100, $fm-4);
+                        text-align: center;
+                    }
+                    .box__icon {
+                        display: flex;
+                        justify-content: center;
+                        img {}
+                    }
+                    .box__content {
+                        margin-top: 20px;
+                        @include text(black, 25px, $fw-1 + 100, $fm-4);
+                    }
+                }
+                .vanhoa--custome-1 {
+                    color: #38266e !important;
+                }
+                .vanhoa--custome-2 {
+                    color: #d14a4a !important;
+                }
+            }
+        }
     }
-    .box__giatri {
-      display: flex;
-      align-items: center;
-      margin-right: 20px;
-      width: 335px;
-      height: 262px;
-      box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-      border-radius: 20px;
-      background-color: $color-white;
-      .box__number {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        line-height: 40px;
-        text-align: center;
-        background-image: linear-gradient($color-white, $color-white),
-          linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        border: 2px solid transparent;
-        margin: 0 auto;
-        @include text($color-1, $fs-6, $fw-2, $fm-1);
-      }
-      .box__content {
-        text-align: center;
-        @include text($color-1, $fs-6, $fw-2, $fm-1);
-        margin: 0 30px;
-      }
+}
+
+@include respond-to("extra-large") {
+    .background__vanhoa {
+        .vanhoa__content {
+            .vanhoa__title {
+                font-size: 60px;
+            }
+            .giaTriCotLoi {
+                .col-lg-3 {
+                    .vanhoa__box {
+                        width: 80%;
+                        padding: 40px;
+                        .box__content {
+                            font-size: 26px;
+                        }
+                    }
+                }
+            }
+            .nentang {
+                height: 765px;
+                .col-lg-3 {
+                    .vanhoa__box {
+                        width: 80%;
+                        .box__content {
+                            font-size: 26px;
+                        }
+                    }
+                }
+            }
+            .background__quytac {
+                .vanhoa__col {
+                    padding: 40px;
+                    //margin-bottom: 60px;
+                    height: 700px;
+                    .col__title {
+                        font-size: 26px;
+                    }
+                    .col__content {
+                        font-size: 26px;
+                    }
+                }
+                .vanhoa__col__custom {
+                    height: 1200px;
+                }
+                .ungXu {
+                    margin-bottom: 60px;
+                    .vanhoa__box {
+                        padding: 20px 40px;
+                        height: 650px;
+                        .box__title {
+                            font-size: 26px;
+                            height: 150px;
+                        }
+                        .box__content {
+                            font-size: 20px;
+                        }
+                    }
+                    .vanhoa--custome-1 {
+                        color: #38266e !important;
+                    }
+                    .vanhoa--custome-2 {
+                        color: #d14a4a !important;
+                    }
+                }
+            }
+        }
     }
-  }
+}
+
+@include respond-to("large") {
+    .background__vanhoa {
+        .vanhoa__content {
+            .giaTriCotLoi {
+                .col-lg-3 {
+                    .vanhoa__box {
+                        width: 90%;
+                        padding: 20px;
+                    }
+                }
+            }
+            .nentang {
+                .col-lg-3 {
+                    .vanhoa__box {
+                        width: 90%;
+                    }
+                }
+            }
+            .background__quytac {
+                .vanhoa__col {
+                    padding: 30px;
+                    height: 800px;
+                }
+                .vanhoa__subtitle2 {
+                    padding: 40px;
+                }
+                .vanhoa__col__custom {
+                    height: 1400px;
+                }
+                .ungXu {
+                    margin-bottom: 60px;
+                    .vanhoa__box {
+                        height: 1050px;
+                        .box__title {
+                            height: 200px;
+                        }
+                        .box__content {
+                            font-size: 20px;
+                        }
+                    }
+                    .vanhoa--custome-1 {
+                        color: #38266e !important;
+                    }
+                    .vanhoa--custome-2 {
+                        color: #d14a4a !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to("medium") {
+    .background__vanhoa {
+        height: 9000px;
+        .vanhoa__content {
+            .vanhoa__title {
+                font-size: 60px;
+            }
+            .giaTriCotLoi {
+                .col-lg-3 {
+                    .vanhoa__box {
+                        width: 80%;
+                        padding: 40px;
+                        margin-bottom: 30px;
+                        .box__content {
+                            font-size: 26px;
+                        }
+                    }
+                }
+            }
+            .nentang {
+                height: 1300px;
+            }
+            .background__quytac {
+                .vanhoa__subtitle {
+                    width: 100%;
+                }
+                .vanhoa__col {
+                    height: auto;
+                }
+                .vanhoa__col__custom {
+                    height: 1200px;
+                }
+                .ungXu {
+                    .vanhoa__box {
+                        padding: 20px 40px;
+                        height: auto;
+                        .box__title {
+                            font-size: 26px;
+                            height: auto;
+                        }
+                        .box__content {
+                            font-size: 20px;
+                        }
+                    }
+                    .vanhoa--custome-1 {
+                        color: #38266e !important;
+                    }
+                    .vanhoa--custome-2 {
+                        color: #d14a4a !important;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @include respond-to("small") {
-  .giatri__cotloi {
-    .giatri__title {
-      font-size: 30px;
-      padding: 25px 0;
+    .background__vanhoa {
+        height: 9800px;
     }
-    .row {
-      margin-left: 0px;
-      margin-right: 0px;
-      .col-sm-12 {
-        max-width: 100% !important;
-      }
-      .box__giatri {
-        margin: 0 10px 20px 0;
-        width: 150px;
-        height: 130px;
-        .box__number {
-          font-size: 15px;
-        }
-        .box__content {
-          font-size: 15px;
-          margin: 0 15px;
-        }
-      }
-    }
-  }
-}
-
-.nentang {
-  .nentang__title {
-    @include text($color-1, $fs-5, $fw-bold, $fm-4);
-    text-align: center;
-    padding: 100px 0 50px 0;
-  }
-  .nentang__img {
-    position: relative;
-    background-image: url(../img/TongQuanUeh/VanHoaUeh/Slice_2.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 800px;
-    .box__giatri {
-      display: flex;
-      align-items: center;
-      margin-right: 20px;
-      width: 335px;
-      height: 262px;
-      box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-      border-radius: 20px;
-      background-color: $color-white;
-      .box__number {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        line-height: 40px;
-        text-align: center;
-        background-image: linear-gradient($color-white, $color-white),
-          linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        border: 2px solid transparent;
-        margin: 0 auto;
-        @include text($color-1, $fs-6, $fw-2, $fm-1);
-      }
-      .box__content {
-        text-align: center;
-        @include text($color-1, $fs-6, $fw-2, $fm-1);
-        margin: 0 60px;
-      }
-    }
-    .box--1 {
-      position: absolute;
-      right: 23%;
-      top: 12.5%;
-    }
-    .box--2 {
-      position: absolute;
-      left: 23%;
-      top: 12.5%;
-    }
-    .box--3 {
-      position: absolute;
-      bottom: 12.5%;
-      left: 23%;
-    }
-    .box--4 {
-      position: absolute;
-      bottom: 12.5%;
-      right: 23%;
-    }
-  }
-}
-
-.quytac {
-  background-image: url(../img/TongQuanUeh/VanHoaUeh/Slice_3.png);
-  background-repeat: no-repeat;
-  height: 4700px;
-  .quytac__section {
-    .quytac__title {
-      @include text($color-1, $fs-5, $fw-bold, $fm-4);
-      text-align: center;
-      padding: 100px 0;
-    }
-    .quytac__box {
-      width: 700px;
-      height: 133px;
-      line-height: 133px;
-      margin: 0 auto;
-      @include text($color-white, $fs-3, $fw-bold, $fm-4);
-      text-align: center;
-      border-radius: 50px;
-      background-image: linear-gradient(
-        to right,
-        #242659 0%,
-        #2887bf 99%,
-        #2887bf 100%
-      );
-    }
-    .quytac__content {
-      padding-top: 120px;
-      .col-md-6 {
-        max-width: 43% !important;
-      }
-      .col-md-6 {
-        width: 542px;
-        height: 787px;
-        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-        border-radius: 20px;
-        background-color: $color-white;
-        .col__icon {
-          padding: 50px 0;
-          img {
-            margin-left: 200px;
-            width: 96px;
-            height: 89px;
-          }
-        }
-        .col__content {
-          margin: 0 40px;
-          @include text($color-1, $fs-6, $fw-1, $fm-4);
-        }
-      }
-      .quytac__left {
-        margin-right: 60px;
-      }
-      .quytac__right {
-        margin-left: 60px;
-      }
-    }
-  }
 }

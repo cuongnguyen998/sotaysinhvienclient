@@ -23,8 +23,8 @@
     .cover__covan {
         height: 560px;
         .cover__content {
-            top: 10px;
-            left: 15px;
+            top: 60px;
+            left: 60px;
             span {
                 font-size: 41px !important;
             }
@@ -37,7 +37,7 @@
         height: 360px;
         .cover__content {
             span {
-                font-size: 31px !important;
+                font-size: 41px !important;
             }
         }
     }
@@ -45,9 +45,11 @@
 
 @include respond-to("small") {
     .cover__covan {
+        background-size: contain;
+        height: 300px;
         .cover__content {
             span {
-                font-size: 21px !important;
+                font-size: 31px !important;
             }
         }
     }
@@ -66,7 +68,7 @@
     background-image: url(../img/DongHanhUeh/CoVanHocTap/background_covan.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 2000px;
+    height: 2500px;
     .covan__content {
         .covan__img {
             padding: 60px 0;
@@ -91,7 +93,9 @@
                         }
                     }
                     .right {
-                        @include text(#26578d, 26px $fw-1, $fm-2);
+                        @include text(#26578d, 26px, $fw-1, $fm-2);
+                        display: inline-block;
+                        height: 200px;
                     }
                 }
                 .border__covan {
@@ -120,6 +124,7 @@
 @include respond-to("large") {
     .background__covan {
         height: 2500px;
+        background-size: contain;
         .covan__content {
             .covan__img {
                 padding: 60px 0;
@@ -145,6 +150,7 @@
                         }
                         .right {
                             font-size: 18px;
+                            height: 170px;
                         }
                     }
                     .border__covan {
