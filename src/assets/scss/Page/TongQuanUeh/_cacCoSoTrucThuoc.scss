@@ -126,6 +126,50 @@
   }
 }
 
+@include respond-to("extra-large") {
+  .background__coso {
+    padding: 60px 0;
+    .coso__content {
+      .row {
+        //padding-bottom: 90px;
+        .col-md-6 {
+          padding: 0px !important;
+        }
+        .col-md-4 {
+          max-width: none;
+        }
+        .box__coso {
+          width: 310px;
+          height: 289px;
+
+          .box__number {
+            .box__circle {
+              //@include text($color-white, $fs-3, $fw-bold, null);
+            }
+          }
+
+          .box__title {
+            font-size: 35px;
+          }
+          .box__content {
+            font-size: 21px;
+          }
+          .box__content__customize {
+            color: $color-white !important;
+          }
+        }
+        .box__coso__customize {
+          width: 310px;
+          height: 395px;
+        }
+        .box__coso__colorcustomize {
+          background-color: $color-6;
+        }
+      }
+    }
+  }
+}
+
 @include respond-to("large") {
   .background__coso {
     height: 3400px;
