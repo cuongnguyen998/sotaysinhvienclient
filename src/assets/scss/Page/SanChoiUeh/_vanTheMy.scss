@@ -63,6 +63,9 @@
             text-align: center;
             border: 6px solid #264c82;
             margin: 50px 200px;
+            a {
+                @include text(#26578d, $fs-3 - 10, $fw-1 + 100, $fm-4);
+            }
         }
         .container {
             .vanthemy__box {
