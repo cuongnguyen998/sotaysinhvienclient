@@ -1,5 +1,15 @@
 <app-header></app-header>
 
-<router-outlet></router-outlet>
+<router-outlet (activate)="onActivate($event)"></router-outlet>
 
+<button class="btn btn-danger" style="position: fixed;
+bottom: 25px;
+right: 25px;
+z-index: 99999999999;
+font-size: 20px;
+text-align: center;
+border-radius: 5px;
+outline: none;" *ngIf="isShow" (click)="gotoTop()">
+  <i class="fa fa-angle-double-up" style="font-size: 36px"></i>
+</button>
 <app-footer></app-footer>
