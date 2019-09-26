@@ -12,8 +12,10 @@
         background-image: url(../img/TongQuanUeh/quot.png);
         background-repeat: no-repeat;
         background-position: center;
+        width: 90%;
         margin-bottom: 60px;
         @include text($color-white, $fs-3, $fw-1, $fm-2);
+        text-align: center;
         span {
             margin-left: 340px;
         }
@@ -31,10 +33,12 @@
 
 @include respond-to("large") {
     .footer {
-        height: 325px;
+        height: 363px;
+        background-size: cover;
         .footer__content {
             margin-bottom: 30px;
-            font-size: 41px;
+            font-size: 26px;
+            width: 80%;
         }
     }
 }
@@ -42,10 +46,10 @@
 @include respond-to("medium") {
     .footer {
         height: 283px;
-        background-size: cover;
+        margin-top: 60px;
         .footer__content {
             margin-bottom: 16px;
-            font-size: 31px;
+            font-size: 22px;
             span {
                 margin-left: 240px;
             }
@@ -57,10 +61,11 @@
     .footer {
         height: 260px;
         .footer__content {
-            margin-bottom: 20px;
-            font-size: 20px;
+            width: 85%;
+            font-size: 18px;
+            margin-bottom: 0px;
             span {
-                margin-left: 240px;
+                margin-left: 170px;
             }
         }
     }
