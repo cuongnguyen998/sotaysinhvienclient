@@ -1,73 +1,67 @@
 .footer {
     position: relative;
     background-image: url(../img/TongQuanUeh/Footer_copy.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     height: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     .footer__content {
-        position: absolute;
-        bottom: 40px;
-        left: 350px;
+        background-image: url(../img/TongQuanUeh/quot.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 60px;
         @include text($color-white, $fs-3, $fw-1, $fm-2);
+        span {
+            margin-left: 340px;
+        }
     }
-    .footer__quote {
-        position: absolute;
-        bottom: 40px;
-        left: 650px;
+}
+
+@include respond-to("extra-large") {
+    .footer {
+        height: 527px;
+        .footer__content {
+            font-size: 41px;
+        }
     }
 }
 
 @include respond-to("large") {
     .footer {
-        background-size: cover;
-        width: 100%;
-        height: 400px;
+        height: 325px;
         .footer__content {
-            bottom: 60px;
-            left: 264px;
-            font-size: 30px !important;
-            span {
-                margin-left: 0px !important;
-            }
-        }
-        .footer__quote {
-            img {
-                width: 60px;
-                height: 60px;
-            }
-            bottom: 80px;
-            left: 360px;
+            margin-bottom: 30px;
+            font-size: 41px;
         }
     }
 }
 
 @include respond-to("medium") {
     .footer {
-        height: 300px;
+        height: 283px;
+        background-size: cover;
         .footer__content {
-            bottom: 60px;
-            left: 242px;
-            font-size: 24px !important;
-        }
-        .footer__quote {
-            bottom: 65px;
-            left: 300px;
+            margin-bottom: 16px;
+            font-size: 31px;
+            span {
+                margin-left: 240px;
+            }
         }
     }
 }
 
 @include respond-to("small") {
     .footer {
-        height: 200px;
+        height: 260px;
         .footer__content {
-            bottom: 45px;
-            left: 70px;
-            font-size: 16px !important;
-        }
-        .footer__quote {
-            bottom: 43px;
-            left: 150px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            span {
+                margin-left: 240px;
+            }
         }
     }
 }

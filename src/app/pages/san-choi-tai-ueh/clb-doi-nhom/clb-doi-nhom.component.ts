@@ -34,4 +34,8 @@ export class ClbDoiNhomComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  onNavigate(link) {
+    window.open(link, "_blank");
+  }
 }

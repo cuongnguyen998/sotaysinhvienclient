@@ -97,7 +97,7 @@ export const ROUTE: RouteInfo[] = [
       {
         path: "/phuc-khao",
         childrenPath: [],
-        title: "Quy định liên quan về UEH - Phúc khảo",
+        title: "Quy định liên quan về Thi - Phúc khảo",
         class: ""
       },
       {
@@ -115,7 +115,7 @@ export const ROUTE: RouteInfo[] = [
       {
         path: "/nghi-hoc",
         childrenPath: [],
-        title: "Nghỉ học tạm thời - Thôi học - Đăng ký học lại",
+        title: "Nghỉ học tạm thời - Nhập học lại - Thôi học",
         class: ""
       },
       {
@@ -231,7 +231,7 @@ export const ROUTE: RouteInfo[] = [
       {
         path: "/clb-doi-nhom",
         childrenPath: [],
-        title: "Các câu lạc bộ/ đội/ nhóm",
+        title: "Các Câu lạc bộ/ Đội/ Nhóm/ Ban Chuyên môn",
         class: ""
       },
       {

@@ -81,6 +81,7 @@
                 background-color: $color-white;
                 padding: 0 30px;
                 margin-bottom: 30px;
+                cursor: pointer;
                 .box__icon {
                     display: flex;
                     align-items: center;
@@ -97,6 +98,7 @@
                 display: block;
                 width: 70%;
                 height: 400px;
+                cursor: default;
                 .box__icon {
                     position: absolute;
                     left: 50%;
