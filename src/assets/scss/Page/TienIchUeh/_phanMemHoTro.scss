@@ -195,3 +195,9 @@
         }
     }
 }
+
+@include respond-to("small") {
+    .background__phanmem {
+        height: 12000px;
+    }
+}

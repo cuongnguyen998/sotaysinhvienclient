@@ -1,251 +1,251 @@
 .cover__xebuyt {
-  position: relative;
-  background-image: url(../img/TienIchBoSung/XeBuyt/cover.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 70%;
-  height: 1075px;
-  .cover__content {
-    position: absolute;
-    top: 200px;
-    left: 80px;
-    @include text(#264c82, 25px, $fw-1 + 100, $fm-3);
-    span {
-      @include text($color-black, 60px, $fw-bold, $fm-3);
-      background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-transform: uppercase;
+    position: relative;
+    background-image: url(../img/TienIchBoSung/XeBuyt/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 1075px;
+    .cover__content {
+        position: absolute;
+        top: 200px;
+        left: 80px;
+        @include text(#264c82, 25px, $fw-1 + 100, $fm-4);
+        span {
+            @include text($color-black, 60px, $fw-bold, $fm-3);
+            background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
     }
-  }
 }
 
 @include respond-to("extra-large") {
-  .cover__xebuyt {
-    background-size: contain;
-    height: 790px;
-  }
+    .cover__xebuyt {
+        background-size: contain;
+        height: 790px;
+    }
 }
 
 @include respond-to("large") {
-  .cover__xebuyt {
-    height: 460px;
-    .cover__content {
-      top: 10px;
-      left: 15px;
-      span {
-        font-size: 41px !important;
-      }
-      font-size: 19px !important;
+    .cover__xebuyt {
+        height: 460px;
+        .cover__content {
+            top: 10px;
+            left: 15px;
+            span {
+                font-size: 41px !important;
+            }
+            font-size: 19px !important;
+        }
     }
-  }
 }
 
 @include respond-to("medium") {
-  .cover__xebuyt {
-    height: 260px;
-    background-size: contain;
-    .cover__content {
-      span {
-        font-size: 31px !important;
-      }
-      font-size: 0px !important;
+    .cover__xebuyt {
+        height: 260px;
+        background-size: contain;
+        .cover__content {
+            span {
+                font-size: 31px !important;
+            }
+            font-size: 0px !important;
+        }
     }
-  }
 }
 
 @include respond-to("small") {
-  .cover__xebuyt {
-    .cover__content {
-      span {
-        font-size: 21px !important;
-      }
-      font-size: 0px !important;
+    .cover__xebuyt {
+        .cover__content {
+            span {
+                font-size: 21px !important;
+            }
+            font-size: 0px !important;
+        }
     }
-  }
 }
 
 .background__xebuyt {
-  background-image: url(../img/TienIchBoSung/XeBuyt/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 8000px;
-  .xebuyt__content {
-    padding-top: 100px;
-    .row__img {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 60px;
-      img {
-        display: block;
-        height: 100%;
-      }
-    }
-    .row__content {
-      margin-bottom: 80px;
-      .row {
-        justify-content: center;
-        margin: 0px;
-        position: relative;
-        .row__left {
-          position: relative;
-          z-index: 2;
-          margin-right: 80px;
-          background-color: #276da4;
-          padding: 40px;
-          @include text($color-white, 58px, $fw-3, $fm-4);
-          span {
-            @include text($color-white, 38px, $fw-1 + 100, $fm-4);
-          }
-        }
-        .row__right {
-          box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-          border-radius: 20px;
-          padding: 40px;
-          background-color: $color-white;
-          ul {
-            padding-left: 40px;
-            li {
-              margin-bottom: 20px;
-              @include text(#276da4, 38px, $fw-1 + 100, $fm-4);
-            }
-          }
-        }
-        .row__direct {
-          position: absolute;
-          top: 1%;
-          left: 17%;
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-    .section__title {
-      @include text($color-8, 75px, $fw-3, $fm-4);
-      text-align: center;
-      padding-top: 60px;
-      margin-bottom: 60px;
-    }
-    .section__content {
-      box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-      border-radius: 20px;
-      background-color: $color-white;
-      @include text(#276da4, 38px, $fw-1 + 100, $fm-4);
-      padding: 40px;
-      margin-bottom: 60px;
-    }
-    .section__logo {
-      .row {
-        margin: 0px;
-        justify-content: center;
-        .item {
-          box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-          border-radius: 20px;
-          background-color: $color-white;
-          display: flex;
-          padding: 27px;
-          .item__icon {
+    background-image: url(../img/TienIchBoSung/XeBuyt/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8000px;
+    .xebuyt__content {
+        padding-top: 100px;
+        .row__img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 60px;
             img {
-              width: 70px;
-              height: 70px;
-              display: block;
+                display: block;
+                height: 100%;
             }
-          }
-          .item__content {
-            padding: 0px;
-            margin: 0px;
-            .box__icon {
-              margin-right: 30px;
-            }
-          }
         }
-      }
+        .row__content {
+            margin-bottom: 80px;
+            .row {
+                justify-content: center;
+                margin: 0px;
+                position: relative;
+                .row__left {
+                    position: relative;
+                    z-index: 2;
+                    margin-right: 80px;
+                    background-color: #276da4;
+                    padding: 40px;
+                    @include text($color-white, 58px, $fw-3, $fm-4);
+                    span {
+                        @include text($color-white, 38px, $fw-1 + 100, $fm-4);
+                    }
+                }
+                .row__right {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    padding: 40px;
+                    background-color: $color-white;
+                    ul {
+                        padding-left: 40px;
+                        li {
+                            margin-bottom: 20px;
+                            @include text(#276da4, 38px, $fw-1 + 100, $fm-4);
+                        }
+                    }
+                }
+                .row__direct {
+                    position: absolute;
+                    top: 1%;
+                    left: 17%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .section__title {
+            @include text($color-8, 75px, $fw-3, $fm-4);
+            text-align: center;
+            padding-top: 60px;
+            margin-bottom: 60px;
+        }
+        .section__content {
+            box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+            border-radius: 20px;
+            background-color: $color-white;
+            @include text(#276da4, 38px, $fw-1 + 100, $fm-4);
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+        .section__logo {
+            .row {
+                margin: 0px;
+                justify-content: center;
+                .item {
+                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+                    border-radius: 20px;
+                    background-color: $color-white;
+                    display: flex;
+                    padding: 27px;
+                    .item__icon {
+                        img {
+                            width: 70px;
+                            height: 70px;
+                            display: block;
+                        }
+                    }
+                    .item__content {
+                        padding: 0px;
+                        margin: 0px;
+                        .box__icon {
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
 }
 
 @include respond-to("large") {
-  .background__xebuyt {
-    height: 7500px;
-    .xebuyt__content {
-      padding-top: 100px;
-      .row__img {
-        margin-bottom: 60px;
-        img {
-          width: 100%;
-        }
-      }
-      .row__content {
-        margin-bottom: 80px;
-        .row {
-          .row__left {
-            padding: 20px;
-            font-size: 48px;
-            margin-right: 0px;
-            span {
-              font-size: 28px;
+    .background__xebuyt {
+        height: 7500px;
+        .xebuyt__content {
+            padding-top: 100px;
+            .row__img {
+                margin-bottom: 60px;
+                img {
+                    width: 100%;
+                }
             }
-          }
-          .row__direct {
-            display: none;
-            visibility: hidden;
-          }
-          .row__right {
-            padding: 20px;
-            ul {
-              padding-left: 20px;
-              li {
-                margin-bottom: 20px;
+            .row__content {
+                margin-bottom: 80px;
+                .row {
+                    .row__left {
+                        padding: 20px;
+                        font-size: 48px;
+                        margin-right: 0px;
+                        span {
+                            font-size: 28px;
+                        }
+                    }
+                    .row__direct {
+                        display: none;
+                        visibility: hidden;
+                    }
+                    .row__right {
+                        padding: 20px;
+                        ul {
+                            padding-left: 20px;
+                            li {
+                                margin-bottom: 20px;
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+            .section__title {
+                font-size: 55px;
+                padding-top: 60px;
+                margin-bottom: 60px;
+            }
+            .section__content {
                 font-size: 28px;
-              }
+                padding: 20px;
+                margin-bottom: 60px;
             }
-          }
+            .section__logo {
+                .box__icon {
+                    margin-right: 0px;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
         }
-      }
-      .section__title {
-        font-size: 55px;
-        padding-top: 60px;
-        margin-bottom: 60px;
-      }
-      .section__content {
-        font-size: 28px;
-        padding: 20px;
-        margin-bottom: 60px;
-      }
-      .section__logo {
-        .box__icon {
-          margin-right: 0px;
-          img {
-            width: 30px;
-            height: 30px;
-          }
-        }
-      }
     }
-  }
 }
 
 @include respond-to("medium") {
-  .background__xebuyt {
-    height: 7000px;
-    .xebuyt__content {
-      padding-top: 100px;
-      .row__img {
-        margin-bottom: 60px;
-      }
-      .row__content {
-        margin-bottom: 80px;
-        .row {
-          .row__left {
-            padding: 20px;
-            font-size: 48px;
-            span {
-              font-size: 28px;
+    .background__xebuyt {
+        height: 7000px;
+        .xebuyt__content {
+            padding-top: 100px;
+            .row__img {
+                margin-bottom: 60px;
             }
-          }
+            .row__content {
+                margin-bottom: 80px;
+                .row {
+                    .row__left {
+                        padding: 20px;
+                        font-size: 48px;
+                        span {
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
