@@ -20,10 +20,18 @@
     }
 }
 
+@include respond-to("extra-large") {
+    .cover__vieclam {
+      background-size: contain;
+     
+    }
+  }
+
+  
 @include respond-to("large") {
     .cover__vieclam {
         height: 560px;
-        background-size: contain;
+      
         .cover__content {
             top: 10px;
             left: 15px;

@@ -19,8 +19,16 @@
   }
 }
 
+@include respond-to("extra-large") {
+  .cover__covan {
+    background-size: contain;
+   
+  }
+}
+
 @include respond-to("large") {
   .cover__covan {
+    background-size: contain;
     height: 560px;
     .cover__content {
       top: 60px;
@@ -45,7 +53,7 @@
 
 @include respond-to("small") {
   .cover__covan {
-    background-size: contain;
+    
     height: 300px;
     .cover__content {
       span {
@@ -68,7 +76,7 @@
   background-image: url(../img/DongHanhUeh/CoVanHocTap/background_covan.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 2500px;
+  height: 2800px;
   .covan__content {
     .covan__img {
       padding: 60px 0;
@@ -120,6 +128,26 @@
   background-color: #26578d;
   @include text(#fff, 29px, $fw-1, $fm-3);
   padding: 20px 40px;
+}
+
+@include respond-to("extra-large") {
+  .background__covan {
+    .covan__content {
+      .covan__row {
+        .covan__box {
+     
+          .box__content {
+            
+            .right {
+            
+              height: 270px;
+            }
+          }
+          
+        }
+      }
+    }
+  }
 }
 
 @include respond-to("large") {

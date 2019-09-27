@@ -17,6 +17,16 @@
     }
 }
 
+@include respond-to("extra-large") {
+    .cover__doanhoi {
+      
+        .cover__content {
+            left: 45px;
+            font-size: 60px !important;
+        }
+    }
+}
+
 @include respond-to("large") {
     .cover__doanhoi {
         height: 640px;
