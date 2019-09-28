@@ -98,7 +98,7 @@
     line-height: 13px;
   }
   .btn-gioi-thieu-custom {
-    width: 215px;
+    width: 60%;
     height: 30px;
     position: relative;
     top: -170px;
@@ -123,6 +123,7 @@
     display: block;
     text-align: center;
     top: -170px;
+    left: 4%;
     color: #005596;
     p {
       font-weight: 500;
@@ -156,18 +157,18 @@
     }
   }
   .thu-vien-blue-box{
-    width: 70%;
+    width: 60%;
     height: fit-content;
     color: #ffffff;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 20px;
     border-radius: 20px;
     position: relative;
     top: -150px;
-    left: 15%;
+    left: 22%;
     text-align: center;
     background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
   }
@@ -238,16 +239,17 @@
       line-height: 30px;
     }
     .btn-gioi-thieu-custom {
-      width: 665px;
+      width: 60%;
       height: 75px;
       top: -405px;
-      left: 25%;
+      left: 22%;
       font-size: 40px;
       padding: 5px;
     }
     .nguon-hoc-lieu-title {
       font-size: 35px;
       top: -400px;
+      left: 1%;
       p {
         font-weight: 500;
       }
@@ -265,9 +267,9 @@
       }
     }
     .thu-vien-blue-box{
-      font-size: 23px;
+      font-size: 40px;
       top: -290px;
-      left: 17%;
+      left: 22%;
     }
   }
   
