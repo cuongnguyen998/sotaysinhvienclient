@@ -166,6 +166,9 @@
           background-color: $color-white;
           padding: 40px 60px;
           @include text(#276ca3, 25px, $fw-1, $fm-2);
+          a {
+            @include text(#276ca3, 25px, $fw-1, $fm-2);
+          }
         }
       }
     }
