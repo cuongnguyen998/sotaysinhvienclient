@@ -37,9 +37,13 @@
 table{
     border-collapse: collapse;
     text-align: center;
-    margin: 15px 10px;
     color: #22598a;
     font-size: 13px;
+    position: relative;
+    top: 50px;
+    left: 15%;
+    border: 3px solid;
+    width: 70%;
 }
 th, td{
     border: 2px solid #80346d ;
@@ -70,14 +74,12 @@ th, td{
     }
     .lhp-body{
         width: 100%;
-        background-image: url(../img/HocTapUeh/emailBody.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: fit-content;
+        height: 1400px;
     }
     table{
-        margin: 75px 30px;
+        left: 15%;
+        top: 70px;
+        border: 7px solid;
         color: #22598a;
         font-size: 26px;
         font-weight: 600;
