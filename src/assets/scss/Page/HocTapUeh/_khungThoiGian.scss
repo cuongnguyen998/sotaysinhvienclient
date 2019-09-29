@@ -179,9 +179,7 @@
   }
   .cap-nhat-thong-tin-rectangle {
     width: 290px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: 90px;
+    height: fit-content;
     font-size: 12px;
     position: relative;
     top: -885px;
@@ -379,36 +377,13 @@
     }
     .cap-nhat-thong-tin-rectangle {
       width: 700px;
-      height: -webkit-fit-content;
-      height: -moz-fit-content;
-      /* height: 90px; */
       height: fit-content;
       font-size: 28px;
       position: relative;
       top: -2388px;
       left: 300px;
-      border-radius: 3%;
-      color: #005596;
       padding: 7px;
       text-align: center;
-      border-top: 10px solid rgba(40, 135, 191, 0.99);
-      border-bottom: 10px solid rgba(36, 38, 89, 0.99);
-      background-image: -webkit-gradient(
-          linear,
-          left top,
-          left bottom,
-          from(rgba(40, 135, 191, 0.99)),
-          to(rgba(36, 38, 89, 0.99))
-        ),
-        -webkit-gradient(linear, left top, left bottom, from(rgba(40, 135, 191, 0.99)), to(rgba(36, 38, 89, 0.99)));
-      background-image: linear-gradient(
-          rgba(40, 135, 191, 0.99),
-          rgba(36, 38, 89, 0.99)
-        ),
-        linear-gradient(rgba(40, 135, 191, 0.99), rgba(36, 38, 89, 0.99));
-      background-size: 10px 100%;
-      background-position: 0 0, 100% 0;
-      background-repeat: no-repeat;
     }
   }
 }
