@@ -63,6 +63,7 @@
     background-repeat: no-repeat;
     height: 7700px;
     .doanhoi__content {
+        
         .row__icon {
             display: flex;
             justify-content: center;
@@ -101,6 +102,9 @@
                 }
             }
         }
+        .khoi-nghiep-justify{
+            justify-content: center;
+          }
         .custom_row {
             margin: 0 250px;
         }

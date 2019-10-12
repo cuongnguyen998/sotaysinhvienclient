@@ -49,6 +49,9 @@
     }
   }
 }
+.hure-img {
+  width: 90%;
+}
 
 .background__clb {
   background-image: url(../img/SanChoiTaiUeh/ClbDoiNhom/background_clb_doi_nhom.png);
@@ -67,10 +70,43 @@
       text-align: center;
       padding: 40px 0;
     }
+
+    .row__top {
+      display: inline-flex;
+      margin-left: 3%;
+      .box__clb__top {
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+        width: 35%;
+        height: 200px;
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        background-color: $color-white;
+        padding: 0 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        .box__icon {
+          display: flex;
+          align-items: center;
+          margin-right: 30px;
+          img {
+          }
+        }
+        .box__content {
+          @include text($color-9, $fs-7 - 3, $fw-3, $fm-4);
+        }
+      }
+    }
+
+    
     .row {
       justify-content: space-between;
       margin: 0 30px;
       margin-bottom: 40px;
+      .hure-box {
+        width: 100px;
+      }
       .box__clb {
         display: flex;
         align-items: center;
@@ -113,17 +149,15 @@
           border-radius: 50%;
           width: 76px;
           height: 76px;
-          background-image: linear-gradient(
-            to right,
-            #242659 0%,
-            #2887bf 99%,
-            #2887bf 100%
-          );
+          background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
           @include text($color-white, $fs-6, $fw-3, $fm-4);
           text-align: center;
           line-height: 76px;
         }
       }
+    }
+    .content-just-top {
+      justify-content: center;
     }
   }
 }
@@ -141,6 +175,21 @@
       .row__title {
         font-size: $fs-3 - 10;
         padding: 25px 0;
+      }
+      .row__top{
+        margin: 0 15px;
+        margin-bottom: 30px;
+        .box__clb__top {
+          height: 146px;
+          padding: 0 15px;
+          margin-bottom: 20px;
+          .box__icon {
+            margin-right: 10px;
+          }
+          .box__content {
+            font-size: $fs-7 - 10;
+          }
+        }
       }
       .row {
         margin: 0 15px;
