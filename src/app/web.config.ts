@@ -315,7 +315,7 @@ export const ROUTE: RouteInfo[] = [
       {
         path: "/clb-doi-nhom",
         childrenPath: [],
-        title: "Các Câu lạc bộ/ Đội/ Nhóm/ Ban Chuyên môn",
+        title: "Ban chuyên môn/ Câu lạc bộ/ Đội/nhóm",
         class: "",
         quote:
           "Lý trí có thể mách bảo ta điều phải tránh, còn con tim sẽ chỉ cho ta biết điều phải làm",
