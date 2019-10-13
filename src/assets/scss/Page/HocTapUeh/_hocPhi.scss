@@ -20,7 +20,15 @@
     top: 20px;
     text-transform: uppercase;
 }
-
+.hoc-phi-sub{
+    color: #264c80;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
 .hoc-phi-body {
     background-image: url(../img/HocTapUeh/emailBody.png);
     background-position: center center;
@@ -144,6 +152,10 @@
         left: 70px;
         font-size: 70px;
     }
+    .hoc-phi-sub{
+        font-size: 25px;
+        margin-top: 15px;
+    }
     .hoc-phi-body {
         background-image: url(../img/HocTapUeh/emailBody.png);
         background-position: center center;
@@ -228,7 +240,7 @@
             }
         }
         .hp-box-right {
-            font-size: 30px;
+            font-size: 24px;
             padding: 10px;
             font-weight: 600;
         }

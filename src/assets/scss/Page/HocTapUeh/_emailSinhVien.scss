@@ -77,11 +77,11 @@
         text-align: center;
     }
     .email-dashed-box{
-        width: 69%;
+        width: 64.5%;
         height: 300px;
-        border: 5px dashed #636363;
+        border: 3px dashed #636363;
         position: absolute;
-        left: 60px;
+        left: 18%;
     }
     .email-content{
         padding-top: 35px;
@@ -99,7 +99,7 @@
                 background-color: #26236e;
                 border-radius: 90px;
                 display: inline-block;
-                left: 48px;
+                left: 40%;
                 position: absolute;
                 margin-top: -15px
             }
@@ -109,7 +109,7 @@
                 background-color: #e84473;
                 border-radius: 90px;
                 display: inline-block;
-                left: 50px;
+                left: 45px;
                 position: absolute;
                 margin-top: -15px;
             }
@@ -296,6 +296,7 @@
             height: 530px;
             margin-top: 50px;
             position: absolute;
+            border: 5px dashed #636363;
             left: 24%;
         }
         .email-content{

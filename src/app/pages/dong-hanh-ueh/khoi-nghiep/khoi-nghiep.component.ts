@@ -21,6 +21,8 @@ export class KhoiNghiepComponent implements OnInit {
     }
   ];
   constructor() {}
-
+  onNavigate(link) {
+    window.open(link, "_blank");
+  }
   ngOnInit() {}
 }
