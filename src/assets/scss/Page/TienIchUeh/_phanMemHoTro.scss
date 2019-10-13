@@ -49,7 +49,7 @@
   background-image: url(../img/TienIchBoSung/PhanMemHoTro/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 6300px;
+  height: 7300px;
   .phanmem__content {
     .text-blue {
       color: #26578d;
@@ -117,6 +117,7 @@
                 padding: 0 20px;
               }
               .box__icon {
+                cursor: pointer;
                 margin-right: 30px;
               }
             }
@@ -144,13 +145,13 @@
 
 @include respond-to("large") {
   .background__phanmem {
-    height: 9500px;
+    height: 10500px;
   }
 }
 
 @include respond-to("medium") {
   .background__phanmem {
-    height: 10000px;
+    height: 11000px;
     .phanmem__content {
       .section {
         .phanmem__box {
@@ -216,6 +217,6 @@
 
 @include respond-to("small") {
   .background__phanmem {
-    height: 12000px;
+    height: 12800px;
   }
 }
