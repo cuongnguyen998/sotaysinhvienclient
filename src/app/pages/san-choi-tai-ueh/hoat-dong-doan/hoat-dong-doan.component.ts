@@ -73,8 +73,7 @@ export class HoatDongDoanComponent implements OnInit {
     },
     {
       text: "",
-      image:
-        "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/54799627_2360745363970735_3347159724209471488_o-2.jpg"
+      image: "../../../../assets/img/SanChoiTaiUeh/HoatDongDoanHoi/KNDV2.png"
     }
   ];
 

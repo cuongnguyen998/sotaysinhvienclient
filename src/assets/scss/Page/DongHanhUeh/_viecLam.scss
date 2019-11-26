@@ -1,0 +1,152 @@
+.cover__vieclam {
+  position: relative;
+  background-image: url(../img/DongHanhUeh/ViecLam/cover_vieclam.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  height: 1060px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    span {
+      @include text($color-black, $fs-4, $fw-bold, $fm-3);
+      background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+    }
+    @include text(#276da4, 25px, $fw-1 + 100, $fm-3);
+    a {
+      @include text(#276da4, 25px, $fw-1 + 100, $fm-3);
+    }
+  }
+}
+
+@include respond-to("extra-large") {
+  .cover__vieclam {
+    background-size: contain;
+  }
+}
+
+@include respond-to("large") {
+  .cover__vieclam {
+    height: 560px;
+
+    .cover__content {
+      top: 10px;
+      left: 15px;
+      span {
+        font-size: 41px !important;
+      }
+    }
+  }
+}
+
+@include respond-to("medium") {
+  .cover__vieclam {
+    height: 360px;
+    .cover__content {
+      span {
+        font-size: 41px !important;
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  .cover__vieclam {
+    .cover__content {
+      span {
+        font-size: 35px !important;
+      }
+      font-size: 11px !important;
+      a {
+        font-size: 11px !important;
+      }
+    }
+  }
+}
+
+.background__vieclam {
+  background-image: url(../img/DongHanhUeh/ViecLam/background_vieclam.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 5000px;
+  .vieclam__content {
+    padding-top: 50px;
+    .vieclam__row {
+      margin: 0px;
+      justify-content: center;
+      margin-bottom: 160px;
+      .vieclam__img {
+        img {
+          position: relative;
+          display: block;
+          width: 100%;
+          z-index: 10;
+        }
+      }
+      .box__vieclam {
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        padding: 10px 40px;
+        background-color: $color-white;
+        margin-bottom: 40px;
+        margin-left: -50px;
+        .box__title {
+          @include text(#276ca3, 46px, $fw-3, $fm-4);
+        }
+        .box__border {
+          width: 92px;
+          height: 8px;
+          background-color: #054fb9;
+        }
+        .box__content {
+          @include text(#276ca3, 25px, $fw-1 + 100, $fm-4);
+          ul {
+            padding-left: 40px;
+            li {
+              @include text(#276ca3, 25px, $fw-1 + 100, $fm-4);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to("large") {
+  .background__vieclam {
+    height: 6500px;
+  }
+}
+
+@include respond-to("medium") {
+  .background__vieclam {
+    height: 5000px;
+    .vieclam__content {
+      padding-top: 60px;
+      .vieclam__row {
+        margin-bottom: 80px;
+        .box__vieclam {
+          padding: 10px 40px;
+          margin-bottom: 40px;
+          margin-left: 0;
+          .box__title {
+            font-size: 30px;
+          }
+          .box__content {
+            font-size: 20px;
+            ul {
+              padding-left: 0px;
+              li {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+.nh-header-title{
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    color: white;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 220px;
+}
+.nh-body{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../img/HocTapUeh/dkhp-main-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nh-title-box{
+    border-radius: 20px;
+    background-color: #653d78;
+    width: 300px;
+    height: fit-content;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+    left: 9%;
+}
+.nh-body-box{
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #005596;
+    text-align: justify;
+}
+.mainImg{
+    width: 36%;
+}
+.nh-box-content{
+    color: #005596;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 50px;
+    .right-content{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .nh-rec{
+        width: 55px;
+        height: 3px;
+        background-color: #653d78;
+    }
+    .nh-box-title{
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .nh-content{
+        font-size: 11px;
+        text-align: justify;
+    }
+}
+.nh-mt-6{
+    margin-top: -6px;
+}
+.h-37{
+    width: 37%;
+}
+.nh-mt-5{
+    margin-top: 5px;
+}
+
+@media only screen and (min-width:1000px){
+    .nh-header-title{
+        font-size: 70px;
+        left: 40px;
+        width: 800px;
+    }
+    .nh-body{
+        width: 100%;
+        height: fit-content;
+        background-image: url(../img/HocTapUeh/dkhp-main-bg.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .nh-title-box{
+        width: 800px;
+        font-size: 30px;
+        top:70px;
+        left: 13%;
+    }
+    .nh-body-box{
+        margin-top: 100px;
+        font-size: 25px;
+    }
+    .mainImg{
+        width: 36%;
+    }
+    .nh-box-content{
+        margin-top: 145px;
+        .right-content{
+            margin-left: 30px;
+            width: 100%;
+        }
+        .nh-rec{
+            width: 120px;
+            height: 7px;
+            margin-bottom: 20px;
+        }
+        .nh-box-title{
+            font-size: 30px;
+        }
+        .nh-content{
+            font-size: 25px;
+        }
+    }
+    .nh-mt-6{
+        margin-top: -6px;
+    }
+    .h-37{
+        width: 37%;
+    }
+    .nh-mt-5{
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width:1920px){
+    .nh-header-title{
+        font-size: 90px;
+        left: 70px;
+        top: 70px;
+        width: 1070px;
+    }
+    .nh-body{
+        width: 100%;
+    }
+    .nh-title-box{
+        width: 980px;
+        font-size: 40px;
+        top: 70px;
+    }
+    .nh-body-box{
+        width: 110%;
+        margin-top: 100px;
+        font-size: 33px;
+        padding: 35px;
+    }
+    .mainImg{
+        width: 36%;
+    }
+    .nh-box-content{
+        width: 110%;
+        margin-top: 120px;
+        .right-content{
+            margin-left: 30px;
+        }
+        .nh-rec{
+            width: 150px;
+            height: 7px;
+            margin-bottom: 20px;
+        }
+        .nh-box-title{
+            font-weight: 700;
+            font-size: 37px;
+        }
+        .nh-content{
+            font-size: 27px;
+        }
+    }
+    .nh-mt-6{
+        margin-top: -6px;
+    }
+    .h-37{
+        width: 37%;
+    }
+    .nh-mt-5{
+        margin-top: 5px;
+    }
+}

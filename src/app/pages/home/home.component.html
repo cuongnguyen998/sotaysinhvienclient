@@ -232,7 +232,7 @@
 
             <div class=" col-md-3">
                 <div class=" box--item box--color3" [routerLink]="['/san-choi-tai-ueh/clb-doi-nhom']">
-                    Các Câu lạc bộ/Đội/Nhóm
+                    Ban chuyên môn/ Câu lạc bộ/ Đội/Nhóm
                 </div>
             </div>
         </div>
@@ -266,7 +266,7 @@
             </div>
 
             <div class=" col-md-3">
-                <div class=" box--item box--color3" [routerLink]="['/goc-tien-ich/co-so']">
+                <div class=" box--item box--color3" [routerLink]="['/goc-tien-ich/xe-buyt']">
                     Xe buýt
                 </div>
             </div>
@@ -307,10 +307,12 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="item__icon">
+                                <div class="item__icon" (click)="onNavigate('https://www.facebook.com/DHKT.UEH/')"
+                                    style="cursor:pointer">
                                     <img src="../../../assets/img/TrangChu/icon_home_face.png" alt="">
                                 </div>
-                                <div class="item__content">
+                                <div class="item__content" (click)="onNavigate('https://www.youtube.com/c/UEHChannel')"
+                                    style="cursor:pointer">
                                     <img src="../../../assets/img/TrangChu/icon_home_youtubve.png" alt="">
                                 </div>
                             </li>
@@ -323,19 +325,34 @@
                 <div class="right__content">
                     <ul>
                         <li>
-                            <strong>Chịu trách nhiệm xuất bản:</strong> PGS.TS. Nguyễn Hữu Huy Nhựt
+                            <p> <b>Chịu trách nhiệm xuất bản:</b> <br>
+                                PGS.TS. <em>Nguyễn Hữu Huy Nhựt</em> </p>
                         </li>
                         <li>
-                            <strong>Biên tập:</strong> ThS. Nguyễn Văn Đương - ThS. Nguyễn Ngọc Mỹ Trinh - ThS. Bùi Mộng
-                            Ngọc - ThS. Nguyễn Hà Thạch - ThS. Vũ Thiên Trinh
+                            <p> <strong>Biên tập:</strong> <br>
+                                ThS. <em>Nguyễn Văn Đương</em> <br>
+                                ThS. <em>Nguyễn Ngọc Mỹ Trinh</em> <br>
+                                ThS. <em>Bùi Mộng Ngọc</em> <br>
+                                ThS. <em>Nguyễn Hà Thạch</em> <br>
+                                ThS. <em>Vũ Thiên Trinh</em>
+                                ThS. <em>Trần Thị Thúy Hải</em> <br>
+                            </p>
                         </li>
                         <li>
+                            <p> <strong>Sửa bản thảo:</strong> <br>
+                                ThS. <em>Bùi Mộng Ngọc</em> <br>
+                                ThS. <em>Vũ Thiên Trinh</em></p>
 
-                            <strong>Sửa bản thảo:</strong> ThS. Bùi Mộng Ngọc - ThS. Vũ Thiên Trinh
                         </li>
                         <li>
-                            <strong>Thiết kế:</strong> ThS. Vũ Thiên Trinh - Vũ Phạm Thùy Trinh - Phạm Huỳnh Đức -
-                            Nguyễn Ngọc Đăng Khoa - Nguyễn Quốc Cường - Lê Thành Đạt
+                            <p> <strong>Thiết kế:</strong> <br>
+                                ThS. <em>Vũ Thiên Trinh</em> <br>
+                                <em>Vũ Phạm Thùy Trinh</em> <br>
+                                <em>Phạm Huỳnh Đức</em> <br>
+                                <em>Nguyễn Ngọc Đăng Khoa</em> <br>
+                                <em>Nguyễn Quốc Cường</em> <br>
+                                <em>Lê Thành Đạt</em></p>
+
 
                         </li>
                     </ul>
