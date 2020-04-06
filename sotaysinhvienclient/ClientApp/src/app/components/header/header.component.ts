@@ -1,11 +1,10 @@
-import { Component, OnInit } from "@angular/core";
-import { ROUTE, RouteInfo } from "src/app/web.config";
-import * as $ from "jquery";
+import { Component, OnInit } from '@angular/core';
+import { ROUTE, RouteInfo } from 'src/app/web.config';
+import * as $ from 'jquery';
 
 @Component({
-  selector: "app-header",
-  templateUrl: "./header.component.html",
-  styleUrls: ["./header.component.scss"]
+  selector: 'app-header',
+  templateUrl: './header.component.html',
 })
 export class HeaderComponent implements OnInit {
   ListNavbar: RouteInfo[];
@@ -14,7 +13,7 @@ export class HeaderComponent implements OnInit {
 
   collapseNavbar() {
     if (innerWidth < 900) {
-      $(".navbar-toggler").click();
+      $('.navbar-toggler').click();
     }
   }
 

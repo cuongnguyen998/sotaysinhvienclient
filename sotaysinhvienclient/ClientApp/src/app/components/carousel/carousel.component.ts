@@ -1,16 +1,15 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: "app-carousel",
-  templateUrl: "./carousel.component.html",
-  styleUrls: ["./carousel.component.scss"]
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
 })
 export class CarouselComponent implements OnInit {
   @Input() images: [];
 
   constructor() {}
 
-  title = "owl-carousel";
+  title = 'owl-carousel';
 
   mySlideOptions = {
     items: 1,
@@ -22,19 +21,19 @@ export class CarouselComponent implements OnInit {
     responsive: {
       0: {
         nav: true,
-        stagePadding: 0
+        stagePadding: 0,
       },
       600: {
         nav: true,
-        stagePadding: 0
+        stagePadding: 0,
       },
       1000: {
-        nav: true
+        nav: true,
       },
       1500: {
-        nav: true
-      }
-    }
+        nav: true,
+      },
+    },
   };
 
   ngOnInit() {
