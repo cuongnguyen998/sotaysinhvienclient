@@ -36,13 +36,10 @@
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <ProjectReference Include="..\STSVDataAccess\STSVDataAccess.csproj" />
-=======
     <Folder Include="Business\Interfaces\" />
     <Folder Include="Commons\" />
     <Folder Include="Controllers\" />
->>>>>>> stsv-migrate
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
