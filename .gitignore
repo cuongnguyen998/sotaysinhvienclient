@@ -4,3 +4,5 @@
 .vs/sotaysinhvienclient/DesignTimeBuild/.dtbcache
 .vs/sotaysinhvienclient/v16/.suo
 .vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide
+sotaysinhvienclient/sotaysinhvienclient.csproj
+STSVDataAccess/obj/Debug/netcoreapp2.1/STSVDataAccess.csprojAssemblyReference.cache
