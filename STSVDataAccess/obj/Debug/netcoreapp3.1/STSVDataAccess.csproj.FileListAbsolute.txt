@@ -1,7 +1,0 @@
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\bin\Debug\netcoreapp3.1\STSVDataAccess.deps.json
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\bin\Debug\netcoreapp3.1\STSVDataAccess.dll
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\obj\Debug\netcoreapp3.1\STSVDataAccess.AssemblyInfoInputs.cache
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\obj\Debug\netcoreapp3.1\STSVDataAccess.AssemblyInfo.cs
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\bin\Debug\netcoreapp3.1\STSVDataAccess.pdb
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\obj\Debug\netcoreapp3.1\STSVDataAccess.dll
-D:\Personal\Source Code\sotaysinhvienclient\STSVDataAccess\obj\Debug\netcoreapp3.1\STSVDataAccess.pdb
