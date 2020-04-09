@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
+  templateUrl: './carousel.component.html'
 })
 export class CarouselComponent implements OnInit {
   @Input() images: [];
@@ -21,22 +21,20 @@ export class CarouselComponent implements OnInit {
     responsive: {
       0: {
         nav: true,
-        stagePadding: 0,
+        stagePadding: 0
       },
       600: {
         nav: true,
-        stagePadding: 0,
+        stagePadding: 0
       },
       1000: {
-        nav: true,
+        nav: true
       },
       1500: {
-        nav: true,
-      },
-    },
+        nav: true
+      }
+    }
   };
 
-  ngOnInit() {
-    console.log(this.images);
-  }
+  ngOnInit() {}
 }

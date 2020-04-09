@@ -9,7 +9,7 @@ import { ViecLamComponent } from './components/viec-lam/viec-lam.component';
 import { KhoiNghiepComponent } from './components/khoi-nghiep/khoi-nghiep.component';
 import { DongHanhUehComponent } from './container/dong-hanh-ueh.component';
 import { DongHanhUehRoutingModule } from './dong-hanh-ueh-routing.modules';
-import { ShareModule } from 'src/app/components/share.module';
+import { ShareModule } from 'src/app/pages/home/shared/share.module';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import { ShareModule } from 'src/app/components/share.module';
     HocBongSinhVienComponent,
     TinDungHocTapComponent,
     ViecLamComponent,
-    KhoiNghiepComponent,
+    KhoiNghiepComponent
   ],
-  imports: [CommonModule, DongHanhUehRoutingModule, ShareModule],
+  imports: [CommonModule, ShareModule, DongHanhUehRoutingModule]
 })
 export class DongHanhUehModule {}
