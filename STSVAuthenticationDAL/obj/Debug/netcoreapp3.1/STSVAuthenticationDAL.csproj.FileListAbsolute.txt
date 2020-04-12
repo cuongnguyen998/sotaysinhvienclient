@@ -1,0 +1,8 @@
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\bin\Debug\netcoreapp3.1\STSVAuthenticationDAL.deps.json
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\bin\Debug\netcoreapp3.1\STSVAuthenticationDAL.dll
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\obj\Debug\netcoreapp3.1\STSVAuthenticationDAL.csprojAssemblyReference.cache
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\obj\Debug\netcoreapp3.1\STSVAuthenticationDAL.AssemblyInfoInputs.cache
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\obj\Debug\netcoreapp3.1\STSVAuthenticationDAL.AssemblyInfo.cs
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\bin\Debug\netcoreapp3.1\STSVAuthenticationDAL.pdb
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\obj\Debug\netcoreapp3.1\STSVAuthenticationDAL.dll
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthenticationDAL\obj\Debug\netcoreapp3.1\STSVAuthenticationDAL.pdb
