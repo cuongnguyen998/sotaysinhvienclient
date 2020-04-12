@@ -8,7 +8,7 @@ import { ThongTinDoanHoiComponent } from './components/thong-tin-doan-hoi/thong-
 import { SanChoiTaiUehRoutingModule } from './san-choi-tai-ueh-routing.modules';
 
 import { OwlModule } from 'ngx-owl-carousel';
-import { ShareModule } from 'src/app/components/share.module';
+import { ShareModule } from 'src/app/pages/home/shared/share.module';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,9 @@ import { ShareModule } from 'src/app/components/share.module';
     SanChoiTaiUehComponent,
     ClbDoiNhomComponent,
     HoatDongDoanComponent,
-    HoatDongVanTheMyComponent,
+    HoatDongVanTheMyComponent
   ],
-  imports: [CommonModule, SanChoiTaiUehRoutingModule, OwlModule, ShareModule],
-  exports: [ShareModule],
+  imports: [CommonModule, ShareModule, SanChoiTaiUehRoutingModule, OwlModule],
+  exports: [ShareModule]
 })
 export class SanChoiTaiUehModule {}

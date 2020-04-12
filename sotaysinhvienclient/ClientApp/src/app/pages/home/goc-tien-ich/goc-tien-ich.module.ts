@@ -8,6 +8,6 @@ import { GocTienIchRoutingModule } from './goc-tien-ich-routing.modules';
 
 @NgModule({
   declarations: [GocTienIchComponent, CacBieuMauComponent, PhanMemHoTroComponent, XeBuytComponent],
-  imports: [CommonModule, GocTienIchRoutingModule],
+  imports: [CommonModule, GocTienIchRoutingModule]
 })
 export class GocTienIchModule {}

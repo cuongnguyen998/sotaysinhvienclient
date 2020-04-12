@@ -11,22 +11,22 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: VanHoaUehComponent,
+        redirectTo: 'van-hoa'
       },
       {
         path: 'van-hoa',
-        component: VanHoaUehComponent,
+        component: VanHoaUehComponent
       },
       {
         path: 'co-so',
-        component: CoSoComponent,
-      },
-    ],
-  },
+        component: CoSoComponent
+      }
+    ]
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
 export class TongQuanUehRoutingModule {}
