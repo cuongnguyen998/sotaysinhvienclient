@@ -1,33 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { OwlCarouselSettings } from 'src/app/web.config';
+declare var $: any;
 
 @Component({
   selector: 'app-co-so',
-  templateUrl: './co-so.component.html',
+  templateUrl: './co-so.component.html'
 })
-export class CoSoComponent implements OnInit {
+export class CoSoComponent implements OnInit, AfterViewChecked {
   constructor() {}
 
-  images = [
-    {
-      text: '',
-      image: 'assets/img/TongQuanUeh/CacCoSo/CN7A2521.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/TongQuanUeh/CacCoSo/DHKT-Panorama.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/TongQuanUeh/CacCoSo/DSCF2762.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/TongQuanUeh/CacCoSo/PC-1.jpg',
-    },
-    {
-      text: '',
-      image: 'assets/img/TongQuanUeh/CacCoSo/UEH---CSA.jpg',
-    },
-  ];
   ngOnInit() {}
+
+  ngAfterViewChecked(): void {
+    $('.owl-carousel').owlCarousel(OwlCarouselSettings);
+  }
 }

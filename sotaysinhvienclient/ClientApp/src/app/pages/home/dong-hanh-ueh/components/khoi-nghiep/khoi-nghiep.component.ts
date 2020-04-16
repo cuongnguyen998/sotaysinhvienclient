@@ -1,30 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { OwlCarouselSettings } from 'src/app/web.config';
+declare var $: any;
 @Component({
   selector: 'app-khoi-nghiep',
-  templateUrl: './khoi-nghiep.component.html',
+  templateUrl: './khoi-nghiep.component.html'
 })
-export class KhoiNghiepComponent implements OnInit {
-  images = [
-    {
-      text: '',
-      image: 'assets/img/DongHanhUeh/KhoiNghiep/1.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/DongHanhUeh/KhoiNghiep/2.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/DongHanhUeh/KhoiNghiep/3.png',
-    },
-  ];
-
+export class KhoiNghiepComponent implements OnInit, AfterViewChecked {
   constructor() {}
 
   ngOnInit() {}
 
-  onNavigate(link) {
-    window.open(link, '_blank');
+  ngAfterViewChecked(): void {
+    $('.owl-carousel').owlCarousel(OwlCarouselSettings);
   }
 }

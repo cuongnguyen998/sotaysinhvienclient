@@ -1,38 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { OwlCarouselSettings } from 'src/app/web.config';
+declare var $: any;
 @Component({
   selector: 'app-clb-doi-nhom',
-  templateUrl: './clb-doi-nhom.component.html',
+  templateUrl: './clb-doi-nhom.component.html'
 })
-export class ClbDoiNhomComponent implements OnInit {
-  images = [
-    {
-      text: '',
-      image: 'assets/img/SanChoiTaiUeh/ClbDoiNhom/58419122_2172571956156206_6858805318487375872_o.jpg',
-    },
-    {
-      text: '',
-      image: 'assets/img/SanChoiTaiUeh/ClbDoiNhom/69885980_2555106861207307_7673021316970053632_o.jpg',
-    },
-    {
-      text: '',
-      image: 'assets/img/SanChoiTaiUeh/ClbDoiNhom/Resize1.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/SanChoiTaiUeh/ClbDoiNhom/ssid.png',
-    },
-    {
-      text: '',
-      image: 'assets/img/SanChoiTaiUeh/ClbDoiNhom/IMG_9872.png',
-    },
-  ];
-
+export class ClbDoiNhomComponent implements OnInit, AfterViewChecked {
   constructor() {}
 
   ngOnInit() {}
 
-  onNavigate(link) {
-    window.open(link, '_blank');
+  ngAfterViewChecked(): void {
+    $('.owl-carousel').owlCarousel(OwlCarouselSettings);
   }
 }
