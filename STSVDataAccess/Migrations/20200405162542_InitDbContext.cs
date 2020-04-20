@@ -11,7 +11,7 @@ namespace STSVDataAccess.Migrations
                 name: "Attachments",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(nullable: false),
+                    Id = table.Column<Guid>(nullable: false, defaultValueSql: "newid()"),
                     FileName = table.Column<string>(type: "nvarchar(250)", nullable: true),
                     FileType = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     FilePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -44,7 +44,7 @@ namespace STSVDataAccess.Migrations
                 name: "Quotes",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(nullable: false),
+                    Id = table.Column<Guid>(nullable: false, defaultValueSql: "newid()"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Author = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     Active = table.Column<bool>(nullable: false),
@@ -62,7 +62,7 @@ namespace STSVDataAccess.Migrations
                 name: "WebsitePages",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(nullable: false),
+                    Id = table.Column<Guid>(nullable: false, defaultValueSql: "newid()"),
                     Title = table.Column<string>(type: "nvarchar(250)", nullable: true),
                     Body = table.Column<string>(type: "text", nullable: true),
                     PageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -81,7 +81,7 @@ namespace STSVDataAccess.Migrations
                 name: "Menus",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(nullable: false),
+                    Id = table.Column<Guid>(nullable: false, defaultValueSql: "newid()"),
                     MenuName = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     ParentId = table.Column<Guid>(nullable: true),
                     Order = table.Column<int>(nullable: false),

@@ -1,0 +1,2 @@
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\obj\Debug\netcoreapp2.1\STSVAuthentication.AssemblyInfoInputs.cache
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\obj\Debug\netcoreapp2.1\STSVAuthentication.AssemblyInfo.cs

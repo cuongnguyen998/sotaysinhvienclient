@@ -1,4 +1,14 @@
-./vs
+.vs
+.vs/sotaysinhvienclient/DesignTimeBuild/.dtbcache
+.vs/sotaysinhvienclient/v16/.suo
+.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide
+.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide-shm
+.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide-wal
 sotaysinhvienclient/sotaysinhvienclient.csproj
 STSVDataAccess/obj
 STSVDataAccess/bin
+STSVAuthenticationDAL/obj
+STSVAuthenticationDAL/bin
+STSVAuthenticationDAL/obj/Debug/netcoreapp2.1/STSVAuthenticationDAL.csprojAssemblyReference.cache
+STSVAuthenticationDAL/obj/Debug/netcoreapp2.1/STSVAuthenticationDAL.csproj.FileListAbsolute.txt
+STSVAuthenticationDAL/bin/Debug/netcoreapp2.1/STSVAuthenticationDAL.deps.json

@@ -1,0 +1,5 @@
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\bin\Debug\netcoreapp3.1\STSVAuthentication.deps.json
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\bin\Debug\netcoreapp3.1\STSVAuthentication.dll
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\obj\Debug\netcoreapp3.1\STSVAuthentication.csprojAssemblyReference.cache
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\obj\Debug\netcoreapp3.1\STSVAuthentication.AssemblyInfoInputs.cache
+D:\Personal\Source Code\sotaysinhvienclient\STSVAuthentication\obj\Debug\netcoreapp3.1\STSVAuthentication.AssemblyInfo.cs
