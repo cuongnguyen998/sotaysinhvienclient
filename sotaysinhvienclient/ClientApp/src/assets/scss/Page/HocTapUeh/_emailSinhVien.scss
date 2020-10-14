@@ -173,7 +173,7 @@
       padding: 5px;
       color: #e6414d;
       text-align: justify;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 500;
       line-height: 20px;
       margin-bottom: 1px;
@@ -203,14 +203,14 @@
     background-size: 8px 100%;
     background-position: 0 0, 100% 0;
     background-repeat: no-repeat;
-
+    padding: 20px;
     li {
       color: #e6414d;
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 500;
-      line-height: 20px;
+      line-height: 15px;
       margin-left: 10px;
-      padding: 15px;
+      padding: 10px;
       text-align: justify;
     }
   }
@@ -277,7 +277,7 @@
         .email-title{
             font-size: 50px;
             font-weight: 700;
-            line-height: 39.28px;
+            line-height: 4rem;
             padding: 20px;
             text-align: center;
             margin-top: 30px;
@@ -298,7 +298,7 @@
                 border-radius: 20px;
                 background-color: #ffffff;
                 height: 375px;
-                left: 4%;
+                left: -7.25%;
                 margin: 40px;
                 overflow-wrap: break-word;
                 .circle{
@@ -314,7 +314,7 @@
                 }
                 p{
                     color: #38266e;
-                    font-size: 29px;
+                    font-size: 25px;
                     font-weight: 500;
                     line-height: 37.5px;
                     padding: 20px;
@@ -324,13 +324,19 @@
                 }
                 .p-middle{
                     color: #e84473;
-                    font-size: 29px;
+                    font-size: 25px;
                     font-weight: 500;
                     line-height: 37.5px;
                     padding: 20px;
                     margin: 10px;
                     text-align: center;
                 }
+            }
+            .left-16{
+              left: 16.25%;
+            }
+            .left-5{
+              left: 5%;
             }
         }
         .email-truong-hop-title{
@@ -351,7 +357,7 @@
             .email-para{
                 margin:25px 0px 30px 15px;
                 line-height:30px;
-                font-size:22px;
+                font-size:25px;
             }
         }
         
@@ -366,7 +372,7 @@
             margin-top:30px;
             li{
                 color: #e6414d;
-                font-size: 28px;
+                font-size: 25px;
                 font-weight: 500;
                 line-height: 45.83px;
                 margin-left: 50px;
