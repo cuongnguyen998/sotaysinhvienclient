@@ -99,8 +99,12 @@
                   height: 100%;
                 }
               }
-              .item__content a {
+              .item__content {
                 @include text($color-7, $fs-6, $fw-1, $fm-4);
+                a {
+                  text-decoration: none;
+                  color: $color-7;
+                }
               }
             }
           }
