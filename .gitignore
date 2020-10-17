@@ -1,14 +1,32 @@
-.vs
-.vs/sotaysinhvienclient/DesignTimeBuild/.dtbcache
-.vs/sotaysinhvienclient/v16/.suo
-.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide
-.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide-shm
-.vs/sotaysinhvienclient/v16/Server/sqlite3/storage.ide-wal
-sotaysinhvienclient/sotaysinhvienclient.csproj
-STSVDataAccess/obj
-STSVDataAccess/bin
-STSVAuthenticationDAL/obj
-STSVAuthenticationDAL/bin
-STSVAuthenticationDAL/obj/Debug/netcoreapp2.1/STSVAuthenticationDAL.csprojAssemblyReference.cache
-STSVAuthenticationDAL/obj/Debug/netcoreapp2.1/STSVAuthenticationDAL.csproj.FileListAbsolute.txt
-STSVAuthenticationDAL/bin/Debug/netcoreapp2.1/STSVAuthenticationDAL.deps.json
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+logs/
