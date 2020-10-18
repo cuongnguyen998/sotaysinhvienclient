@@ -269,7 +269,7 @@
 
     .btn-gioi-thieu-custom {
       width: 60%;
-      height: 75px;
+      height: fit-content;
       top: -405px;
       left: 22%;
       font-size: 40px;
@@ -291,7 +291,7 @@
     }
 
     .nguon-hoc-lieu-rectangle {
-      font-size: 23px;
+      font-size: 25px;
       padding: 40px;
       top: -350px;
       text-align: justify;
