@@ -124,6 +124,11 @@
       }
     }
   }
+  .coso__owl {
+    iframe {
+      height: 600px;
+    }
+  }
 }
 
 @include respond-to('extra-large') {
@@ -224,6 +229,12 @@
             left: 40%;
           }
         }
+      }
+    }
+
+    .coso__owl {
+      iframe {
+        height: 308px;
       }
     }
   }
