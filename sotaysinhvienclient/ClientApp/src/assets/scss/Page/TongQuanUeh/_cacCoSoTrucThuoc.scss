@@ -109,7 +109,7 @@
           }
           display: flex;
           align-items: center;
-          @include text($color-3, $fs-7, $fw-1 + 100, $fm-4);
+          @include text($color-3, $fs-7 - 5, $fw-1 + 100, $fm-4);
         }
         .box__content__customize {
           color: $color-white !important;
