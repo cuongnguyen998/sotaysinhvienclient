@@ -17,7 +17,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .cover__coso {
     height: 670px;
     .cover__content {
@@ -28,7 +28,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .cover__coso {
     background-size: cover;
     height: 500px;
@@ -38,7 +38,7 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to('small') {
   .cover__coso {
     margin-bottom: 40px;
     height: 350px;
@@ -52,7 +52,7 @@
   background-image: url(../img/TongQuanUeh/CacCoSo/coso__background.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 3500px;
+  height: 4000px;
   padding: 80px 0;
   .coso__content {
     .row {
@@ -109,7 +109,7 @@
           }
           display: flex;
           align-items: center;
-          @include text($color-3, $fs-7, $fw-1 + 100, $fm-4);
+          @include text($color-3, $fs-7 - 5, $fw-1 + 100, $fm-4);
         }
         .box__content__customize {
           color: $color-white !important;
@@ -124,14 +124,18 @@
       }
     }
   }
+  .coso__owl {
+    iframe {
+      height: 600px;
+    }
+  }
 }
 
-@include respond-to("extra-large") {
+@include respond-to('extra-large') {
   .background__coso {
     padding: 60px 0;
     .coso__content {
       .row {
-        //padding-bottom: 90px;
         .col-md-6 {
           padding: 0px !important;
         }
@@ -141,36 +145,23 @@
         .box__coso {
           width: 310px;
           height: 289px;
-
-          .box__number {
-            .box__circle {
-              //@include text($color-white, $fs-3, $fw-bold, null);
-            }
-          }
-
           .box__title {
             font-size: 35px;
           }
           .box__content {
             font-size: 21px;
           }
-          .box__content__customize {
-            color: $color-white !important;
-          }
         }
         .box__coso__customize {
           width: 310px;
           height: 395px;
-        }
-        .box__coso__colorcustomize {
-          background-color: $color-6;
         }
       }
     }
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .background__coso {
     height: 3400px;
     .coso__content {
@@ -225,56 +216,25 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .background__coso {
-    height: 4400px;
+    height: 4800px;
     .coso__content {
       .row {
-        padding-bottom: 30px;
         .col-md-4 {
-          max-width: none;
-          margin: 0 40px;
+          padding-bottom: 30px;
         }
         .box__coso {
-          padding: 0 30px;
-          width: 100%;
-          height: 280px;
-          margin-bottom: 30px;
           .box__number {
-            top: -31px;
             left: 40%;
-            width: 65px;
-            height: 65px;
-            .box__circle {
-              transform: translate(5%, 5%);
-              width: 50px;
-              height: 50px;
-              line-height: 50px;
-              font-size: $fs-3 - 20;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              img {
-                width: 25px;
-                height: 25px;
-              }
-            }
-          }
-          .box__title {
-            padding-top: 30px;
-            font-size: $fs-3 - 20;
-          }
-          .box__content {
-            .box__icon {
-              margin-right: 10px;
-            }
-            font-size: $fs-7 - 5;
           }
         }
       }
-      .box__coso__customize {
-        width: 100% !important;
-        height: 280px !important;
+    }
+
+    .coso__owl {
+      iframe {
+        height: 308px;
       }
     }
   }

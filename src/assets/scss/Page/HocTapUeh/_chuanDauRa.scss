@@ -11,6 +11,7 @@
   top: 10px;
   width: 200px;
 }
+
 .cdr-body {
   width: 100%;
   height: fit-content;
@@ -19,35 +20,61 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.cdr-rectangle-box {
+  height: fit-content;
+  border-top: 4px solid #ff4a7d;
+  border-bottom: 4px solid rgba(36, 38, 89, 0.99);
+  background-image: linear-gradient( #ff4a7d, rgba(36, 38, 89, 0.99)), linear-gradient(#ff4a7d, rgba(36, 38, 89, 0.99));
+  background-size: 4px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin: 10px 5px;
+  p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #264c82;
+    text-align: center;
+    margin:5px;
+  }
+}
 .cdr-inline-area {
   display: inline-flex;
-  margin: 10px;
-  max-width: 100%;
-  .cdr-round-box {
-    width: 220px;
-    height: fit-content;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
-    font-size: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+
+  .cdr-w-150 {
+    width: 35%;
+  }
+
+  .cdr-ml-15 {
+    margin-right: 15px;
+    width: 65%;
+  }
+}
+
+.cdr-round-box {
+  height: fit-content;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+  margin-top: 25px;
+  height: 45px;
+  padding: 5px;
+
+  p {
+    font-size: 13px;
     font-weight: 600;
     color: white;
     text-align: center;
-    margin-top: 25px;
-    height: 45px;
-    padding: 10px;
-  }
-  .cdr-w-150 {
-    width: 150px;
-  }
-  .cdr-ml-15 {
-    margin-right: 15px;
   }
 }
+
 .cdr-inbound-box {
   max-width: 30%;
   margin-right: 10px;
+
   .cdr-round-rec {
-    width: 100px;
+    width: 100%;
     height: 60px;
     border-radius: 20px;
     border: 2px solid #344b6b;
@@ -58,6 +85,7 @@
     margin-bottom: 10px;
     text-align: center;
   }
+
   .cdr-content {
     font-size: 11px;
     color: #276aa1;
@@ -65,10 +93,12 @@
     font-weight: 600;
   }
 }
+
 .cdr-w-l-40 {
   max-width: 40%;
   margin-left: 25px;
 }
+
 .cdr-custom-btn {
   width: 150px;
   margin-left: 29%;
@@ -78,6 +108,7 @@
   border-radius: 20px;
   background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
 }
+
 @media only screen and (min-width: 1000px) {
   .cdr-header-content {
     font-size: 70px;
@@ -85,30 +116,46 @@
     top: 35px;
     width: 700px;
   }
+  .cdr-rectangle-box{
+      p{
+          font-size:25px;
+      }
+  }
+
   .cdr-inline-area {
     display: inline-flex;
     margin: 10px;
     max-width: 100%;
+
     .cdr-round-box {
       width: 670px;
       height: fit-content;
       font-size: 27px;
     }
+
     .cdr-w-150 {
       width: 415px;
     }
+
     .cdr-ml-15 {
       margin-right: 30px;
+    }
+  }
+  .cdr-round-box {
+    p {
+      font-size: 22px;
     }
   }
   .cdr-inbound-box {
     max-width: 30%;
     margin-right: 25px;
+
     .cdr-round-rec {
       width: 325px;
       height: fit-content;
       font-size: 20px;
     }
+
     .cdr-content {
       font-size: 22px;
       color: #276aa1;
@@ -117,10 +164,12 @@
       margin-top: 30px;
     }
   }
+
   .cdr-w-l-40 {
     max-width: 40%;
     margin-left: 25px;
   }
+
   .cdr-custom-btn {
     width: 360px;
     margin-left: 39%;
@@ -129,6 +178,7 @@
     font-size: 35px;
   }
 }
+
 @media only screen and (min-width: 1920px) {
   .cdr-header-content {
     font-size: 100px;
@@ -136,32 +186,39 @@
     top: 40px;
     width: 900px;
   }
+
   .cdr-inline-area {
     display: inline-flex;
     margin: 10px;
     max-width: 100%;
+
     .cdr-round-box {
       width: 675px;
       font-size: 35px;
       margin-top: 50px;
       height: fit-content;
     }
+
     .cdr-w-150 {
       width: 400px;
     }
+
     .cdr-ml-15 {
       margin-right: 30px;
     }
   }
+
   .cdr-inbound-box {
     max-width: 30%;
     margin-right: 30px;
+
     .cdr-round-rec {
       width: 325px;
       height: fit-content;
       font-size: 30px;
       margin-bottom: 30px;
     }
+
     .cdr-content {
       font-size: 30px;
       color: #276aa1;
@@ -169,10 +226,12 @@
       font-weight: 600;
     }
   }
+
   .cdr-w-l-40 {
     max-width: 40%;
     margin-left: 25px;
   }
+
   .cdr-custom-btn {
     width: 500px;
     font-size: 49px;

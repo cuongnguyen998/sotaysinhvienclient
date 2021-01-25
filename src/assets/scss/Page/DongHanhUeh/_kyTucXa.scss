@@ -29,12 +29,12 @@
     .ktx-title{
         position: relative;
         width: 100%;
-        left: 35%;
         top: 15px;
         color: #653d78;
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 20px;
+        text-align: center;
     }
     .ktx-inline{
         width: 100%;
@@ -84,10 +84,9 @@
         position: relative;
         top: -22px;
     }
-    .mid-position{
+    .ktx-mid-position{
         position: relative;
         top: -150px;
-        left: 25%;
     }
     .t-p-150{
         position: relative;
@@ -153,7 +152,6 @@
         width: 100%;
         position: relative;
         top: -145px;
-        left: 25%;
         .ktx-ttlh-box{
             display: inline-flex;
             width: 100%;
@@ -164,6 +162,7 @@
             img{
                 width: 4%;
                 height: 5%;
+                margin-left: 20%;
             }
             p{
                 font-size: 11px;
@@ -188,7 +187,6 @@
     }
     .ktx-body{
         .ktx-title{
-            left: 40%;
             top: 25px;
             font-size: 35px;
         }
@@ -229,9 +227,8 @@
         .ktx-name{
             font-size: 30px;
         }
-        .mid-position{
+        .ktx-mid-position{
             top: -50px;
-            left: 37%;
         }
         .t-p-150{
             position: relative;
@@ -281,7 +278,6 @@
         }
         .ktx-outbound-box{
             top: -20px;
-            left: 30%;
             .ktx-ttlh-box{
                 margin-bottom: 15px;
                 .w-3{
@@ -290,6 +286,7 @@
                 img{
                     width: 4%;
                     height: 5%;
+                    margin-left: 25%;
                 }
                 p{
                     font-size: 24px;

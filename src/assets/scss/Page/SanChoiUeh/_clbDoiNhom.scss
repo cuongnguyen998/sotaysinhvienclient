@@ -17,7 +17,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .cover__clb {
     height: 560px;
     background-size: cover;
@@ -29,7 +29,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .cover__clb {
     height: 454px;
     background-size: contain;
@@ -39,7 +39,7 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to('small') {
   .cover__clb {
     height: 300px;
     .cover__content {
@@ -90,8 +90,6 @@
           display: flex;
           align-items: center;
           margin-right: 30px;
-          img {
-          }
         }
         .box__content {
           @include text($color-9, $fs-7 - 3, $fw-3, $fm-4);
@@ -99,11 +97,13 @@
       }
     }
 
-    
     .row {
       justify-content: space-between;
       margin: 0 30px;
       margin-bottom: 40px;
+      a {
+        text-decoration: none;
+      }
       .hure-box {
         width: 100px;
       }
@@ -122,8 +122,6 @@
           display: flex;
           align-items: center;
           margin-right: 30px;
-          img {
-          }
         }
         .box__content {
           @include text($color-9, $fs-7 - 3, $fw-3, $fm-4);
@@ -162,7 +160,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .background__clb {
     height: 7000px;
     .clb__content {
@@ -176,7 +174,7 @@
         font-size: $fs-3 - 10;
         padding: 25px 0;
       }
-      .row__top{
+      .row__top {
         margin: 0 15px;
         margin-bottom: 30px;
         .box__clb__top {
