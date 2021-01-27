@@ -20,7 +20,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .cover__tindung {
     height: 600px;
     background-size: contain;
@@ -36,7 +36,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .cover__tindung {
     height: 460px;
     .cover__content {
@@ -48,7 +48,7 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to('small') {
   .cover__tindung {
     height: 260px;
     .cover__content {
@@ -63,7 +63,7 @@
   background-image: url(../img/DongHanhUeh/TinDungHocTap/background_tindung.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 2500px;
+  height: 3000px;
   padding: 60px 0;
   .tindung__content {
     .tindung__title {
@@ -83,16 +83,15 @@
       }
       .tindung__box {
         border-radius: 35px;
-        background-image: linear-gradient(
-          to right,
-          #242659 0%,
-          #2887bf 99%,
-          #2887bf 100%
-        );
-        @include text(#fff, 37px, $fw-3, $fm-4);
+        background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
         text-align: center;
         z-index: 2;
         padding: 30px 20px;
+        @include text(#fff, 37px, $fw-3, $fm-4);
+        a {
+          @include text(#fff, 37px, $fw-3, $fm-4);
+          text-decoration: none;
+        }
       }
       .col-lg-1 {
         padding: 0px;
@@ -135,8 +134,7 @@
       .border__tindung {
         width: 100%;
         height: 10px;
-        background-image: linear-gradient($color-white, $color-white),
-          linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
+        background-image: linear-gradient($color-white, $color-white), linear-gradient(to top, #01215a 0%, #ff4a7d 100%);
         background-origin: border-box;
         background-clip: content-box, border-box;
         border: 2px solid transparent;
@@ -146,7 +144,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .background__tindung {
     height: 3000px;
     .tindung__content {
@@ -186,7 +184,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .background__tindung {
     .tindung__content {
       .row {
@@ -207,7 +205,7 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to('small') {
   .background__tindung {
     height: 3500px;
     padding: 20px 0;
@@ -223,8 +221,6 @@
         }
         .col-lg-6 {
           .tindung__mota {
-            //padding: 40px 60px;
-
             font-size: 18px;
           }
         }

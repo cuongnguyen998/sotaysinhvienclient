@@ -17,7 +17,7 @@
   }
 }
 
-@include respond-to("large") {
+@include respond-to('large') {
   .cover__thongtindoanhoi {
     background-size: contain;
     height: 640px;
@@ -29,7 +29,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .cover__thongtindoanhoi {
     height: 531px;
     .cover__content {
@@ -38,7 +38,7 @@
   }
 }
 
-@include respond-to("small") {
+@include respond-to('small') {
   .cover__thongtindoanhoi {
     height: 263px;
     .cover__content {
@@ -101,6 +101,10 @@
               }
               .item__content {
                 @include text($color-7, $fs-6, $fw-1, $fm-4);
+                a {
+                  text-decoration: none;
+                  color: $color-7;
+                }
               }
             }
           }
@@ -110,7 +114,7 @@
   }
 }
 
-@include respond-to("medium") {
+@include respond-to('medium') {
   .background__thongtindoanhoi {
     padding-top: 40px;
     height: 1300px;
@@ -150,7 +154,7 @@
                     height: 30px;
                   }
                 }
-                .item__content {
+                .item__content a {
                   font-size: $fs-2;
                 }
               }

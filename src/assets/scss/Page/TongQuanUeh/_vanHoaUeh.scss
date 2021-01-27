@@ -1,397 +1,371 @@
 .cover__vanhoa {
-    position: relative;
-    background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    height: 1200px;
+  position: relative;
+  background-image: url(../img/TongQuanUeh/VanHoaUeh/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  height: 1200px;
+  .cover__content {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    @include text($color-black, $fs-4, $fw-bold, $fm-3);
+    background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+@include respond-to('large') {
+  .cover__vanhoa {
+    height: 600px;
+    background-size: contain;
+    background-position: 0 0;
     .cover__content {
-        position: absolute;
-        top: 200px;
-        left: 70px;
-        @include text($color-black, $fs-4, $fw-bold, $fm-3);
-        background: linear-gradient(to right, #01215a 0%, #ff4a7d 100%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-transform: uppercase;
+      top: 40px;
+      left: 60px;
+      font-size: 61px !important;
     }
+  }
 }
 
-@include respond-to("large") {
-    .cover__vanhoa {
-        height: 600px;
-        background-size: contain;
-        background-position: 0 0;
-        .cover__content {
-            top: 40px;
-            left: 60px;
-            font-size: 61px !important;
-        }
+@include respond-to('medium') {
+  .cover__vanhoa {
+    height: 460px;
+    .cover__content {
+      font-size: 41px !important;
     }
+  }
 }
 
-@include respond-to("medium") {
-    .cover__vanhoa {
-        height: 460px;
-        .cover__content {
-            font-size: 41px !important;
-        }
+@include respond-to('small') {
+  .cover__vanhoa {
+    height: 260px;
+    .cover__content {
+      font-size: 31px !important;
     }
-}
-
-@include respond-to("small") {
-    .cover__vanhoa {
-        height: 260px;
-        .cover__content {
-            font-size: 31px !important;
-        }
-    }
+  }
 }
 
 .background__vanhoa {
-    height: 7200px;
-    padding: 60px 0;
-    .vanhoa__content {
-        .vanhoa__title {
-            @include text(#136292, 85px, $fw-3, $fm-4);
+  height: 7200px;
+  padding: 60px 0;
+  .vanhoa__content {
+    .vanhoa__title {
+      @include text(#136292, 85px, $fw-3, $fm-4);
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .row {
+      margin: 0px;
+      justify-content: center;
+    }
+    .giaTriCotLoi {
+      justify-content: center;
+      .col-lg-3 {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        .vanhoa__box {
+          box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+          border-radius: 20px;
+          background-color: #ffffff;
+          width: 60%;
+          padding: 40px;
+          .box__title {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+          }
+          .box__content {
+            @include text(#136292, 31px, $fw-1, $fm-1);
             text-align: center;
-            margin-bottom: 60px;
+          }
         }
-        .row {
-            margin: 0px;
+      }
+    }
+    .nentang {
+      background-image: url(../img/TongQuanUeh/VanHoaUeh/4-layers.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px;
+      .col-lg-3 {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        .vanhoa__box {
+          box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+          border-radius: 20px;
+          background-color: #ffffff;
+          width: 70%;
+          padding: 40px;
+          margin-top: 40px;
+          margin-bottom: 30px;
+          .box__title {
+            margin: 30px 0;
+            display: flex;
             justify-content: center;
+          }
+          .box__content {
+            @include text(#136292, 31px, $fw-1, $fm-1);
+            text-align: center;
+          }
         }
-        .giaTriCotLoi {
+      }
+    }
+    .background__quytac {
+      background-image: url(../img/TongQuanUeh/VanHoaUeh/background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 5200px;
+      .row {
+        margin-bottom: 60px;
+      }
+      .vanhoa__subtitle {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+        @include text(#fff, 63px, $fw-3, $fm-4);
+        margin-bottom: 60px;
+        padding: 20px;
+      }
+      .vanhoa__subtitle2 {
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, #242659 0%, #2887bf 99%, #2887bf 100%);
+        margin-bottom: 60px;
+        padding: 20px 120px;
+        a {
+          @include text(#fff, 34px, $fw-3, $fm-4);
+          text-decoration: none;
+        }
+      }
+      .vanhoa__col {
+        box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+        border-radius: 20px;
+        padding: 40px;
+        background-color: #ffffff;
+        height: 100%;
+        margin-bottom: 60px;
+        .col__icon {
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: center;
+        }
+        .col__title {
+          border-radius: 20px;
+          border: 5px solid #26236e;
+          @include text(#26236e, 31px, $fw-3, $fm-4);
+          margin-bottom: 30px;
+          text-align: center;
+          padding: 20px;
+          height: 160px;
+        }
+        .col__content {
+          @include text(#136292, 31px, $fw-1 + 100, $fm-4);
+        }
+      }
+      .vanhoa__col__custom {
+        height: 1200px;
+      }
+      .ungXu {
+        justify-content: center;
+        margin-bottom: 60px;
+        .vanhoa__box {
+          box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
+          border-radius: 20px;
+          background-color: #ffffff;
+          padding: 20px 40px;
+          height: 650px;
+          .box__title {
+            @include text(black, 31px, $fw-3 + 100, $fm-4);
+            text-align: center;
+            height: 25%;
+          }
+          .box__icon {
+            display: flex;
             justify-content: center;
-            .col-lg-3 {
-                padding-left: 0px;
-                padding-right: 0px;
-                display: flex;
-                justify-content: center;
-                .vanhoa__box {
-                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-                    border-radius: 20px;
-                    background-color: #ffffff;
-                    width: 60%;
-                    padding: 40px;
-                    .box__title {
-                        margin: 30px 0;
-                        display: flex;
-                        justify-content: center;
-                        img {}
-                    }
-                    .box__content {
-                        @include text(#136292, 31px, $fw-1, $fm-1);
-                        text-align: center;
-                    }
-                }
-            }
+          }
+          .box__content {
+            margin-top: 20px;
+            @include text(black, 25px, $fw-1 + 100, $fm-4);
+          }
         }
-        .nentang {
-            background-image: url(../img/TongQuanUeh/VanHoaUeh/4-layers.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 1000px;
-            .col-lg-3 {
-                padding-left: 0px;
-                padding-right: 0px;
-                display: flex;
-                justify-content: center;
-                .vanhoa__box {
-                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-                    border-radius: 20px;
-                    background-color: #ffffff;
-                    width: 70%;
-                    padding: 40px;
-                    margin-top: 40px;
-                    margin-bottom: 30px;
-                    .box__title {
-                        margin: 30px 0;
-                        display: flex;
-                        justify-content: center;
-                        img {}
-                    }
-                    .box__content {
-                        @include text(#136292, 31px, $fw-1, $fm-1);
-                        text-align: center;
-                    }
-                }
-            }
+        .vanhoa--custome-1 {
+          color: #38266e !important;
         }
-        .background__quytac {
-            background-image: url(../img/TongQuanUeh/VanHoaUeh/background.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 5200px;
-            .row {
-                margin-bottom: 60px;
-            }
-            .vanhoa__subtitle {
-                display: inline-block;
-                text-align: center;
-                margin: 0 auto;
-                border-radius: 50px;
-                background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
-                @include text(#fff, 63px, $fw-3, $fm-4);
-                margin-bottom: 60px;
-                padding: 20px;
-            }
-            .vanhoa__subtitle2 {
-                text-align: center;
-                margin: 0 auto;
-                border-radius: 50px;
-                background-image: linear-gradient( to right, #242659 0%, #2887bf 99%, #2887bf 100%);
-                @include text(#fff, 34px, $fw-3, $fm-4);
-                margin-bottom: 60px;
-                padding: 20px 120px;
-            }
-            .vanhoa__col {
-                box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-                border-radius: 20px;
-                padding: 40px;
-                background-color: #ffffff;
-                height: 100%;
-                margin-bottom: 60px;
-                .col__icon {
-                    margin-bottom: 30px;
-                    display: flex;
-                    justify-content: center;
-                    img {}
-                }
-                .col__title {
-                    border-radius: 20px;
-                    border: 5px solid #26236e;
-                    @include text(#26236e, 31px, $fw-3, $fm-4);
-                    margin-bottom: 30px;
-                    text-align: center;
-                    padding: 20px;
-                    height: 160px;
-                }
-                .col__content {
-                    @include text(#136292, 31px, $fw-1 + 100, $fm-4);
-                }
-            }
-            .vanhoa__col__custom {
-                height: 1200px;
-            }
-            .ungXu {
-                justify-content: center;
-                margin-bottom: 60px;
-                .vanhoa__box {
-                    box-shadow: 0 13px 29px rgba(0, 0, 0, 0.35);
-                    border-radius: 20px;
-                    background-color: #ffffff;
-                    padding: 20px 40px;
-                    height: 650px;
-                    .box__title {
-                        @include text(black, 31px, $fw-3 + 100, $fm-4);
-                        text-align: center;
-                        height: 25%;
-                    }
-                    .box__icon {
-                        display: flex;
-                        justify-content: center;
-                        img {}
-                    }
-                    .box__content {
-                        margin-top: 20px;
-                        @include text(black, 25px, $fw-1 + 100, $fm-4);
-                    }
-                }
-                .vanhoa--custome-1 {
-                    color: #38266e !important;
-                }
-                .vanhoa--custome-2 {
-                    color: #d14a4a !important;
-                }
-            }
+        .vanhoa--custome-2 {
+          color: #d14a4a !important;
         }
+      }
     }
+  }
 }
 
-@include respond-to("extra-large") {
-    .background__vanhoa {
-        .vanhoa__content {
-            .vanhoa__title {
-                font-size: 60px;
+@include respond-to('extra-large') {
+  .background__vanhoa {
+    .vanhoa__content {
+      .vanhoa__title {
+        font-size: 60px;
+      }
+      .giaTriCotLoi {
+        .col-lg-3 {
+          .vanhoa__box {
+            width: 80%;
+            padding: 40px;
+            .box__content {
+              font-size: 26px;
             }
-            .giaTriCotLoi {
-                .col-lg-3 {
-                    .vanhoa__box {
-                        width: 80%;
-                        padding: 40px;
-                        .box__content {
-                            font-size: 26px;
-                        }
-                    }
-                }
-            }
-            .nentang {
-                height: 765px;
-                .col-lg-3 {
-                    .vanhoa__box {
-                        width: 80%;
-                        .box__content {
-                            font-size: 26px;
-                        }
-                    }
-                }
-            }
-            .background__quytac {
-                .vanhoa__subtitle2 {
-                    padding: 20px 60px;
-                }
-                .vanhoa__col {
-                    padding: 20px;
-                    //margin-bottom: 60px;
-                    height: 700px;
-                    .col__title {
-                        font-size: 26px;
-                    }
-                    .col__content {
-                        font-size: 26px;
-                    }
-                }
-                .vanhoa__col__custom {
-                    height: 1300px;
-                }
-                .ungXu {
-                    margin-bottom: 60px;
-                    .vanhoa__box {
-                        padding: 20px 40px;
-                        height: 650px;
-                        .box__title {
-                            font-size: 26px;
-                            height: 150px;
-                        }
-                        .box__content {
-                            font-size: 20px;
-                        }
-                    }
-                    .vanhoa--custome-1 {
-                        color: #38266e !important;
-                    }
-                    .vanhoa--custome-2 {
-                        color: #d14a4a !important;
-                    }
-                }
-            }
+          }
         }
+      }
+      .nentang {
+        height: 765px;
+        .col-lg-3 {
+          .vanhoa__box {
+            width: 80%;
+            .box__content {
+              font-size: 26px;
+            }
+          }
+        }
+      }
+      .background__quytac {
+        .vanhoa__subtitle2 {
+          padding: 20px 60px;
+        }
+        .vanhoa__col {
+          padding: 20px;
+          height: 700px;
+          .col__title {
+            font-size: 26px;
+          }
+          .col__content {
+            font-size: 26px;
+          }
+        }
+        .vanhoa__col__custom {
+          height: 1300px;
+        }
+        .ungXu {
+          margin-bottom: 60px;
+          .vanhoa__box {
+            padding: 20px 40px;
+            height: 650px;
+            .box__title {
+              font-size: 26px;
+              height: 150px;
+            }
+            .box__content {
+              font-size: 20px;
+            }
+          }
+        }
+      }
     }
+  }
 }
 
-@include respond-to("large") {
-    .background__vanhoa {
-        .vanhoa__content {
-            .giaTriCotLoi {
-                .col-lg-3 {
-                    .vanhoa__box {
-                        width: 90%;
-                        padding: 20px;
-                    }
-                }
-            }
-            .nentang {
-                .col-lg-3 {
-                    .vanhoa__box {
-                        width: 90%;
-                    }
-                }
-            }
-            .background__quytac {
-                .vanhoa__col {
-                    padding: 30px;
-                    height: 800px;
-                }
-                .vanhoa__subtitle2 {
-                    padding: 40px;
-                }
-                .vanhoa__col__custom {
-                    height: 1400px;
-                }
-                .ungXu {
-                    margin-bottom: 60px;
-                    .vanhoa__box {
-                        height: 1050px;
-                        .box__title {
-                            height: 200px;
-                        }
-                        .box__content {
-                            font-size: 20px;
-                        }
-                    }
-                    .vanhoa--custome-1 {
-                        color: #38266e !important;
-                    }
-                    .vanhoa--custome-2 {
-                        color: #d14a4a !important;
-                    }
-                }
-            }
+@include respond-to('large') {
+  .background__vanhoa {
+    .vanhoa__content {
+      .giaTriCotLoi {
+        .col-lg-3 {
+          .vanhoa__box {
+            width: 90%;
+            padding: 20px;
+          }
         }
+      }
+      .nentang {
+        .col-lg-3 {
+          .vanhoa__box {
+            width: 90%;
+          }
+        }
+      }
+      .background__quytac {
+        .vanhoa__col {
+          padding: 30px;
+          height: 800px;
+        }
+        .vanhoa__subtitle2 {
+          padding: 40px;
+        }
+        .vanhoa__col__custom {
+          height: 1400px;
+        }
+        .ungXu {
+          margin-bottom: 60px;
+          .vanhoa__box {
+            height: 1050px;
+            .box__title {
+              height: 200px;
+            }
+          }
+        }
+      }
     }
+  }
 }
 
-@include respond-to("medium") {
-    .background__vanhoa {
-        height: 9000px;
-        .vanhoa__content {
-            .vanhoa__title {
-                font-size: 60px;
+@include respond-to('medium') {
+  .background__vanhoa {
+    height: 9500px;
+    .vanhoa__content {
+      .vanhoa__title {
+        font-size: 60px;
+      }
+      .giaTriCotLoi {
+        .col-lg-3 {
+          .vanhoa__box {
+            width: 80%;
+            padding: 40px;
+            margin-bottom: 30px;
+            .box__content {
+              font-size: 26px;
             }
-            .giaTriCotLoi {
-                .col-lg-3 {
-                    .vanhoa__box {
-                        width: 80%;
-                        padding: 40px;
-                        margin-bottom: 30px;
-                        .box__content {
-                            font-size: 26px;
-                        }
-                    }
-                }
-            }
-            .nentang {
-                height: 1300px;
-            }
-            .background__quytac {
-                .vanhoa__subtitle {
-                    width: 100%;
-                    font-size: 43px;
-                }
-                .vanhoa__col {
-                    height: auto;
-                }
-                .vanhoa__col__custom {
-                    height: 1200px;
-                }
-                .ungXu {
-                    .vanhoa__box {
-                        padding: 20px 40px;
-                        height: auto;
-                        margin-bottom: 30px;
-                        .box__title {
-                            font-size: 26px;
-                            height: auto;
-                        }
-                        .box__content {
-                            font-size: 20px;
-                        }
-                    }
-                    .vanhoa--custome-1 {
-                        color: #38266e !important;
-                    }
-                    .vanhoa--custome-2 {
-                        color: #d14a4a !important;
-                    }
-                }
-            }
+          }
         }
+      }
+      .nentang {
+        height: 1300px;
+      }
+      .background__quytac {
+        .vanhoa__subtitle {
+          width: 100%;
+          font-size: 43px;
+        }
+        .vanhoa__col {
+          height: auto;
+        }
+        .vanhoa__col__custom {
+          height: 1200px;
+        }
+        .ungXu {
+          .vanhoa__box {
+            padding: 20px 40px;
+            height: auto;
+            margin-bottom: 30px;
+            .box__title {
+              font-size: 26px;
+              height: auto;
+            }
+          }
+        }
+      }
     }
+  }
 }
 
-@include respond-to("small") {
-    .background__vanhoa {
-        height: 10800px;
-    }
+@include respond-to('small') {
+  .background__vanhoa {
+    height: 10800px;
+  }
 }
